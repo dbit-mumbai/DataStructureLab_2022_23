@@ -22,5 +22,24 @@ int main()
         scanf("%d %s %f", &s[i].rn, &s[i].name, &s[i].p);
     }
 
-     
+     for ( i = 0; i < 4; i++) //loop for sorting
+    {
+        for ( j = i+1; j < 5; j++) //this loop compares the roll no of students
+        {
+            if (s[j].rn < s[i].rn) //sorts in ascending order of roll no.
+            {
+                temp = s[i];
+                s[i] = s[j];
+                s[j] = temp;
+            }
+            
+        }
+        
+    }
+
+    printf("\n**********************\nStudent details are :\n**********************\n");
+    for ( i = 0; i < 5; i++)
+    {
+        printf("Roll no: %d\t Name: %s\t Percentage: %.2f\n", s[i].rn, s[i].name, s[i].p );
+    }  
 }
