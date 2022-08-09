@@ -7,3 +7,14 @@
 char arr1[size], arr2[size]; //declaring 2 arrays
 
 void compare(); //declaring compare function
+
+int main()
+{   //Asking the user to input 2 arrays
+    printf("\nEnter array 1 elements : ");
+    gets(arr1);
+    
+    printf("\nEnter array 2 elements : ");
+    gets(arr2);
+    
+    compare(); //calling compare function
+}
