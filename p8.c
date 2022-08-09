@@ -17,4 +17,31 @@ int count=0;
 
 int main()
 {
+    int choice;
+
+    while (1) //loops the program
+    {   //displays menu 
+        printf("\n*****Select a function to be performed*****");
+        printf("\n1.Input time\n2.Display time\n3.Update time\n4.Exit");
+        printf("\nEnter your choice : ");
+        scanf("%d", &choice); //saves the choice od=f user    
+
+        switch (choice)
+        {
+            case 1: input();
+                    break;
+        
+            case 2: display();
+                    break;
+        
+            case 3: update();
+                    break;
+            
+            case 4: return 0;
+
+            default:printf("Invalid input!");
+                    break;
+        } 
+    }
+    
 }
