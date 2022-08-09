@@ -18,3 +18,23 @@ int main()
     
     compare(); //calling compare function
 }
+
+void compare()
+{
+    int count=0;
+    
+    for ( int i = 0; arr1[i] != '\0'; i++)
+    {
+        if (arr1[i]!=arr2[i]) //checks if the arrays are not identical
+        {
+            printf("\n0");
+            count=1;
+            break;            
+        } 
+    }
+    
+    if (count==0)
+    {
+        printf("\n1"); //is displayed if the arrays are identical
+    }     
+}
