@@ -11,7 +11,6 @@ void search();
 
 int main()
 {
-
     int choice;
 
     while(1) //to loop the program
@@ -40,6 +39,82 @@ int main()
             default:printf("\nInvalid choice!\n");
         }
 
+    }
+
+}
+
+void insert()
+{
+    int choice;
+    if (top==size-1) //checks if the stack is full
+    {
+        printf("Overflow!\n");
+    }
+    else
+    {
+        printf("\nEnter the element to be added to the stack : ");
+        scanf("%d", &choice);
+        top++; //increments top
+        array[top]=choice; //adds element in the stack
+    }    
+
+}
+
+void delete()
+{
+    if (top==-1) //checks if stack is empty
+    {
+        printf("Underflow!\n");
+    }
+    else
+    {
+        printf("Deleted element %d from the stack.\n", array[top]);
+        top--; //decrements top
+    }
+    
+}
+
+void traverse()
+{
+    if (top==-1)
+    {
+        printf("Stack is empty!\n");
+    }
+    else
+    {
+        for (int i = top; i >= 0; i--) //prints the stack
+        {
+            printf("%d\n",array[i]);            
+        }
+    }
+    
+}
+
+void search()
+{
+    int count=0, choice;
+    if (top==-1)
+    {
+        printf("Stack is empty!\n");
+    }
+    else
+    {
+        printf("\nEnter element : ");
+        scanf("%d", &choice);
+        for (int i = top; i >= 0; i--)
+        {
+            if (choice==array[i]) //checks if the element accepted from the user is present in the stack
+            {
+                printf("%d is present in the stack!\n", choice);
+                count = 1;
+                break;
+            }                
+        }
+        if (count!=1)
+        {
+            printf("%d is not present in the stack!\n", choice);            
+        }
+        
     }
 
 }
