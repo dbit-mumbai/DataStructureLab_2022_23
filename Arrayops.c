@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int array[10];
+int array[30];
 int j = 0;
 
 void insert(int n)
