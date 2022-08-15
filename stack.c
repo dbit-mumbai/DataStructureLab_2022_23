@@ -1,5 +1,7 @@
+// Author 1 :- name : Yuvraj rathod , branch:I.T
+// Author 2 :- name :Siddesh patil , branch : I.T
 #include<stdio.h>
-#define size 5
+#define size 7
 
 struct stack
 {
