@@ -12,8 +12,8 @@ struct student {
 int main()
 {
     struct student s1;
-    s1.roll = 234;
-    s1.cgpa = 8.4;
+    s1.roll = 1;
+    s1.cgpa = 8.56;
    // s1.name = "YUVRAJ";       this is not possible because array cant reinitialise and string is an array
     strcpy(s1.name,"YUVRAJ");
 
@@ -24,8 +24,8 @@ int main()
     printf("\n");
 
     struct student s2;
-    s2.roll = 24;
-    s2.cgpa = 7.2;
+    s2.roll = 2;
+    s2.cgpa = 7.89;
    // s1.name = "YUVRAJ";       this is not possible because array cant reinitialise and string is an array
     strcpy(s2.name,"JAYRAM");
 
@@ -36,8 +36,8 @@ int main()
     printf("\n");
 
     struct student s3;
-    s3.roll = 123;
-    s3.cgpa = 5.2;
+    s3.roll = 3;
+    s3.cgpa = 6.90;
    // s1.name = "YUVRAJ";       this is not possible because array cant reinitialise and string is an array
     strcpy(s3.name,"RATHOD");
 
