@@ -71,3 +71,17 @@ void push()
     }    
 
 }
+
+void pop()
+{
+    if (top==-1) //checks if stack is empty
+    {
+        printf("Underflow!\n");
+    }
+    else
+    {
+        printf("\nPopped %d from the stack.\n", stack[top]);
+        top--; //decrements top
+    }
+    
+}
