@@ -85,3 +85,27 @@ void pop()
     }
     
 }
+
+void empty()
+{
+    if (top==-1) //checks if stack is empty
+    {
+        printf("\nStack is empty!\n");
+    }
+    else{
+        printf("\nStack is not empty.\n");
+    }
+        
+}
+
+void full()
+{
+    if (top==size-1) //checks if stack is full
+    {
+        printf("\nStack is full!\n");
+    }
+    else{
+        printf("\nStack is not full.\n");
+    }
+        
+}
