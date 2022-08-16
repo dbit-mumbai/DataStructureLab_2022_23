@@ -54,3 +54,20 @@ int main()
     }
 
 }
+
+void push()
+{
+    int choice;
+    if (top==size-1) //checks if the stack is full
+    {
+        printf("Overflow!\n");
+    }
+    else
+    {
+        printf("\nEnter the element to be pushed into the stack : ");
+        scanf("%d", &choice);
+        top++; //increments top
+        stack[top]=choice; //adds element in the stack
+    }    
+
+}
