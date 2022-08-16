@@ -1,7 +1,7 @@
 // Name :-  Sumit Sawant
 // Roll No:- 51
 // Prog To check if number is fibonacci Number
-int main(){
+int main(){ 
 	int n,i,j=10,f=0,s=1,t,count=0;
 	
 	// For Taking Input
