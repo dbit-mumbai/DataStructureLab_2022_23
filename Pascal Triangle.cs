@@ -6,7 +6,7 @@ Roll Num : 51
 Program : Write a C program to generate Pascal Triangle using array.
 */
 
-#include<stdio.h>
+#include<stdio.h> 
 
 int main()
 {
