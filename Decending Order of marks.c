@@ -1,12 +1,12 @@
 // NAME :- SUMIT SAWANT ROLL NO:- 51
 // 	Prog To Print Marks In decending Order 
 #include<stdio.h>
-
+// Created A Structure for Taking Basic input types
 struct Details {
 	int roll;
 	float marks;
 	char name[20];
-}s1[5],temp;
+}s1[5],temp;// Declared two variables
 
 int main()
 {	
@@ -30,7 +30,8 @@ int main()
 		for(j=i;j<5;j++)
 		{
 			if(s1[i].marks>s1[j].marks)
-			{
+			{ 
+                // For swaping
 				temp=s1[j];
 				s1[j]=s1[i];
 				s1[i]=temp;
@@ -40,7 +41,7 @@ int main()
 	printf("*************************************************\n Output:\n");
 	printf("Name \tRoll No\tMarks\n");	// Printing Output
 	for(i=0;i<5;i++)
-	{
+	{   // Printing Output In Table Form
 		printf("%s\t %d\t %f\n",s1[i].name,s1[i].roll,s1[i].marks);		
 	}
 }
