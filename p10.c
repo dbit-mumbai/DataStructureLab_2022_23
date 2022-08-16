@@ -109,3 +109,27 @@ void full()
     }
         
 }
+
+void clear()
+{
+    top=-1; //resets top back to -1
+    printf("\nCleared the stack!\n");
+
+}
+
+void show()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {
+        for (int i = top; i >= 0; i--) //prints the stack
+        {
+            printf("%d\n",stack[i]);            
+        }
+        
+    }
+    
+}
