@@ -111,11 +111,11 @@ void show()
 				printf("\n%d <-front and rear",queue[i]);
 				
 			}
-			else if(i === f)
+			else if(i == f)
 			{
 				printf("\n%d <- front",queue[i]);
 			}
-			else if(i === r)
+			else if(i == r)
 			{
 				printf("\n%d <- rear",queue[i]);
 			}
