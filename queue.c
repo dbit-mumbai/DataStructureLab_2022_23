@@ -99,6 +99,31 @@ void show()
 	int i;
 	if(f == -1 && r == -1)
 	{
-		printf("\n")
+		printf("\nQueue is Empty!");
+	}
+	else
+	{
+		printf("\n............");
+		for(i == f && i == r)
+		{
+			if(i == f && i == r)
+			{
+				printf("\n%d <-front and rear",queue[i]);
+				
+			}
+			else if(i === f)
+			{
+				printf("\n%d <- front",queue[i]);
+			}
+			else if(i === r)
+			{
+				printf("\n%d <- rear",queue[i]);
+			}
+			else 
+			{
+				printf("\n%d",queue[i]);
+			}
+		}
+		printf("\n............");
 	}
 }
