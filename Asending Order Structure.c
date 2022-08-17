@@ -2,7 +2,7 @@
 // 	Prog To Print Roll Number In Ascending Order 
 #include<stdio.h>
 // Created A Structure for Taking Basic input types
-struct Details {
+struct Details { \\ Created Variables
 	int roll;
 	float marks;
 	char name[20];
