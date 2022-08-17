@@ -1,6 +1,6 @@
 
-// Name :- Nigel Silveira
-// Roll no:- 56
+// Name :- Abin Antony
+// Roll no:-46
 
 #include<stdio.h>
 #include<string.h>
