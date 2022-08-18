@@ -7,6 +7,7 @@ int main(){
 	// For Taking Input
 	printf("Enter The Number : ");
 	scanf("%d",&n);
+	// Asinged The Input To Variable  N
 	
 	// Default Fibonacci number
 	if(n==0 || n==1)
