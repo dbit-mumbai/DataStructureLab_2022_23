@@ -10,7 +10,7 @@ struct Details { // Created Variables
 
 int main()
 {	
-	int i,j;
+	int i,j;// Taken Two Variables For Loops
 	// Taking Input
 	
 	for(i=0;i<5;i++)
