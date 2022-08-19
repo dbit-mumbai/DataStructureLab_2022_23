@@ -1,36 +1,56 @@
-
-
 #include<stdio.h>
-#define size 4
 
+
+
+int f=-1,r=-1,a[5];
+void Enqueue();
+void Show();
 void main(){
-    int count=1,ch,f=-1,r=-1;
-    while(count==1)
-    {
-        printf("--------- Queue Operations ----------");
-        printf("\n 1) Insert An Element");
-        printf("\n 2) Delete an Element from Queue");
-        printf("\n 3) Show Queue ");
-        printf("\n 4) Exit  ");
-        printf("\nEnter Your Choice: ");
-        scanf("%d",&ch);
-        
-        switch(ch){
-            case 1 : Insert();
-                break;
-            case 2 : Delete();
-                break;
-            case 3 : Show();
-                break;
-            case 4 : count = 0;
-                break;
-            default :
-                printf("You Entered a Wrong Choice");
-                break;
-        }
-        
-        
-
-    }
-    
+	int b,d=0;
+	while(d!=1){
+		printf("\n----Queue Operations----");
+		printf("\n1) Dequeue");
+		printf("\n2) Enqueue");
+		printf("\n3) Show the Queue");
+		printf("\n4) Exit");
+		
+		printf("Enter Your Choice :");
+		scanf("%d",&b);
+		
+		switch(b){
+		//	case 1 : Dequeue();
+		//		break;
+			case 2 : Enqueue();
+			break;
+			case 3: Show();
+				break;
+		//	case 4: d=1;
+		//	break;
+			default : printf("You Entered A Wrong Choice");
+				break;
+		}
+	}
+}
+void Enqueue(){
+	int n;
+	if(r== 5-1)	
+	{
+		printf("Queue Is Full");
+	}
+	else 
+	{
+		printf("Enter The Element You Want To Store:");
+		scanf("%d",&n);
+		r++;
+		a[r]=n;
+		printf("Your Enterey is recorded %d",a[r]);
+		printf("%d",r);
+	}
+} 
+void Show(){
+	int i;
+	printf("%d",r);
+	for(i=f+1;i<=r;i++){
+	printf("\n %d",a[i]);	
+	}
 }
