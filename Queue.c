@@ -1,10 +1,11 @@
 #include<stdio.h>
 
-
-
 int f=-1,r=-1,a[5];
+
+void Dequeue();
 void Enqueue();
 void Show();
+
 void main(){
 	int b,d=0;
 	while(d!=1){
@@ -18,8 +19,8 @@ void main(){
 		scanf("%d",&b);
 		
 		switch(b){
-		//	case 1 : Dequeue();
-		//		break;
+			case 1 : Dequeue();
+				break;
 			case 2 : Enqueue();
 			break;
 			case 3: Show();
@@ -53,4 +54,18 @@ void Show(){
 	for(i=f+1;i<=r;i++){
 	printf("\n %d",a[i]);	
 	}
+}
+void Dequeue(){
+	int i;
+	if(f==r){
+		printf("Queue Is Empty");
+	}
+	else
+	{
+		for(i=0;i<=f;i++)
+		printf("The element You Deleted Is :%d",&a[i]);
+		f=f+1;
+	}
+	
+	
 }
