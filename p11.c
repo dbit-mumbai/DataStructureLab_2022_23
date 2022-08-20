@@ -36,6 +36,54 @@ void push(int n)
 
 }
 
+int eval()
+{
+    int i,n1,n2;
+    for ( i = 0; eq[i] != '\0'; i++)
+    {
+        if (eq[i]>='0'&&eq[i]<='9')
+        {
+            n=eq[i]-'0';
+            push(n);
+        }
+        else
+        {   
+            n2=pop();
+            //printf("\nn2=%d", n2);
+            n1=pop();
+            //printf("\nn1=%d", n1);
+
+            switch (eq[i])
+            {
+                case '+' :  n=n1+n2;
+                            push(n);
+                            break;
+
+                case '-' :  n=n1-n2;
+                            push(n);  
+                            break;
+
+                case '*' :  n=n1*n2;
+                            push(n);
+                            break;
+
+                case '/' :  n=n1/n2;
+                            push(n);
+                            break;
+
+                case '%' :  n=n1%n2;
+                            push(n);
+                            break;
+
+            }   
+        
+        }
+
+    }
+    
+    return pop();
+}
+
 int pop()
 {
     if (top==-1) //checks if stack is empty
@@ -49,3 +97,4 @@ int pop()
     }
     
 }
+//remove the commented print statements in push, pop, n1 and n2 to see how the calculation actually occurs
