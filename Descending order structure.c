@@ -1,5 +1,5 @@
-// NAME :- Cyril Angel Sequeira ROLL NO:- 52
-// 	Prog To Print Marks In decending Order 
+NAME :- Cyril Angel Sequeira ROLL NO:- 52
+Prog To Print Marks In decending Order 
 #include<stdio.h>
 struct Details {
 	int roll;

@@ -1,17 +1,18 @@
-// NAME :- Cyril Angel Sequeira ROLL NO:- 52
-// 	Prog To Print Roll Number In Ascending Order 
+//NAME :- Cyril Angel Sequeira ROLL NO:- 52
+//Prog To Print Roll Number In Ascending Order 
 #include<stdio.h>
-// Created A Structure for Taking Basic input types
-struct Details { // Created Variables
+
+struct Details { 
 	int roll;
 	float marks;
 	char name[20];
-}s1[5],temp;// Declared two variables
+}
+s1[5],temp;// Declared two variables
 
 int main()
 {	
 	int i,j;// Taken Two Variables For Loops
-	// Taking Input
+	
 	
 	for(i=0;i<5;i++)
 	{
