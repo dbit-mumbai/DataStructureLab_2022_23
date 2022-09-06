@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+s
 int main()
 {
     int student[10][2], i, j;
