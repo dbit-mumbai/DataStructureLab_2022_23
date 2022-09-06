@@ -1,0 +1,40 @@
+    else
+    {
+        printf("%d %d %d\n", t.hour, t.minute, t.second);
+    }
+    
+}
+
+void update()
+{
+    if (count==0)
+    {
+        printf("Please input time first\n");
+    }
+    else
+    {
+        int h, m, s;
+        
+        h=t.hour, m=t.minute, s=t.second+1; 
+        
+        while (s>=60)
+        {
+            s = s-60;
+            m++;
+        }
+        t.second=s;
+    
+        {
+            m = m-60; 
+            h++;
+        }
+        t.minute=m;
+        while (h>=24)
+        {
+            h = h-24;
+        }
+        t.hour=h;
+        count=1;
+    }
+
+}
