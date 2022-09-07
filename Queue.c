@@ -1,71 +1,70 @@
-#include<stdio.h>
+#include<stdio>
+#define size 5
+int front =-1,rear =-1;
+int a[size];
 
-int f=-1,r=-1,a[5];
-
-void Dequeue();
-void Enqueue();
-void Show();
-
-void main(){
-	int b,d=0;
-	while(d!=1){
-		printf("\n----Queue Operations----");
-		printf("\n1) Dequeue");
-		printf("\n2) Enqueue");
-		printf("\n3) Show the Queue");
-		printf("\n4) Exit");
-		
-		printf("Enter Your Choice :");
-		scanf("%d",&b);
-		
-		switch(b){
-			case 1 : Dequeue();
-				break;
-			case 2 : Enqueue();
-			break;
-			case 3: Show();
-				break;
-		//	case 4: d=1;
-		//	break;
-			default : printf("You Entered A Wrong Choice");
-				break;
-		}
-	}
-}
 void Enqueue(){
-	int n;
-	if(r== 5-1)	
-	{
-		printf("Queue Is Full");
+	if(f==-1 && r==-1){
+		int b;
+		printf("Enter the element:")
+		scanf("%d",&b);
+		front = rear = 0;
+		a[rear]=b;
 	}
-	else 
-	{
-		printf("Enter The Element You Want To Store:");
-		scanf("%d",&n);
-		r++;
-		a[r]=n;
-		printf("Your Enterey is recorded %d",a[r]);
-		printf("%d",r);
+	else if(rear ==size-1){
+		printf("Queue is Full!!!!");
+	}	
+	else
+	{	
+		printf("Enter the element:")
+		scanf("%d",&b);
+		rear = rear+1;
+		a[rear]=a;
 	}
-} 
-void Show(){
-	int i;
-	printf("%d",r);
-	for(i=f+1;i<=r;i++){
-	printf("\n %d",a[i]);	
-	}
+
 }
+
 void Dequeue(){
-	int i;
-	if(f==r){
-		printf("Queue Is Empty");
+	if(f==-1 && r==-1){
+	printf("Queue Is Empty");
+	}
+	else if(front==rear){
+		front = rear = -1;
+		printf("hello");
+	
+
 	}
 	else
 	{
-		for(i=0;i<=f;i++)
-		printf("The element You Deleted Is :%d",&a[i]);
-		f=f+1;
+		printf("The number You Deleted is %d",a[front]);
+		front=front+1;		
 	}
-	
-	
+
+
+}
+
+int main(){
+	int t=0,n;
+	printf("**************************************");
+	printf("\tQueue Operations");
+	printf("1) Enqueue\n2) Dequeue\n3) Show Queue\n4) Exit");
+	printf("Enter Your Choice:");
+	scanf("%d",&n);
+	while(t!=1)
+	{
+		switch(n){
+		case 1 :Queue();
+			break;
+		case 2 ://Dequeue();
+			break;
+		case 3 :
+			break;
+		case 4 :
+			t=1;
+			break;
+		default : 
+			printf("You Entered a Wrong Choice\n");
+			break;
+		}
+	}
 }
