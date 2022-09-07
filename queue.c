@@ -1,129 +1,75 @@
 #include<stdio.h>
-#include<stdlib.h>
-define size 6
-
-
-int queue[size];
-int f= -1;
-int r= -1;
-
-void enqueue(int);
+#define N 5
+void enqueue(int x);
 void dequeue();
-void isEmpty();
-void show();
+void display();
+int queue[N];
+int front =-1;
+int rear =-1;
 
 int main()
 {
-	int ch, n;
-	while(1)
-	{
-		printf("\n.....Queue Menu.....\n");
-		printf("\n 1. Enqueue");
-		printf("\n 2. Dequeue");
-		printf("\n 3.Check Empty");
-		printf("\n 4. Display Queue");
-		printf("\n 5.Exit");
-		printf("\n Enter your choice");		
-		
-		switch(ch)
-		{
-
-			case 1:
-				printf("Enter a integer value :");
-				scanf("%d",&n);
-				enqueue(n);
-				break;
-			case 2:
-				dequeue();
-				break;
-			case 3:
-				isEmpty();
-				break;
-			case 4:
-				exit(0);
-				break;
-			default:
-				printf("\nInvalid Choice!");	
-		}
-	}
-	return 0;
-
+	enqueue(1);
+	enqueue(2);
+	enqueue(3);
+	enqueue(4);
+	enqueue(5);
+	dequeue();
+	dequeue();
+	display();
+	
 }
-void enqueue(int n)
+void enqueue(int x)
 {
-	if(f == -1 && r == -1)
+	if(rear==N-1)
 	{
-		printf("\nQueue is Empty!");
+		printf("Overflow!");	
 	}
-	else 
+	else if(front==-1 && rear==-1)
 	{
-		if(r == size - 1)
-		{
-			printf("Queue is full!");
-		}
-		else
-		{
-			queue[++r] = n;
-		}
-	}	
+		front=rear=0;
+		queue[rear]=x;
+			
+	}
+	else
+	{
+		rear=rear+1;
+		queue[rear]=x;
+	
+	}
+	printf("This is endueue function\n");
 }
 void dequeue()
 {
-	if(f == -1 && r == -1)
+	if(front==-1 && rear==-1)
 	{
-		printf("\nQueue is Empty!");
+		printf("Queue is empty");
+			
 	}
-	else if(f == r)
+	else if(front==rear)
 	{
-		f = -1;
-		r = -1;
-	}
-	else
-	{
-		f++;
-	}
-}
-void isEmpty()
-{
-	if(f == -1 && r == -1)
-	{
-		printf("\nQueue is Empty!");
+		front=rear=-1;
 	}
 	else
 	{
-		printf("\nQueue is not Empty!");
+		printf("%d\n",queue[front]);
+		front=front+1;
 	}
+
 }
-void show()
+void display()
 {
 	int i;
-	if(f == -1 && r == -1)
+	if(front==-1 && rear==-1)
 	{
-		printf("\nQueue is Empty!");
+		printf("Queue is empty");
 	}
-	else
+
+	else 
 	{
-		printf("\n............");
-		for(i == f && i == r)
+		for(i=front;i<rear+1;i++)
 		{
-			if(i == f && i == r)
-			{
-				printf("\n%d <-front and rear",queue[i]);
-				
-			}
-			else if(i == f)
-			{
-				printf("\n%d <- front",queue[i]);
-			}
-			else if(i == r)
-			{
-				printf("\n%d <- rear",queue[i]);
-			}
-			else 
-			{
-				printf("\n%d",queue[i]);
-			}
+			printf("%d",queue[i]);
 		}
-		printf("\n............");
 	}
 }
