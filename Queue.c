@@ -1,3 +1,7 @@
+# include<stdio.h>
+# define size 5
+int front = -1,rear = -1;
+int queue[size];
 void enqueue(){
 	int x;
     if(front ==-1 && rear ==-1){
@@ -89,3 +93,4 @@ void main(){
                     break;
         }
     }
+}
