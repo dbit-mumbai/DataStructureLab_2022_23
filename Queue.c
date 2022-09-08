@@ -1,5 +1,8 @@
+//Name :- Sumit Sawant 
+// Program Queue 
 # include<stdio.h>
 # define size 5
+
 int front = -1,rear = -1;
 int queue[size];
 void enqueue()
@@ -93,14 +96,17 @@ void main()
         printf("\n");
       
         switch(n){
-            case 1: 
+            case 1: // To add any Element 
                     enqueue();
                     break;
-            case 2: Dequeue();
+            case 2: // To Delete an Element From Front End
+			Dequeue();
                     break;
-            case 3: Count();
+            case 3: // To Count Number of entry
+			Count();
                     break;
-            case 4: Show();
+            case 4: // To Show Elements in Queue
+			Show();
                     break;
             case 5: i=1;
                     break;
