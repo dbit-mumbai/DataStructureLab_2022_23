@@ -1,8 +1,7 @@
-
 #include <stdio.h>
 #define size 5
 int front=-1,rear=-1,queue[size];
-void enqueue(){
+void Enqueue(){
 	int x;
 	if(front ==-1 && rear == -1)
 	{
@@ -64,7 +63,7 @@ void main()
       
         switch(n){
             case 1: // To add any Element 
-                    enqueue();
+                    Enqueue();
                     break;
             case 2: Dequeue();
                     break;
