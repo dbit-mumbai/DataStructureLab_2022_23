@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
+#include <conio.h>// For Using Getch() funtion
 #include <stdlib.h>
-#define size 5
+#define size 5 // For Defining Size oF Queue
 
 int main()
 {
