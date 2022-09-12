@@ -53,7 +53,7 @@ int main()
             case 3:
                 if(te==0)
                 {
-                    printf("Queue is empty");
+                    printf("Queue is empty");// Condition For Queue Empty
                     getch();	// pause the loop to see the message
                 }
                 else
