@@ -74,3 +74,27 @@ void enqueue()
     }
     
 }
+
+void dequeue()
+{
+    if (front==-1 && rear==-1)
+    {
+        printf("\nQueue underflow!");
+    }
+
+    else
+    {
+        if (front==rear)
+        {
+            front=-1;
+            rear=-1;
+        }
+
+        else
+        {
+            front=(front++)%size;
+        }
+        
+    }
+
+}
