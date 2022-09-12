@@ -1,3 +1,7 @@
+/*  Author: Dhruuv Naik   Branch: IT  Roll no.: 39
+    Circular queue
+*/
+
 #include<stdio.h>
 #define size 5
 
@@ -11,6 +15,7 @@ void show();
 int main()
 {
     int choice;
+    
     while (1)
     {
         printf("\n*****Select a function to be performed*****");
@@ -46,7 +51,7 @@ void enqueue()
 {
     int n;
     
-    if (front==-1 && rear==-1)
+    if (front==-1 && rear==-1) //checks if queue is empty
         {
             printf("\nEnter element to be added to the queue : ");
             scanf("%d", &n);
@@ -58,7 +63,7 @@ void enqueue()
     {
         
         
-        if (front == (rear++) % size) 
+        if (front == (rear++) % size) //checks if queue is full
         {
             printf("\nQueue overflow!");
         }
@@ -77,14 +82,14 @@ void enqueue()
 
 void dequeue()
 {
-    if (front==-1 && rear==-1)
+    if (front==-1 && rear==-1) //checks if queue is empty
     {
         printf("\nQueue underflow!");
     }
 
     else
     {
-        if (front==rear)
+        if (front==rear) //checks if only one element is present in queue
         {
             front=-1;
             rear=-1;
@@ -92,7 +97,7 @@ void dequeue()
 
         else
         {
-            front=(front++)%size;
+            front=(front++)%size; 
         }
         
     }
@@ -101,7 +106,7 @@ void dequeue()
 
 void isEmpty()
 {
-    if (front==-1 && rear==-1)
+    if (front==-1 && rear==-1) //checks if queue is empty
     {
         printf("\nQueue is empty!");
     }
@@ -111,4 +116,45 @@ void isEmpty()
         printf("\nQueue is not empty!");
     }
 
+}
+
+void show()
+{
+    int i, j;
+
+    if (front==-1 && rear==-1) //checks if queue is empty
+    {
+        printf("\nQueue is empty!");
+    }
+
+    else
+    {
+        for(i = front; i < size; i++)
+        {
+        	j = i%size;
+        	
+        	if(rear == front)
+        	{
+        		printf("\n%d", queue[j]);
+			}
+
+        	else if(i == front)
+        	{
+        		printf("\n%d",queue[j]);
+			}
+
+			else if(i == rear)
+			{
+				printf("\n%d",queue[j]);
+			} 
+
+			else
+			{
+            	printf("\n%d", queue[j]);
+        	}
+
+        }
+
+    }
+    
 }
