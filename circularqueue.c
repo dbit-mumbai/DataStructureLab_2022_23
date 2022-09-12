@@ -10,7 +10,7 @@ int main()
     for(;;)		// An infinite loop
     {
         system("cls");		// for clearing the screen
-        printf("1. Add\n");
+        printf("1. Add\n"); //
         printf("2. Delete\n");
         printf("3. Display\n");
         printf("4. Exit\n");
