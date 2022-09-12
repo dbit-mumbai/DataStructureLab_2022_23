@@ -1,11 +1,11 @@
 #include<stdio.h>
 #define size 5
 
-int queue[size], f=-1, r=-1;
+int queue[size], front = -1, rear = -1;
 
 void enqueue();
 void dequeue();
-void isempty();
+void isEmpty();
 void show();
 
 int main()
@@ -14,9 +14,63 @@ int main()
     while (1)
     {
         printf("\n*****Select a function to be performed*****");
-        printf("\n1.Enqueue\n       2.Dequeue\n       3.Is Empty\n        4.Show\n        5.Exit");
+        printf("\n1.Enqueue       \n2.Dequeue       \n3.Is Empty       \n4.Show        \n5.Exit");
         printf("\nEnter your choice : ");
         scanf("%d", &choice); //saves the user's choice
+
+        switch (choice)
+        {
+            case 1: enqueue();
+                    break;
+        
+            case 2: dequeue();
+                    break;
+    
+            case 3: isEmpty();
+                    break;
+    
+            case 4: show();
+                    break;
+
+            case 5: return 0; 
+        
+            default:printf("\nInvalid choice!\n");
+
+        }
+
+    }
+    
+}
+
+void enqueue()
+{
+    int n;
+    
+    if (front==-1 && rear==-1)
+        {
+            printf("\nEnter element to be added to the queue : ");
+            scanf("%d", &n);
+            front++;
+            queue[++rear]=n;
+        }
+
+    else 
+    {
+        
+        
+        if (front == (rear++) % size) 
+        {
+            printf("\nQueue overflow!");
+        }
+
+        else
+        {
+            printf("\nEnter element to be added to the queue : ");
+            scanf("%d", &n);
+            rear = (rear++)%size;
+            queue[rear]=n;
+        }
+        
     }
     
 }
