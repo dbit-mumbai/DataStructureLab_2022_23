@@ -98,3 +98,17 @@ void dequeue()
     }
 
 }
+
+void isEmpty()
+{
+    if (front==-1 && rear==-1)
+    {
+        printf("\nQueue is empty!");
+    }
+
+    else
+    {
+        printf("\nQueue is not empty!");
+    }
+
+}
