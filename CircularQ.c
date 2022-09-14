@@ -80,7 +80,9 @@ void main()
             case 5: i=1;
                     break;
             default : printf("You Entered wrong Choice");
+			getch();
                     break;
         }
+	    getch();
     }
 }
