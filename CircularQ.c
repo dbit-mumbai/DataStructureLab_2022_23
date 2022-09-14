@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define size 5
 int front=-1,rear=-1,queue[size];
-void Enqueue(){
+void Enqueue(){// Funtion To Add Element
 	int x;
 	if(front ==-1 && rear == -1)
 	{
@@ -28,7 +28,7 @@ void Enqueue(){
 		
 	}
 }
-void Dequeue(){
+void Dequeue(){ // Funtion To delete Element
 	if(front==-1 && rear == -1){
 		printf("Queue Is Empty");
 	}
