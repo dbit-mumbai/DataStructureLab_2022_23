@@ -8,7 +8,16 @@ struct node{
 };
 
 struct node * head;
+void deleteFB(){
+	
 
+
+
+
+
+
+
+}
 void insert(int x){
 	struct node * temp = (struct node *)malloc(sizeof(struct node));
 	
