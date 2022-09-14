@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include<conio.h>
 #define size 5
-int front=-1,rear=-1,queue[size];
+int front=-1,rear=-1,queue[size]; // Global Variable
 void Enqueue(){// Funtion To Add Element
 	int x;
 	if(front ==-1 && rear == -1)
@@ -9,15 +10,18 @@ void Enqueue(){// Funtion To Add Element
 		printf("Enter The Element you Want to Enter:");
 		scanf("%d",&x);
 		queue[rear]=x;
+		getch();
 	}
 	else if( front==0 && rear == size - 1){
 		printf("Queue Is Full\n");
+		getch();
 	}
 	else if( rear == size){
 		rear = 0;
 		printf("Enter The Element you Want to Enter:");
 		scanf("%d",&x);
-		queue[rear]=x;	
+		queue[rear]=x;
+		getch();
 	}
 	else
 	{
@@ -25,12 +29,14 @@ void Enqueue(){// Funtion To Add Element
 		printf("Enter The Element you Want to Enter:");
 		scanf("%d",&x);
 		queue[rear]=x;
+		getch();
 		
 	}
 }
 void Dequeue(){ // Funtion To delete Element
 	if(front==-1 && rear == -1){
 		printf("Queue Is Empty");
+		
 	}
 	else if(front==rear + 1){
 		printf("Queue Is Empty");
