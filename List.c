@@ -7,13 +7,13 @@
 #include<stdlib.h>
 // To Create A Node
 struct node{
-    int data;
-    struct node* next;
+    int data; // To store Data
+    struct node* next;// To store Link
 };
 struct node* head;
 void Dis(){
 	printf("The List is:\n");
-	struct node *ptr;
+	struct node *ptr; // Created A Reference Pointer
 	ptr=head;
 	while(ptr!=NULL){
 		printf("%d\n",ptr->data);
