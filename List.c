@@ -1,3 +1,8 @@
+// Name :- Sumit Sawant
+// Date :- 15/09/2022
+// Program To Perform Simple Operations Of Link List
+
+
 #include<stdio.h>
 #include<stdlib.h>
 // To Create A Node
