@@ -15,9 +15,11 @@ void Dis(){
 		ptr=ptr->next;
 	}
 }
+// Insertion At The Beggining
 void InsertB(){
 	
 }
+// Insertion At The End Of The List
 void IE(){
 	struct node *ptr;
 	int x;
