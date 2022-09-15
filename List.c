@@ -5,6 +5,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<conio.h>
 // To Create A Node
 struct node{
     int data; // To store Data
@@ -25,19 +26,18 @@ void InsertB(){
 	
 }
 // Insertion At The End Of The List
-void IE(){
-	struct node *ptr;
+void InsertE(){
+	struct node *ptr,*temp;
 	int x;
 	printf("Enter The NUmber:");
 	scanf("%d",&x);
-	ptr = NULL;
+	temp->data=x;
+	temp->next=NULL;
 	ptr=head;
 	while(ptr!=NULL){
 		ptr=ptr->next;
 	}
-	
-	
-	
+	ptr->next=temp;
 }
 int main(){
     int x,ch=1;
@@ -45,18 +45,18 @@ int main(){
     printf("********* Link List Operations ***********\n");
     printf("1) Insert From Beginning\n2) Insert From End ");
     printf("\n3) Display the List\n4) Exit");
-    printf("Enter Your Choice:");
+    printf("\nEnter Your Choice:");
     scanf("%d",&x);
     switch(x){
-        case 1: 
-                break;
-        case 2:
-                break;
-        case 3:
-                break;
-        case 4: ch=0;
-                break;
-        default: printf("You Entered a Wrong Choice!!!!");
-    }
+       		case 1: 
+       	  	 	    break;
+       		case 2: InsertE();
+         	  	     break;
+        	case 3:Dis();
+          	 	     break;
+        	case 4: ch=0;
+            	    break;
+        	default: printf("You Entered a Wrong Choice!!!!");
+    	}
     }
 	}
