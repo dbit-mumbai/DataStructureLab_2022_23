@@ -40,7 +40,7 @@ void IE(){
 	
 }
 int main(){
-    int x,ch=0;
+    int x,ch=1;
     while(ch!=0){
     printf("********* Link List Operations ***********\n");
     printf("1) Insert From Beginning\n2) Insert From End ");
@@ -50,6 +50,13 @@ int main(){
     switch(x){
         case 1: 
                 break;
+        case 2:
+                break;
+        case 3:
+                break;
+        case 4: ch=0;
+                break;
+        default: printf("You Entered a Wrong Choice!!!!");
     }
     }
 	}
