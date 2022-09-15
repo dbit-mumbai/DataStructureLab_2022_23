@@ -14,17 +14,26 @@ struct node{
 struct node* head;
 
 void Dis(){
+	int c=0;
 	printf("The List is:\n");
 	struct node *ptr; // Created A Reference Pointer
 	ptr=head;
 	while(ptr!=NULL){
-		printf("%d\n",ptr->data);
+			printf("%d\n",ptr->data);
+		
 		ptr=ptr->next;
+		
 	}
 }
 // Insertion At The Beggining
-void InsertB(){
+struct node * InsertB(struct node* head,int x){
+	struct node *ptr,*temp;
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data=x;
+	temp->next=head;
 	
+	head=temp;
+	return head;
 }
 // Insertion At The End Of The List
 void InsertE(struct node *head,int x){
@@ -41,8 +50,7 @@ void InsertE(struct node *head,int x){
 }
 int main(){
 	head =(struct node *)malloc(sizeof(struct node));
-	head->data=10;
-	head->next=NULL;
+	head=NULL;
     int x,ch=1,b;
     while(ch!=0){
     printf("********* Link List Operations ***********\n");
@@ -51,7 +59,9 @@ int main(){
     printf("\nEnter Your Choice:");
     scanf("%d",&x);
     switch(x){
-       		case 1: 
+       		case 1: printf("Enter The NUmber:");
+					scanf("%d",&b);
+			   		head=InsertB(head,b); 
        	  	 	    break;
        		case 2:
 					printf("Enter The NUmber:");
