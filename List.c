@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+// To Create A Node
 struct node{
     int data;
     struct node* next;
