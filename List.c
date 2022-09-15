@@ -13,6 +13,20 @@ struct node{
 };
 struct node* head;
 
+
+void InsertP(struct node *head,int data,int posi){
+	int i;
+	struct node *ptr;
+	ptr=head;
+	struct node *temp = (struct node*)malloc(sizeof(struct node));
+	temp->data=data;
+	temp->next=NULL;
+	for(i=0;i<posi;i++){
+		ptr=ptr->next;
+	}
+	temp->next=ptr->next;
+	ptr->next=temp;
+}
 void Dis(){
 	int c=0;
 	printf("The List is:\n");
@@ -51,7 +65,7 @@ void InsertE(struct node *head,int x){
 int main(){
 	head =(struct node *)malloc(sizeof(struct node));
 	head=NULL;
-    int x,ch=1,b;
+    int x,ch=1,b,p;
     while(ch!=0){
     printf("********* Link List Operations ***********\n");
     printf("1) Insert From Beginning\n2) Insert From End ");
@@ -72,6 +86,12 @@ int main(){
           	 	     break;
         	case 4: ch=0;
             	    break;
+        	case 5: 
+        			printf("Enter The Position:");
+        			scanf("%d",&p);
+					printf("Enter The NUmber:");
+					scanf("%d",&b);
+			   		InsertP(head,b,p);
         	default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
