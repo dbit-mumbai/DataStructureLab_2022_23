@@ -41,4 +41,7 @@ void IE(){
 }
 int main(){
 
+    printf("********* Link List Operations ***********\n");
+    printf("1) Insert From Beginning\n2) Insert From End ");
+    printf("\n3) Display the List\n4) Exit");
 	}
