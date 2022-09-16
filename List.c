@@ -14,8 +14,9 @@ struct node{
 struct node* head;
 
 
-void InsertP(struct node *head,int data,int posi){
-	struct node *temp = (struct node*)malloc(sizeof(struct node));
+void InsertP(struct node *head,int data,int posi)
+{
+	struct node *temp = (struct node*)malloc(sizeof(struct node));// Creating A Temporary Node
 	temp->data=data;
 	temp->next=NULL;
 	
@@ -23,13 +24,15 @@ void InsertP(struct node *head,int data,int posi){
 	ptr = head;
 	int i=1;
 	posi--;
-	while(i!=posi){
+	while(i!=posi)// For Transversing
+	{
 		ptr=ptr->next;
 		i++;
 	}
 	temp->next=ptr->next;
 	ptr->next=temp;
 	printf("Successfull!!!!\n");
+	Dis();
 	
 }
 void Dis(){
@@ -74,29 +77,34 @@ int main(){
     while(ch!=0){
     printf("********* Link List Operations ***********\n");
     printf("1) Insert From Beginning\n2) Insert From End ");
-    printf("\n3) Display the List\n4) Exit");
+    printf("\n3) Display the List\n4) Insert At Certain Position\n5)Exit");
     printf("\nEnter Your Choice:");
     scanf("%d",&x);
+    printf("\n\n\n");
     switch(x){
        		case 1: printf("Enter The NUmber:");
 					scanf("%d",&b);
-			   		head=InsertB(head,b); 
+			   		head=InsertB(head,b);
+					Dis(); 
        	  	 	    break;
        		case 2:
 					printf("Enter The NUmber:");
 					scanf("%d",&b);
 			   		InsertE(head,b);
+			   		Dis();
          	  	     break;
         	case 3:Dis();
           	 	     break;
-        	case 4: ch=0;
+        	case 5: ch=0;
             	    break;
-        	case 5: 
+        	case 4: 
         			printf("Enter The Position:");
         			scanf("%d",&p);
 					printf("Enter The NUmber:");
 					scanf("%d",&b);
 			   		InsertP(head,b,p);
+			   		Dis();
+			   		break;
         	default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
