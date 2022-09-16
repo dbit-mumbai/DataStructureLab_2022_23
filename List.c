@@ -23,6 +23,7 @@ void InsertP(struct node *head,int data,int posi){
 	temp->next=NULL;
 	for(i=0;i<posi;i++){
 		ptr=ptr->next;
+		printf("%d",ptr->data);
 	}
 	temp->next=ptr->next;
 	ptr->next=temp;
@@ -86,7 +87,7 @@ int main(){
           	 	     break;
         	case 4: ch=0;
             	    break;
-        	ase 5: 
+        	case 5: 
         			printf("Enter The Position:");
         			scanf("%d",&p);
 					printf("Enter The NUmber:");
