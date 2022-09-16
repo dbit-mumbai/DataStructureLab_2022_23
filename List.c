@@ -15,18 +15,22 @@ struct node* head;
 
 
 void InsertP(struct node *head,int data,int posi){
-	int i;
-	struct node *ptr;
-	ptr=head;
 	struct node *temp = (struct node*)malloc(sizeof(struct node));
 	temp->data=data;
 	temp->next=NULL;
-	for(i=0;i<posi;i++){
+	
+	struct node* ptr;
+	ptr = head;
+	int i=1;
+	posi--;
+	while(i!=posi){
 		ptr=ptr->next;
-		printf("%d",ptr->data);
+		i++;
 	}
 	temp->next=ptr->next;
 	ptr->next=temp;
+	printf("Successfull!!!!\n");
+	
 }
 void Dis(){
 	int c=0;
@@ -89,10 +93,10 @@ int main(){
             	    break;
         	case 5: 
         			printf("Enter The Position:");
-        			scanf("%d",&p);// For Taking The Position To Enter
+        			scanf("%d",&p);
 					printf("Enter The NUmber:");
-					scanf("%d",&b);// For Taking Data
-			   		InsertP(head,b,p);// For Giving arguments
+					scanf("%d",&b);
+			   		InsertP(head,b,p);
         	default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
