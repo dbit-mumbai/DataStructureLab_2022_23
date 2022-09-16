@@ -92,7 +92,7 @@ int main(){
         			scanf("%d",&p);// For Taking The Position To Enter
 					printf("Enter The NUmber:");
 					scanf("%d",&b);// For Taking Data
-			   		InsertP(head,b,p);//
+			   		InsertP(head,b,p);// For
         	default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
