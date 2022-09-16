@@ -86,7 +86,7 @@ int main(){
           	 	     break;
         	case 4: ch=0;
             	    break;
-        	case 5: 
+        	ase 5: 
         			printf("Enter The Position:");
         			scanf("%d",&p);
 					printf("Enter The NUmber:");
