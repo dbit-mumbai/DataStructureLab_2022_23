@@ -150,7 +150,7 @@ int main(){
 					Dis();
 					break;
 			case 7:
-					DeleteE(head);// Delete From End
+					DeleteE(head);
 					break;
         	
 			default: printf("You Entered a Wrong Choice!!!!");
