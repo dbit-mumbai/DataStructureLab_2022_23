@@ -50,6 +50,7 @@ void Dis(){
 		
 	}
 }
+
 // To Delete Element From End Of LinkList
 void DeleteE(struct node *head){
 	struct node *ptr;
@@ -61,6 +62,7 @@ void DeleteE(struct node *head){
 	ptr->next=NULL;
 	printf("SuccessFull!!!!!\n");
 	Dis();
+
 }
 // Delete An Element From Beginning Of Linked List
 struct node* DeleteB(struct node* head){
@@ -89,9 +91,6 @@ void InsertP(struct node *head,int data,int posi)
 	Dis();
 	
 }
-
-
-
 
 // To Count The Elements in Link List
 void Cnt(struct node *head){
