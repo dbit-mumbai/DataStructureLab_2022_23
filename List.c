@@ -12,22 +12,31 @@ struct node{
     struct node* next;// To store Link
 };
 struct node* head;
-
-// To Count The Elements in Link List
-void Cnt(struct node *head){
-	struct node* ptr;
+// Insertion At The Beggining
+struct node * InsertB(struct node* head,int x){
+	struct node *ptr,*temp;
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data=x;
+	temp->next=head;
 	
-	int c=0;
-	ptr=NULL; // Created A Reference Pointer
-	ptr=head;
-	while(ptr!=NULL){
-	
-		ptr=ptr->next;
-		c++;
-		
-	}
-	printf("The Count is %d",c);
+	head=temp;
+	return head;
 }
+
+// Insertion At The End Of The List
+void InsertE(struct node *head,int x){
+	struct node *ptr,*temp;
+	ptr=head;
+	temp = (struct node*)malloc(sizeof(struct node));
+	temp->data=x;
+	temp->next=NULL;
+	
+	while(ptr->next!=NULL){
+		ptr=ptr->next;
+	}
+	ptr->next=temp;
+}
+
 
 
 
@@ -87,29 +96,21 @@ void InsertP(struct node *head,int data,int posi)
 
 
 
-// Insertion At The Beggining
-struct node * InsertB(struct node* head,int x){
-	struct node *ptr,*temp;
-	temp = (struct node*)malloc(sizeof(struct node));
-	temp->data=x;
-	temp->next=head;
-	
-	head=temp;
-	return head;
-}
 
-// Insertion At The End Of The List
-void InsertE(struct node *head,int x){
-	struct node *ptr,*temp;
-	ptr=head;
-	temp = (struct node*)malloc(sizeof(struct node));
-	temp->data=x;
-	temp->next=NULL;
+// To Count The Elements in Link List
+void Cnt(struct node *head){
+	struct node* ptr;
 	
-	while(ptr->next!=NULL){
+	int c=0;
+	ptr=NULL; // Created A Reference Pointer
+	ptr=head;
+	while(ptr!=NULL){
+	
 		ptr=ptr->next;
+		c++;
+		
 	}
-	ptr->next=temp;
+	printf("The Count is %d",c);
 }
 
 // Main Body Of Code
