@@ -6,37 +6,42 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-
-
-// To Count The Elements in Link List
-void count(struct node * head){
-	int c=0;
-	struct node * ptr; // Created A Reference Pointer
-	ptr=head;
-	while(ptr!=NULL){
-			c++;
-		 ptr = ptr->next;
-	}
-	printf("%d",c);
-}
-
-
-
 // To Create A Node
 struct node{
     int data; // To store Data
     struct node* next;// To store Link
 };
 struct node* head;
+
+// To Count The Elements in Link List
+void Cnt(struct node *head){
+	struct node* ptr;
+	
+	int c=0;
+	ptr=NULL; // Created A Reference Pointer
+	ptr=head;
+	while(ptr!=NULL){
+	
+		ptr=ptr->next;
+		c++;
+		
+	}
+	printf("The Count is %d",c);
+}
+
+
+
+
 // Display The Link List
 void Dis(){
 	int c=0;
 	printf("The List is:\n");
 	struct node *ptr; // Created A Reference Pointer
-	ptr=head;
+	ptr = head;
 	while(ptr!=NULL){
 			printf("%d\n",ptr->data);
 		ptr=ptr->next;
+		c++;
 		
 	}
 }
@@ -120,7 +125,7 @@ int main(){
     	printf("********* Link List Operations ***********\n\n");
     	printf("1) Insert From Beginning\n2) Insert From End ");
     	printf("\n3) Display the List\n4) Insert At Certain Position\n5) Delete From Beginning\n");
-    	printf("6) Exit");
+    	printf("6) Delete From End\n7) Count The Elements In List\n8) Exit\n");
     	printf("\nEnter Your Choice:");
     	scanf("%d",&x);
     
@@ -145,9 +150,7 @@ int main(){
         	case 3: 
 					Dis();
           	 	    break;
-        	case 6: 
-					ch=0;
-            	    break;
+        	
         	case 4: 
         			printf("Enter The Position:");
         			scanf("%d",&p);
@@ -162,11 +165,15 @@ int main(){
 					head=DeleteB(head);
 					Dis();
 					break;
-			case 7:
+			case 6:
 					DeleteE(head);
 					break;
-        	case 8: count(head);
+        	case 7: 
+					Cnt(head);
         			break;
+        	case 8: 
+					ch=0;
+            	    break;
 			default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
