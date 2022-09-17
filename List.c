@@ -8,6 +8,19 @@
 #include<conio.h>
 
 
+// To Count The Elements in Link List
+void count(struct node * head){
+	int c=0;
+	struct node * ptr; // Created A Reference Pointer
+	ptr=head;
+	while(ptr!=NULL){
+			c++;
+		 ptr = ptr->next;
+	}
+	printf("%d",c);
+}
+
+
 
 // To Create A Node
 struct node{
@@ -15,12 +28,24 @@ struct node{
     struct node* next;// To store Link
 };
 struct node* head;
-
+// Display The Link List
+void Dis(){
+	int c=0;
+	printf("The List is:\n");
+	struct node *ptr; // Created A Reference Pointer
+	ptr=head;
+	while(ptr!=NULL){
+			printf("%d\n",ptr->data);
+		ptr=ptr->next;
+		
+	}
+}
 // To Delete Element From End Of LinkList
 void DeleteE(struct node *head){
 	struct node *ptr;
 	ptr=head;
-	while(ptr->next!=NULL){
+	
+	while(ptr->next->next!=NULL){
 		ptr=ptr->next;
 	}
 	ptr->next=NULL;
@@ -55,19 +80,7 @@ void InsertP(struct node *head,int data,int posi)
 	
 }
 
-// Display The Link List
-void Dis(){
-	int c=0;
-	printf("The List is:\n");
-	struct node *ptr; // Created A Reference Pointer
-	ptr=head;
-	while(ptr!=NULL){
-			printf("%d\n",ptr->data);
-		
-		ptr=ptr->next;
-		
-	}
-}
+
 
 // Insertion At The Beggining
 struct node * InsertB(struct node* head,int x){
@@ -152,7 +165,8 @@ int main(){
 			case 7:
 					DeleteE(head);
 					break;
-        	
+        	case 8: count(head);
+        			break;
 			default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
