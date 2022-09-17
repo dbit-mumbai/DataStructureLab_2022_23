@@ -37,10 +37,6 @@ void InsertE(struct node *head,int x){
 	ptr->next=temp;
 }
 
-
-
-
-
 // Display The Link List
 void Dis(){
 	int c=0;
