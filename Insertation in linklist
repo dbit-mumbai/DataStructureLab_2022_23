@@ -44,7 +44,34 @@ insertAtIndex (struct Node *head, int data, int index)
   p->next = ptr;
   return head;
 }
+
 //Case3:insertAtEnd
+struct Node *
+insertAtEnd (struct Node *head, int data)
+{
+  struct Node *ptr = (struct Node *) malloc (sizeof (struct Node));
+  ptr->data = data;
+  struct Node *p = head;
+  while (p->next != NULL)
+    {
+      p = p->next;
+    }
+  p->next = ptr;
+  ptr->next = NULL;
+  return head;
+}
+
+//Case4: insertAtNode
+struct Node *
+insertAtNode (struct Node *head, struct Node *prevNode, int data)
+{
+  struct Node *ptr = (struct Node *) malloc (sizeof (struct Node));
+  ptr->data = data;
+
+  ptr->next = prevNode->next;
+  prevNode->next = ptr;
+  return head;
+}
 
 int
 main ()
@@ -81,7 +108,8 @@ main ()
   printf ("\nlist  insertation:\n");
   //head = insertAtFirst (head, 45);
   //head = insertAtIndex (head,45,1);
-  head = insertAtEnd (head, 45);
+  //head = insertAtEnd (head, 56);
+  //head = insertAtNode (head,second, 108);
   linkedListTraversal (head);
   return 0;
 }
