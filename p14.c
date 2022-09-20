@@ -27,6 +27,8 @@ void insertBeg(int n);
 void insertEnd(int n);
 void insertPosition(int n);
 void display();
+void deleteBeg();
+void deleteEnd();
 
 int main()
 {
@@ -34,7 +36,8 @@ int main()
 	while(1)
 	{
 		printf("\nSelect a function:");
-		printf("\n1.Insert at begining	 \n2.Insert at end 	\n3.Insert at position	 \n4.Display     \n5.Exit");
+		printf("\n1.Insert at beginning	 \n2.Insert at end 	\n3.Insert at position	 \n4.Display");
+		printf("\n5.Delete at beginning		\n6.Delete at end		\n7.Exit");
 		printf("\nEnter your choice : ");
 		scanf("%d",&choice);
 
@@ -58,7 +61,13 @@ int main()
 			case 4: display();
 				break;
 
-			case 5: return 0;
+			case 5: deleteBeg();
+				break;
+
+			case 6: deleteEnd();
+				break;
+
+			case 7: return 0;
 
 			default: printf("\nInvalid choice!");
 			
@@ -137,4 +146,45 @@ void display()
 			temp=temp->next;
 		}
 	}
+}
+
+void deleteBeg()
+{	
+	struct node *newnode;
+	newnode=list;
+	if (list==NULL)
+	{
+		printf("\nList is empty");
+	}
+	else
+	{
+		list=newnode->next;
+		freenode(newnode);
+	}
+	
+}
+
+void deleteEnd()
+{	
+	struct node *newnode, *temp;
+	newnode=list;
+	temp=list;
+
+	if (list==NULL)
+	{
+		printf("\nList is empty");
+	}
+
+	else
+	{
+		while (newnode->next!=NULL)
+		{
+			temp=newnode;
+			newnode=newnode->next;
+		}
+		temp->next=NULL;
+		freenode(newnode);
+		
+	}
+	
 }
