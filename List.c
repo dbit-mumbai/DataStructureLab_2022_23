@@ -9,9 +9,29 @@
 // To Create A Node
 struct node{
     int data; // To store Data
-    struct node* next;// To store Link
+    struct node * next;// To store Link
 };
 struct node* head;
+
+// Serch An Element
+void serch(){
+	int x;
+	printf("Enter The Element : ");
+	scanf("%d",&x);
+	while(head->next!=NULL){
+		
+		printf("%d",head->data);
+		if(x==head->data)
+		printf("<-- Element");
+		head=head->next;
+		printf("\n");
+	}
+	
+	
+	
+	
+	
+}
 // Insertion At The Beggining
 struct node * InsertB(struct node* head,int x){
 	struct node *ptr,*temp;
@@ -121,7 +141,8 @@ int main(){
     	printf("********* Link List Operations ***********\n\n");
     	printf("1) Insert From Beginning\n2) Insert From End ");
     	printf("\n3) Display the List\n4) Insert At Certain Position\n5) Delete From Beginning\n");
-    	printf("6) Delete From End\n7) Count The Elements In List\n8) Exit\n");
+    	printf("6) Delete From End\n7) Count The Elements In List\n8) Search An Element\n9) Reverse\n");
+    	printf("10) Exit\n");
     	printf("\nEnter Your Choice:");
     	scanf("%d",&x);
     
@@ -168,8 +189,14 @@ int main(){
 					Cnt(head);
         			break;
         	case 8: 
-					ch=0;
+					serch();
             	    break;
+            case 9: 
+            		//reverse();
+            		break;
+            case 10:
+            	    ch=0;
+					break;		
 			default: printf("You Entered a Wrong Choice!!!!");
     	}
     }
