@@ -12,7 +12,33 @@ struct node{
     struct node * next;// To store Link
 };
 struct node* head;
+// Display The Link List
+void Dis(){
+	int c=0;
+	printf("The List is:\n");
+	struct node *ptr; // Created A Reference Pointer
+	ptr = head;
+	while(ptr!=NULL){
+			printf("%d\n",ptr->data);
+		ptr=ptr->next;
+		c++;
+		
+	}
+}
 
+// Reverse An Element 
+void reverse(){
+
+struct node * temp = NULL , * temp2 = NULL;
+	while(head != NULL){
+		temp2 = head ->next;
+		head ->next = temp;
+		temp = head;
+		head = temp2;
+	}
+	head = temp;
+	Dis();
+}
 // Serch An Element
 void serch(){
 	int x;
@@ -59,19 +85,6 @@ void InsertE(struct node *head,int x){
 	ptr->next=temp;
 }
 
-// Display The Link List
-void Dis(){
-	int c=0;
-	printf("The List is:\n");
-	struct node *ptr; // Created A Reference Pointer
-	ptr = head;
-	while(ptr!=NULL){
-			printf("%d\n",ptr->data);
-		ptr=ptr->next;
-		c++;
-		
-	}
-}
 
 // To Delete Element From End Of LinkList
 void DeleteE(struct node *head){
@@ -194,7 +207,7 @@ int main(){
 					serch();// Serch an Element
             	    break;
             case 9: 
-            		//reverse();
+            		reverse();
             		break;
             case 10:
             	    ch=0;
