@@ -30,13 +30,13 @@ int main()
 				Push(n1);
 				break;
 
-			 // case 2: pop();
+			 case 2: pop();
 				//break;
 
-			// case 3: display();
+			case 3: display();
 				//break;
 
-			// case 4:  exit(1);
+			case 4:  exit(1);
 
 			default : printf("\n Wrong Choice.");
 		}
