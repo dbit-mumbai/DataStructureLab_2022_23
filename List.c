@@ -16,14 +16,16 @@ struct node* head;
 // Serch An Element
 void serch(){
 	int x;
+	struct node * ptr = NULL;
+	ptr = head;
 	printf("Enter The Element : ");
 	scanf("%d",&x);
-	while(head->next!=NULL){
+	while(ptr!=NULL){
 		
-		printf("%d",head->data);
-		if(x==head->data)
+		printf("%d",ptr->data);
+		if(x==ptr->data)
 		printf("<-- Element");
-		head=head->next;
+		ptr=ptr->next;
 		printf("\n");
 	}
 	
