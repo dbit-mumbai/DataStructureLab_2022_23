@@ -6,12 +6,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
+
 // To Create A Node
 struct node{
     int data; // To store Data
     struct node * next;// To store Link
 };
 struct node* head;
+
 // Display The Link List
 void Dis(){
 	int c=0;
@@ -39,6 +41,7 @@ struct node * temp = NULL , * temp2 = NULL;
 	head = temp;
 	Dis();
 }
+
 // Serch An Element
 void serch(){
 	int x;
@@ -54,12 +57,8 @@ void serch(){
 		ptr=ptr->next;
 		printf("\n");
 	}
-	
-	
-	
-	
-	
 }
+
 // Insertion At The Beggining
 struct node * InsertB(struct node* head,int x){
 	struct node *ptr,*temp;
@@ -99,6 +98,7 @@ void DeleteE(struct node *head){
 	Dis();
 
 }
+
 // Delete An Element From Beginning Of Linked List
 struct node* DeleteB(struct node* head){
 	head=head->next;
@@ -134,11 +134,10 @@ void Cnt(struct node *head){
 	int c=0;
 	ptr=NULL; // Created A Reference Pointer
 	ptr=head;
-	while(ptr!=NULL){
-	
+	while(ptr!=NULL)
+	{
 		ptr=ptr->next;
-		c++;
-		
+		c++;	
 	}
 	printf("The Count is %d",c);
 }
