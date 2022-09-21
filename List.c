@@ -161,7 +161,7 @@ int main(){
     	printf("\nEnter Your Choice:");
     	scanf("%d",&x);
     
-		printf("\n\n\n");
+		printf("\n");
     
 		switch(x)
 		{
@@ -190,27 +190,27 @@ int main(){
 					printf("Enter The NUmber:");
 					scanf("%d",&b);
 			   		
-					InsertP(head,b,p);
-			   		Dis();
+					InsertP(head,b,p); // Inserting At Posiion
+			   		Dis(); // Displaying The Output
 			   		break;
 			case 5: 
-					head=DeleteB(head);
+					head=DeleteB(head);// Delete from Beginning
 					Dis();
 					break;
 			case 6:
-					DeleteE(head);
+					DeleteE(head);// Delete From End
 					break;
         	case 7: 
-					Cnt(head);
+					Cnt(head); // Count element in the list
         			break;
         	case 8: 
 					serch();// Serch an Element
             	    break;
             case 9: 
-            		reverse();
+            		reverse(); // Reversing the List
             		break;
             case 10:
-            	    ch=0;
+            	    ch=0; // Exit
 					break;		
 			default: printf("You Entered a Wrong Choice!!!!");
     	}
