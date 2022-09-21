@@ -189,7 +189,7 @@ int main(){
 					Cnt(head);
         			break;
         	case 8: 
-					serch();
+					serch();// Serch an Element
             	    break;
             case 9: 
             		//reverse();
