@@ -5,40 +5,45 @@ int f=-1;
 int stack[size];
 
 void push(){
+	int x;
     if(f==-1){
-        int x;
-        f=0;
+        
+        f=f+1;
         printf("Enter the number:");
         scanf("%d",&x);
         stack[f]=x;
+        
     }
-    else if(f=size){
+    else if(f==size-1)
+	{
         printf("Stack is Full");
     }
     else{
         printf("Enter the number:");
         scanf("%d",&x);
-        stack[f]=x;
         f=f+1;
+        stack[f]=x;
     }
 }
 void pali(){
-    if(size%2==0){
-        int i=0;
-        while(i!=front){
-            if(stack[i]!=stack[size-i]){
+        int i=0,cnt=0;
+        while(i!=f){
+            if(stack[i] != stack[size-i-1]){
                 printf("The Number is Not Palindrome");
+				cnt=1;
             }
             i=i+1;
         }
+        if(cnt==0)
         printf("Palindrome");
-    }
 
 }
 
 int main(){
     int i=0,x;
     while(i!=1){
+    	printf("Enter Your Choice:");
+    	scanf("%d",&x);
         switch (x)
         {
         case 1: push();
@@ -54,4 +59,3 @@ int main(){
         }
     }
 }
-
