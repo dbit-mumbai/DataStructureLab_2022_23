@@ -1,5 +1,5 @@
 
-#include<stdio>
+#include<stdio.h>
 #define size 6
 int f=-1;
 int stack[size];
