@@ -90,7 +90,7 @@ int main()
                     Enqueue();
                     Show();
                     break;
-            case 2: Dequeue();
+            case 2: Dequeue();// to remove element
             		Show();
                     break;
             case 3: Count();
