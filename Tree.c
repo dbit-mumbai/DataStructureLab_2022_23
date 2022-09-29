@@ -17,6 +17,16 @@ struct node * create(int data){
 	printf("%d",n->data);
 	return n;
 }
+
+void insert(struct node *root,int data){
+    char ch;
+    printf("Insert At Left or Right:");
+    scanf("%c",&ch);
+    if(ch='Right'){
+
+    }
+
+}
 int main(){
 	// Constructing node using funtion
 	struct node * p = create(23);
