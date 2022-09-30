@@ -11,9 +11,9 @@ struct node{
 struct node * create(int data){// Passing Data
 	struct node* n;
 	n= (struct node *)malloc(sizeof(struct node));
-	n->data=data;
-	n->left=NULL;
-	n->right=NULL;
+	n->data=data;// Pointed the data to the data 
+	n->left=NULL;// Added The left pointer
+	n->right=NULL;// Added the Right Pointr
 	printf("%d",n->data);
 	return n;
 }
