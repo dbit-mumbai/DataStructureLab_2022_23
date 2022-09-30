@@ -15,7 +15,7 @@ struct node * create(int data){// Passing Data
 	n->left=NULL;// Added The left pointer
 	n->right=NULL;// Added the Right Pointr
 	printf("%d",n->data);
-	return n;
+	return n;// Return the node pointer
 }
 
 void insert(struct node *root,int data){
