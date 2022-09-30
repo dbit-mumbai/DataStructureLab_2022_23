@@ -8,7 +8,7 @@ struct node{
 };
 
 
-struct node * create(int data){
+struct node * create(int data){// Passing Data
 	struct node* n;
 	n= (struct node *)malloc(sizeof(struct node));
 	n->data=data;
