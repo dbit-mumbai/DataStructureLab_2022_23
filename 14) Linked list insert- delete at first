@@ -1,0 +1,109 @@
+/**** Program to Insert First Node, delete First Node and Display All 
+Nodes  in a Linked List ****/
+#include <stdio.h>
+#include<stdlib.h>
+
+void insert_first(); // declaration for the function insert_first
+
+void delete_first() ;// Declaration for the function delete_first
+
+void display(); // declaration of the function display
+
+struct node  // creating a self referential structure
+{
+int info;
+struct node *link; // pointer to the next node
+} *start=NULL; // marking the start of the list as NULL
+
+int item; // meant for storing item number
+
+
+int main()
+{
+int ch; // taking the choice from user
+		do
+	{
+		printf("\n\n\n1. Insert First\n 2. Display \n3. Delete First  \n4. Exit\n");
+		printf("\nEnter your choice: ");
+		scanf("%d", &ch);
+		switch(ch)
+		{
+				case 1:
+					insert_first(); // call to the function insert first
+					break;
+				case 2:
+					display(); // call to teh function display
+					break;
+				
+				case 3:
+					     delete_first();// call to the delete_first function
+					     break;      
+				case 4:
+				     exit(0);
+				default:
+				printf("\n\nInvalid choice. Please try again.\n");
+		} // end of the switch construct
+	
+	} while (1); // end of the while loop
+} // end of the function main
+
+		void insert_first() // definition of the insert first function
+		{
+			struct node *ptr;
+			printf("\n\nEnter item: ");
+			scanf("%d", &item);
+
+			if(start == NULL)
+			{
+			start = (struct node *)malloc(sizeof(struct node));
+			start->info = item;
+			start->link = NULL;
+			}
+		
+			else
+			{
+			ptr = start; //1
+			start = (struct node *)malloc(sizeof(struct node)); //2
+			start->info = item;//3
+			start->link = ptr;//4
+			}
+			printf("\nItem inserted: %d\n", item);
+		}
+
+void display()
+{
+		struct node *ptr = start;
+		int i=1;
+
+		if (ptr == NULL)
+		printf("\nLinklist is empty.\n");
+		else
+		{
+			printf("\nSr. No.\t\tAddress\t\tInfo\t\tLink\n");
+				while(ptr != NULL)
+				{
+				printf("\n%d.\t\t%d\t\t%d\t\t%d\n", i, ptr, ptr->info,ptr->link);
+				ptr = ptr->link;
+				i++;
+				}
+		printf("\n\ntotal number of Nodes is %d",i);
+		}
+}
+
+
+
+void delete_first()
+{
+	struct node *ptr;
+		if (start == NULL)
+		printf("\n\nLinked list is empty.\n");
+
+		else
+		{
+			ptr = start;
+			item = start->info;
+			start = start->link;
+			free(ptr);
+			printf("\n\nItem deleted: %d", item);
+		}
+}
