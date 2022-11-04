@@ -1,0 +1,89 @@
+//circular_queue.............
+#include <stdio.h>
+#include<stdlib.h>
+int queue[5],rear=-1,front=-1;
+void enqueue();
+void dqueue();
+void display();
+void revers();
+void search();
+
+int main() {
+    int ch;
+    while(1){
+        printf("****************************************************\n");
+        printf("1.push\n");
+        printf("2.pop\n");
+        printf("3.display\n");
+        printf("4.revers\n");
+        printf("5.search\n");
+        printf("6.exit\n");
+         printf("****************************************************\n");
+         printf("enter your choies:\n");
+         scanf("%d",&ch);
+         switch(ch){
+             case 1: enqueue();
+             break;
+             case 2: dqueue();
+               break;
+             case 3: display();
+             break;
+     //        case 4: revers();
+     //        break;
+     //        case 5: search();
+      //       break;
+    //         case 6:printf("\n");
+             exit(0);
+             break;
+             
+             default: printf("wrong no: \n");
+         }
+    }
+}
+void enqueue(){
+    int n;
+    if(front==(rear+1)%5){
+        printf("queue id full:\n");
+    }
+    else if(front==-1&&rear==-1){
+        printf("enter a elemnet:\n");
+        scanf("%d",&n);
+        front=rear=0;
+        queue[rear]=n;
+    }
+    else{
+         printf("enter a elemnet:\n");
+         scanf("%d",&n);
+         rear= (rear+1)%5;
+         queue[rear]=n;
+         
+    }
+}
+void dqueue(){
+    if(front==-1&&rear==-1){
+        printf("queue is empty:\n");
+    }
+    else if(front==rear){
+        front=rear=-1;
+    }
+    else{
+        front=(front+1)%5;
+        //queue[front]=front+1;
+        
+    }
+}
+void display(){
+    if(front==-1)
+    {
+        printf("queue is empty\n");
+    }
+    else{
+        for(int i=front;i<=rear;i++){
+        printf("%d\n",queue[i]);
+        }
+    }
+    
+}
+
+
+      
