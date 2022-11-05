@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void IS(int *A,int n){
+    int indmin,tem;
+    for(int i=0;i<n-1;i++){
+        indmin=i;
+        for(int j=i+1;j<n;j++){
+        if(A[j]<A[indmin]){
+             indmin=j;
+            }
+            tem=A[i];
+            A[i]=A[indmin];
+            A[indmin]=tem;
+        
+        }
+    }
+}
+int main(){
+    int A[]={10,20,15,14,9};
+    int n=5;
+    IS(A,n);
+    for(int i=0;i<5;i++){
+        printf("%d\n",A[i]);
+    }
+}
