@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
-int i,n;
+int a[5];
+int i;
+int n;
 int front=-1;
 int rear=-1;
-int a[5];
-void enqueue(int n);
+void enqueue(int n); 
 int dequeue();
 void display();
 int search(int n);
@@ -47,56 +48,62 @@ void enqueue(int n)
 {
     if(front==-1&&rear==-1)
     {
-         front++;
-         rear++;
+         front=0;
+         rear=0;
          a[rear]=n;
     }
-   else if(rear==4){
+   else if(front==((rear+1)%5)){
        printf("queue if full");
       }
 
     else{
-    rear++;
-    a[rear]=n;
+        rear=(rear+1)%5;
+        a[rear]=n;
+        
     }
 }
 
 int dequeue()
 {
-   if(front>rear)
+   if(front==-1&&rear==-1)
    {
        printf("queue is empty");
    }
-    else{
-        front++;
-    }
+    else if(rear==front){
+       front=-1;
+       rear=-1;
+    }else{
+        front=(front+1)%5;    }
 }
 void display()
 {
-    if(front==-1&&rear==-1||front>rear)
-    {
-        printf("queue is empty");
-    }
-    else{
-    for(i=front;i<=rear;i++)
-         {
-            printf("%d",a[i]);
-         }
-    }
+    int i=front;
+   while(i!=rear)
+   {
+       printf("%d",a[i]);
+       i=(i+1)%5;
+   }
+   printf("%d",a[rear]);
 }
 int search(int n){
-    if(rear>front){
-        for(i=front;i<=rear;i++){
-            if(a[i]==n)
-            {
-                printf("element found at position %d",i+1);
-            }
-
-        }
-    }else
-            {
-                printf("element not found");
-            }
+   int i=front;
+    if(front==-1&&rear==-1)
+    {
+        printf("queue is empty");
+    }else if(rear>front){
+       for(i=front;i<=rear;i++){
+           if(a[i]==n)
+           {
+               printf("element found at %d",i+1);
+           }
+           
+           
+       }
+       i=(i+1)%5;
+    }else{
+        printf("element not found");
+    }
+    
     
 }
 
