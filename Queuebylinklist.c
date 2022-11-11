@@ -1,73 +1,131 @@
-//Linear Queue
-#include<stdio.h>
-#include<stdlib.h>
-#define size 5
-int queue[size];
-int front = -1;
-int rear = -1;
-void enqueue();
-void dequeue();
-void display();
-int main(){
- int choice;
- while(1){
- printf("\nOperations Performed by Queue");
- printf("\n1.Add an Element\n2.Remove an Element\n3.Display Elements in Queue\n4.Exit");
- printf("\nEnter your Choice:");
- scanf("%d",&choice);
- switch(choice){
- case 1: enqueue();
- break;
- case 2: dequeue();
- break;
- case 3: display();
- break;
- case 4: return 0;
+//Queue using linked list
+#include <stdio.h>
+#include <stdlib.h>
+//# include <conio.h>
 
- default : printf("\nInvalid input");
- }
- }
-}
-void enqueue(){
- int n;
- printf("Enter element: ");
- scanf("%d",&n);
+struct node
+{
+int info;
+struct node* next;
+};
 
-if(rear == size - 1){
- printf("Queue is full\n");
- }
- else if(front == -1 && rear == -1){
- front = rear = 0;
- queue[rear] = n;
- }
- else{
- rear ++;
- queue[rear] = n;
- }
+struct node *front,*rear;
+
+void init()
+{
+front=rear=NULL;
 }
-void dequeue(){
- int n;
- if(front == rear == -1){
- printf("Queue is Empty\n");
- }
- else if(front == rear){
- front = rear = -1;
- }
- else{
- n = queue[front];
- front ++;
- printf("Dequeued element is %d", n);
- }
+
+struct node* getnode (void)
+{
+return  (( struct node* ) malloc (sizeof(struct node)));
 }
-void display(){
- int i;
- if(front == rear == -1){
- printf("Queue is Empty\n");
- }
- else{
- for (i = front; i <= rear; i++)
+
+void freenode(struct node *p)
+{
+free(p);
+}
+
+int empty()
+{
+ if(rear==NULL)
+    return 1;
+ else
+    return 0;
+}
+
+void enqueue(int v)
+{
+struct node *newnode;
+newnode=getnode();
+newnode->info=v;
+
+if(empty())                     //If queue is already empty
  {
- printf("%d\n", queue[i]);
+      newnode->next=NULL;   
+ 	    front=newnode;
+      rear=newnode;
  }
+else																// Queue has elements
+ { 
+      newnode->next=rear->next;
+	    rear->next=newnode;
+	    rear=newnode;
  }
+}
+
+int dequeue()
+{
+int x;
+struct node* temp;
+temp=front;
+x=front->info;
+if(front==rear)                        // If queue has single element
+  {
+     init();
+  }	
+else                                           
+  {
+ front=front->next;
+  }
+freenode(temp);
+return x;
+}
+
+void display()
+{
+struct node *temp;
+
+if(empty())
+  printf("\n Queue is empty");
+else
+  {
+	temp=front;
+        while(temp!=NULL)
+          {
+             printf("-> %d ",temp->info);
+             temp=temp->next;
+          }
+	
+  }
+}
+
+void main()
+{
+int x, i, ch,ans;
+init();
+do
+{
+//clrscr();
+printf("\n -----Operation on Queue----");
+printf("\n1. Insert/Enqueue");
+printf("\n2. Delete/ Dequeue");
+printf("\n3. Display");
+printf("\n4. Quit");
+printf("\n Enter your choice:");
+scanf("%d",&ch);
+
+switch(ch)
+{
+case 1: printf("\n Enter the value to be inserted :");
+        scanf("%d",&x);
+        enqueue(x);
+        break;
+case 2: if(!empty())
+        {
+	    x=dequeue();
+            printf("\n %d is deleted",x);
+	}
+ 	else
+	{
+	    printf("\n Queue is empty");
+	}
+	break;
+case 3:display();break;
+case 4: exit(1);break;
+default: printf("\n Wrong Choice");break;
+}
+printf("\nDo you want to continue? (Press 1=yes, 0=no)");
+scanf("%d",&ans);
+}while(ans==1);
 }
