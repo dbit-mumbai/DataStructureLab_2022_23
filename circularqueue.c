@@ -1,149 +1,115 @@
-#include<stdio.h>
-#include<stdlib.h>
-
-/* defining 5 as size */
+#include <stdio.h>
+#include <stdlib.h>
+//#include <conio.h>
 #define size 5
 
-/* Declaration and Initialization of Queue*/
 int queue[size];
-/* Initialization condition */
-int f = -1;
-int r = -1;
+int front,rear;
 
-/* function prototypes */
 void enqueue(int);
 void dequeue();
-void show();
-void isEmpty();
+void display();
 
-/* main functions */
-int main()
-{
-	/* Declaration of variables */
-	int ch, n;
 
-    /* while loop */
-    while(1)
-    {
-        printf("\n----Queue_Menu-----");
-        printf("\n1.Enqueue");
-        printf("\n2.Dequeue");
-        printf("\n3.isEmpty");
-        printf("\n4.Show");
-        printf("\n5.Exit");
-        printf("\nEnter your choice : ");
-        scanf("%d", &ch);
+	int front=-1;
+	 int rear=-1;
 
-        /* switch case starts here */
-        switch(ch)
-        {
-            case 1:
-            	printf("Enter a integer : ");
-            	scanf("%d", &n);
-                enqueue(n);
-                break;
-            case 2:
-                dequeue();
-                break;
-            case 3:
-                isEmpty();
-                break;
-            case 4:
-                show();
-                break;
-            case 5:
-                exit(0);
-                break;
-            default:
-                printf("\nInvalid Choice!");
-        }   /* switch case ends here */
-    }   /* while loop ends here */
-} /* main function ends here */
 
-/* enqueue(int) -> adds element into queue */
 void enqueue(int x)
 {
-	// Adding First Element of Queue //
-    if(f == -1 && r == -1)
-    {
-        f++;
-        queue[++r] = x;
-    } else {
-    	// Other Element //
-        if(f == (r++)%size)
-        {
-            printf("\nqueue overflow!");
-        } else {
-        	r = (r++)%size;
-            queue[r] = x;
-        }
-    }
-}
-/* enqueue() ends here */
 
-/* dequeue() -> removes an element from front */
+	if (front==0 && rear==size-1 || front==rear+1)  // CQ is full
+			printf("\n Queue Overflow");
+	else
+  {
+    if (front==-1 && rear==-1)        //CQ is empty
+    {
+	    front=0;rear=0;
+    }
+		else
+	  {
+			rear=(rear+1)%size;
+		}
+
+			queue[rear]=x;
+		//	 printf("\n ==>Front = %d and Rear=%d",front,rear);
+	}
+	
+}
+
 void dequeue()
 {
-	// Empty Queue Condition //
-	if(r == -1 && f == -1)
-    {
-    	printf("\nQueue is Empty!");
-	} 
-	// One Element Condition //
-    else if(r == f)
-    {
-        f = -1;
-        r = -1;
-    } 
-    // Other Element //
-	else {
-        f = (f++)%size;
-    }
-    
-} 
-/* dequeue() ends here */
+    if(rear==-1 && front==-1)
+				printf("\n Circular Queue Underflow/Empty");
+    else if(rear==front)
+	    {
+				printf("\n %d deleted",queue[front]);
+				rear=-1;
+				front=-1;
+	    }
+	 	else
+	    {
+	      printf("\n %d deleted",queue[front]);
+	      front=(front+1)%size;
+	    }
 
-/* isEmpty() -> checks if the queue is empty or not */
-void isEmpty()
-{
-    if(f == -1 && r == -1)
-    {
-        printf("\nQueue is Empty!");
-    } else {
-        printf("\nQueue is Not Empty!");
-    }
 }
-/* isEmpty() ends here */
 
-/* show() -> displays queue */
-void show()
+void display()
 {
-    int i, j;
-    /* empty condition */
-    if(f == -1 && r == -1)
-    {
-        printf("\nQueue is Empty!");
-    } else {
-        for(i = f; i <= size; i++)
-        {
-        	j = i%size;
-        	/* display front and rear pointers */
-        	if(r == f)
-        	{
-        		printf("\n%d <- front & rear", queue[j]);
-			}
-        	else if(i == f)
-        	{
-        		printf("\n%d <- front",queue[j]);
-			}
-			else if(i == r)
-			{
-				printf("\n%d <- rear ",queue[j]);
-			} 
-			else
-			{
-            	printf("\n%d", queue[j]);
-        	}
-        }
-    }
+  int i;
+  if(rear==-1 && front==-1)
+		printf("\n Queue Underflow");
+  else
+	{ 
+		i=front;
+
+	 	while(i!=rear)
+		{
+	    printf("\n %d ",queue[i]);
+			i=(i+1)%size;
+		}
+		printf("\n %d",queue[i]);
+	}
+}
+
+
+
+void main()
+{
+int ch;
+int x;
+int front = -1;
+int rear = -1;
+
+while(1)
+{
+//clrscr();
+printf("\n----Queue Operation---");
+printf("\n1. Enqueue element ");
+printf("\n2. Dequeue element ");
+printf("\n3. Display the Queue elements");
+printf("\n4. Exit");
+printf("\n Enter your choice:");
+scanf("%d",&ch);
+
+switch(ch)
+{
+case 1: printf("\n Enter the element to be enqueued:");
+	scanf("%d",&x);
+	enqueue(x);
+	break;
+
+case 2: dequeue();
+	//		getch();
+			break;
+
+case 3: display();
+		//	getch();
+			break;
+case 4: exit(1);
+default: printf("\n Wrong Choice");break;
+
+}
+}
 }
