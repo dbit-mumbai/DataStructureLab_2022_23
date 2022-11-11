@@ -1,4 +1,4 @@
-/*  Author: Dhruuv Naik   Branch: IT  Roll no.: 39
+/*  Author: chantel braz   Branch: IT  Roll no.: 8
     Define a structure data type called time_struct containing 3 members int hour, int minute and int second.
     1.Input time    2.Display time  3.Update time(increment time by 1 second)
 */
