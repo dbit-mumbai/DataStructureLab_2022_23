@@ -92,7 +92,7 @@
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
-||4. PEEK||
+||4. PEEK|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/stack2.c|
 |6.|Write a menu driven program to implement STACK ADT using linkedlist and perform||
 ||the following operations||
 ||1. PUSH||
