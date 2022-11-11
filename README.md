@@ -6,7 +6,7 @@
 |1.|Write a C program to check if a given number is Fibonacci number.|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/Cprogram1.c|
 |2.|Write a C program to generate Pascal Triangle using array.|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/Cprogram2.c|
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/cprogram3.c|
-|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.||
+|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/cprogram4.c|
 |5.|Write a C program to find largest element in an array ||
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH ||
 |7.|Define a structure data type called time_struct containing 3 members int hour, int||
