@@ -1,4 +1,4 @@
-//Author: Dhruuv Naik   Branch: IT  Roll no.: 39
+//Author: chantel braz   Branch: IT  Roll no.: 8
 //Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise
 #include <stdio.h>
 #include <string.h>
