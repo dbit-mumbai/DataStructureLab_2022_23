@@ -1,7 +1,7 @@
 /*
-Name : Prakhar Sharma
+Name : Omesh Barhate
 Branch : SE IT
-Roll Num : 53
+Roll Num : 06
 Program : Write a C program to roll_no, name , percentange of 5 students using array of structure and 
 display the records in ascending order of roll list.
 */
