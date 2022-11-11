@@ -1,3 +1,7 @@
+Name : Rohan Gunge
+Roll no : 23
+Batch : B
+
 
 ## DSA experiment list A  : - 
 
@@ -40,7 +44,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/rohan0110/DSA/blob/main/CircularQueue.c|
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/rohan0110/DSA/blob/main/Circular_LinkedList.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -56,7 +60,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/rohan0110/DSA/blob/main/double_LinkedList.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -72,7 +76,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
+|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|https://github.com/rohan0110/DSA/blob/main/Circular_double_LinkedList.c|
 ||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
