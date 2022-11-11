@@ -18,7 +18,7 @@
 ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute||
 ||member is set to 0 and the hour member is incremented by 1. Finally when the hour||
 ||becomes 24, it is set to zero.)||
-|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.||
+|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/program3.c|
 
 
 ## DSA program list B :-
