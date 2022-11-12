@@ -72,7 +72,7 @@
 ||13. SPLIT||
 ||14. REVERSE||
 |4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
-||LINKEDLIST and perform the following operations|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse,https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
+||LINKEDLIST and perform the following operations|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse, https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
 ||3. INSERT AT END||
@@ -104,7 +104,7 @@
 |9.|Write a program to implement PARENTHESES CHECKER using a stack ||
 |10.|Write a program for conversion of INFIX to POSTFIX expression.||
 |11.|Write a program to evaluate postfix expressions by making use of Stack||
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the||
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/queue.c|
 ||following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
