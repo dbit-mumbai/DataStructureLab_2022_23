@@ -101,7 +101,7 @@
 ||3. DISPLAY||
 ||4. PEEK||
 |7.|Write a program to REVERSE a given string using a Stack||
-|8.|Write a program to check if a given number is a PALLINDROME using a stack||
+|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack ||
 |10.|Write a program for conversion of INFIX to POSTFIX expression.||
 |11.|Write a program to evaluate postfix expressions by making use of Stack||
