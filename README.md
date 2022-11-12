@@ -9,16 +9,15 @@
 |4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/Chantelbb/DSA/blob/main/Descendingorder.c|
 |5.|Write a C program to find largest element in an array |https://github.com/Chantelbb/DSA/blob/main/Largestelement_array.c|
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/Chantelbb/DSA/blob/main/ARRAY.c|
-|7.|Define a structure data type called time_struct containing 3 members int hour, int||
-||minute and int second. Write functions that accept the structure to perform the|
-||following operations:||
-||1. Input new time||
-||2. Display the time||
-||3. Update the time such that the function accepts the time_struct and increments the||
-||time by one second.(If the increment results in 60 seconds, the then second member is||
-||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute||
-||member is set to 0 and the hour member is incremented by 1. Finally when the hour||
-||becomes 24, it is set to zero.)|https://github.com/Chantelbb/DSA/blob/main/ExpA7.c|
+|7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the|
+||following operations:|https://github.com/Chantelbb/DSA/blob/main/ExpA7.|
+|1. Input new time
+||2. Display the time
+||3. Update the time such that the function accepts the time_struct and increments the
+||time by one second.(If the increment results in 60 seconds, the then second member is
+||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute
+||member is set to 0 and the hour member is incremented by 1. Finally when the hour
+||becomes 24, it is set to zero.)|
 |8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/Chantelbb/DSA/blob/main/Two_arrays.c|
 
 
@@ -26,7 +25,7 @@
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
 |1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and||
-||perform the following operations||
+||perform the following operations|https://github.com/Chantelbb/DSA/blob/main/linkedlist.c|
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
 ||3. INSERT AT END||
@@ -116,8 +115,7 @@
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. SEARCH||
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and||
-||perform the following operation|https://github.com/Chantelbb/DSA/blob/main/CIRCULAR_array.c|
+|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and perform the following operation|https://github.com/Chantelbb/DSA/blob/main/CIRCULAR_array.c|
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
@@ -132,7 +130,7 @@
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/Chantelbb/DSA/blob/main/BFS.c|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/Chantelbb/DSA/blob/main/DFS.c|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/Chantelbb/DSA/blob/main/DFS.c|
 |18.|Write a program to implement Binary Search|https://github.com/Chantelbb/DSA/blob/main/BinarySearch.c|
 |19.|Write a program to implement Bubble sort|https://github.com/Chantelbb/DSA/blob/main/Bubblesort.c|
 |20.|Write a program to implement Selection sort|https://github.com/Chantelbb/DSA/blob/main/Selectionsort.c|
