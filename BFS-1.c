@@ -1,8 +1,10 @@
 #include<stdio.h>
 # include <stdlib.h>
+
 int q[20], front = -1, rear = -1, vis[20];
 int a[20][20];
 int delete();
+
 void add ( int item );
 void bfs( int s, int n );
 void main()
