@@ -25,7 +25,7 @@
 ## DSA program list B :-
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/stackusinglinkedlist.c|
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/stackusinglinkedlist.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -40,7 +40,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/circularqueue1.c|
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/cclinkedlist.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -88,7 +88,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dsa%20program1.c|
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/stack1.c|
 ||following operations||
 ||1. PUSH||
 ||2. POP||
@@ -132,7 +132,7 @@
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/bfs.c|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/dfs.c|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/dfs.c|
 |18.|Write a program to implement Binary Search|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/bsearch.c
 |19.|Write a program to implement Bubble sort|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/bubsort.c|
 |20.|Write a program to implement Selection sort|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/selectsort.c|
