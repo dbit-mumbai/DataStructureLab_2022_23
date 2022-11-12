@@ -19,7 +19,7 @@ int main()
     while (1)
     {
         printf("\n*****Select a function to be performed*****");
-        printf("\n1.Enqueue       \n2.Dequeue       \n3.Is Empty       \n4.Show        \n5.Exit");
+        printf("\n1.Enqueue       \n2.Dequeue       \n3.Is Empty       \n4.Display        \n5.Count        \n6.Exit");
         printf("\nEnter your choice : ");
         scanf("%d", &choice); //saves the user's choice
 
@@ -37,7 +37,10 @@ int main()
             case 4: show();
                     break;
 
-            case 5: return 0; 
+            case 5: count();
+                    break;
+
+            case 6: return 0; 
         
             default:printf("\nInvalid choice!\n");
 
@@ -155,6 +158,38 @@ void show()
 
         }
 
+    }
+    
+}
+
+void count()
+{
+    int i, j, count;
+
+    if (front==-1 && rear==-1) //checks if queue is empty
+    {
+        printf("\nQueue is empty!");
+    }
+    else{
+        for(i = front; i < size; i++){      	
+        	if(rear == front)
+        	{
+        		count++;
+			}
+        	else if(i == front)
+        	{
+        		count++;
+			}
+			else if(i == rear)
+			{
+				count++;
+			} 
+			else
+			{
+            	count++;
+        	}
+        }
+        printf("There are %d elements in queue.",count);
     }
     
 }

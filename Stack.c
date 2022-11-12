@@ -1,29 +1,25 @@
-/*  Author: Dhruuv Naik   Branch: IT  Roll no.: 39
-    
-    Write a menu driven program to perform the following operations in a Stack to 
-    1.Push    2.Pop   3.Stack empty?  4.Stack full    5.Clear stack   6.Show stack  7.Peek
-*/
-
 #include <stdio.h>
 #define size 5 //setting stack size
 
-int stack[size], top=-1; //declaring array, top and functions
+int stack[size], temp[size], top=-1; //declaring array, top and functions
 void push();
 void pop();
 void empty();
 void full();
 void clear();
 void show();
+void search();
+void reverse();
+void palindrome();
 void peek();
 
-int main()
-{
+int main(){
     int choice;
-
     while(1) //to loop the program
     {   //printing a menu
         printf("\n*****Select a function to be performed*****");
-        printf("\n1.Push element \n2.Pop element \n3.Check if stack is empty \n4.Check if stack is full \n5.Clear stack \n6.Show stack \n7.Peek   \n8.Exit");
+        printf("\n1.Push element \n2.Pop element \n3.Check if stack is empty \n4.Check if stack is full \n5.Clear stack \n6.Show stack");
+        printf("\n7.Search  \n8.Reverse    \n9.Check if palindrome     \n10.Peek    \n11.Exit");
         printf("\nEnter your choice : ");
         scanf("%d", &choice); //saves the users choice
  
@@ -47,14 +43,22 @@ int main()
             case 6: show();
                     break;
 
-            case 7: peek();
+            case 7: search();
                     break;
 
-            case 8: return 0;
+            case 8: reverse();
+                    break;
+
+            case 9: palindrome();
+                    break;
+
+            case 10: peek();
+                    break;
+
+            case 11 : return 0; 
         
             default:printf("\nInvalid choice!\n");
         }
-
     }
 
 }
@@ -133,10 +137,86 @@ void show()
         {
             printf("%d\n",stack[i]);            
         }
-        
     }
+    
 }
 
+void search()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {
+        int n, count=0;
+        printf("\nEnter the element to be searched : ");
+        scanf("%d", &n);
+        for (int i = top; i >= 0; i--) //prints the stack
+        {
+            if (n==stack[i])
+            {
+                count++;
+                break;
+            }              
+        }
+        if (count>0)
+            printf("Element is present in stack!\n");
+        else{
+            printf("Element is not present in stack!\n");
+        }       
+    }
+    
+}
+
+void reverse()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {   
+        int j = 0;
+        for (int i = top; i >= 0; i--) 
+        {
+            temp[j] = stack[i];
+            j++;           
+        }
+        printf("Reversed stack : \n");
+        for (int i = top; i >= 0; i--)
+        {
+            stack[i] = temp[i]; 
+            printf("%d\n",stack[i]);
+        }
+    }
+    
+}
+
+void palindrome()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {   
+        int i, count = 0;
+        for ( i = 0 ; i <= top; i++)
+        {
+            if(stack[i] != stack[top-i]){
+                count++;
+            }
+        }
+        if (count>0)
+            printf("\nStack is not palindrome!\n");
+        else{
+            printf("\nStack is palindrome!\n");
+        }
+        
+    }
+    
+}
 void peek()
 {
     if (top==-1)
