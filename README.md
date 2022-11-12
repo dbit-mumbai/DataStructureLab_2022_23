@@ -155,13 +155,19 @@ the following operations
 17] Write a program to implement traversal of a directed graph through DFS
 
 18] Write a program to implement Binary Search
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Binary.c
 
 19] Write a program to implement Bubble sort
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Bubble.c
 
 20] Write a program to implement Selection sort
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Selection.c
 
 21] Write a program to implement Insertion sort
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Insertion.c
 
 22] Write a program to implement Quick sort
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Quick.c
 
 23] Write a program to implement Merge sort
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Merge.c
