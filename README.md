@@ -45,29 +45,26 @@ DSL EXPERIMENTS PART B
 | 1.	      | Write a menu driven program to implement  | https://github.com/divijms07/DS_LAB/blob/main/B_1.c    |
 |           | list ADT using SINGLE LINKEDLIST and      |                                                        |     
 |           | perform the following operations          |                                                        |
-|           | 1. CREATE                                 |                                                        |
-|           | 2. INSERT AT BEGINNING                    |                                                        |
-|           | 3. INSERT AT END                          |                                                        |
-|           | 4. INSERT AT LOCATION                     |                                                        |
-|           | 5. DELETE AT BEGINNING                    |                                                        |               
-|           | 6. DELETE AT END                          |                                                        |
-|           | 7. DELETE AT LOCATION                     |                                                        |
-|           | 8. DISPLAY                                |                                                        |
-|           | 9. SEARCH                                 |                                                        |
-|           | 10. COUNT                                 |                                                        |
-|           | 11. COPY                                  |                                                        |
-|           | 12. CONCATENTE                            |                                                        |
-|           | 13. SPLIT                                 |                                                        |
-|           | 14. REVERSE                               |                                                        |
-|           | 	                                        |                                                        |
+|           | 1. CREATE                                                                                          |
+|           | 2. INSERT AT BEGINNING                                                                             |
+|           | 3. INSERT AT END                                                                                   |
+|           | 4. INSERT AT LOCATION                                                                              |
+|           | 5. DELETE AT BEGINNING                                                                             |               
+|           | 6. DELETE AT END                                                                                   |
+|           | 7. DELETE AT LOCATION                                                                              |
+|           | 8. DISPLAY                                                                                         |
+|           | 9. SEARCH                                                                                          |
+|           | 10. COUNT                                                                                          |
+|           | 11. COPY                                                                                           |
+|           | 12. CONCATENTE                                                                                     |
+|           | 13. SPLIT                                                                                          |
+|           | 14. REVERSE                                                                                        |
 | 2.	      | Write a menu driven program to implement  |                                                        |
 |           | list ADT using CIRCULAR LINKEDLIST        |                                                        |
-|           | and perform the similar operations        |                                                        |
-|           |                                           |                                       
-| 3.	      | Write a C program to roll_no, name ,      |                        
-|           | percentange of 5 students using array     |                                                                          
-|           | of structure and display the records      |                                                                          
-|           | in ascending order of roll list.	        |                                                                           
+|           | and perform the similar operations        |                                                        |                                      
+| 3.	      | Write a menu driven program to implement  |
+|           | list ADT using DOUBLE LINKEDLIST          |
+|           | and perform the similar operations        |                                                                                  
 | 4.        | Write a C program to roll_no, name ,      |                                              
 |           | percentange of 5 students using array     |                                                                          
 |           | of structure and display the records      |                                                                          
