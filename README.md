@@ -101,7 +101,7 @@ SE IT
 ||3. DISPLAY||
 ||4. PEEK||
 |6.|Write a menu driven program to implement STACK ADT using linkedlist and perform||
-||the following operations||
+||the following operations|https://github.com/nigelsilveira0711/DSA_Assignment/blob/667c9d4776f638e5d8fe6642bbecad0c59062ac0/stack_usinglinklist.c |
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
