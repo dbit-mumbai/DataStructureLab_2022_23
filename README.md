@@ -43,3 +43,79 @@ https://github.com/Creselfernandes/Data-structure-analysis/blob/ca956a840a6ee99e
 8)Write a function that compares two arrays and returns 1 if they are identical and 0 
 otherwise
 https://github.com/Creselfernandes/Data-structure-analysis/blob/ca956a840a6ee99e85cbe49f6b098f53938d30e6/7)%20function%20comparing%20two%20arrays
+
+DSA Experiment part (B)
+
+1)Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and 
+perform the following operations
+1. CREATE
+2. INSERT AT BEGINNING
+3. INSERT AT END
+4. INSERT AT LOCATION
+5. DELETE AT BEGINNING
+6. DELETE AT END
+7. DELETE AT LOCATION
+8. DISPLAY
+9. SEARCH
+10. COUNT
+11. COPY 
+12. CONCATENTE
+13. SPLIT
+14. REVERSE
+https://github.com/Creselfernandes/Data-structure-analysis/blob/7b29116a2b7e6a049885bf13cdeb3ed6780f8c80/single%20linked%20list
+
+2)Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST 
+and perform the following operations
+1. CREATE
+2. INSERT AT BEGINNING
+3. INSERT AT END
+4. INSERT AT LOCATION
+5. DELETE AT BEGINNING
+6. DELETE AT END
+7. DELETE AT LOCATION
+8. DISPLAY
+9. SEARCH
+10. COUNT
+11. COPY 
+12. CONCATENTE
+13. SPLIT
+14. REVERSE
+https://github.com/Creselfernandes/Data-structure-analysis/blob/41bfb769b9dbc6c37a79621dbffed1e6377abdae/circular%20linked%20list
+
+3)Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST 
+and perform the following operations
+1. CREATE
+2. INSERT AT BEGINNING
+3. INSERT AT END
+4. INSERT AT LOCATION
+5. DELETE AT BEGINNING
+6. DELETE AT END
+7. DELETE AT LOCATION
+8. DISPLAY
+9. SEARCH
+10. COUNT
+11. COPY 
+12. CONCATENTE
+13. SPLIT
+14. REVERSE
+https://github.com/Creselfernandes/Data-structure-analysis/blob/12457c3dcb2f133409b26592d94645ea870b91a7/doubly%20linked%20list
+
+4)Write a menu driven program to implement list ADT using CIRCULAR DOUBLE 
+LINKEDLIST and perform the following operations
+1. CREATE
+2. INSERT AT BEGINNING
+3. INSERT AT END
+4. INSERT AT LOCATION
+5. DELETE AT BEGINNING
+6. DELETE AT END
+7. DELETE AT LOCATION
+8. DISPLAY
+9. SEARCH
+10. COUNT
+11. COPY 
+12. CONCATENTE
+13. SPLIT
+14. REVERSE
+
+
+
