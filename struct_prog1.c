@@ -1,7 +1,7 @@
 # DSA-REPORT
 /*
 Name :Mitali Rananavare
-Branch : SE IT
+Batch : IT/c
 Roll Num : 47
 Program : Write a C program to roll_no, name , percentange of 5
 students using array of structure and display the records in
