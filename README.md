@@ -31,7 +31,7 @@ SE IT
 ## DSA program list B :-
 
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and||
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/nigelsilveira0711/DSA_Assignment/blob/be1cb832762190a84097020d1505b6f96d2900d4/linklists.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
