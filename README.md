@@ -5,8 +5,8 @@
 | BATCH     | BATCH C (B)   |
 
 
-DSA experiment list A : -
-
+DSL EXPERIMENT LIST A : -
+|-----------|-------------------------------------------|--------------------------------------------------------------------------|
 |PROGRAM_ID |	PROGRAM DETAILS	                          | HYPERLINK .c FILES                                                       |
 |-----------|-------------------------------------------|--------------------------------------------------------------------------|     
 | 1.	      | Write a C program to check                | https://github.com/divijms07/DS_LAB/blob/main/struct_prog1.c             |
@@ -37,6 +37,8 @@ DSA experiment list A : -
 |           |    time by one second.                    |                                                                          |
 |8.         |	Write a function that compares two arrays | https://github.com/divijms07/DS_LAB/blob/main/struct_prog8.c             |
 |           | returns 1 if identical and 0 otherwise.	  |                                                                          | 
+|-----------|-------------------------------------------|--------------------------------------------------------------------------|
+
 
 DSL EXPERIMENTS PART B 
 
