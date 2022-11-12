@@ -136,7 +136,7 @@
 |18.|Write a program to implement Binary Search||
 |19.|Write a program to implement Bubble sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/51b98b2cd09db2f417123e98af21203c3a762f55/bubble_sort.c|
 |20.|Write a program to implement Selection sort||
-|21.|Write a program to implement Insertion sort||
+|21.|Write a program to implement Insertion sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8af00391587588060f6004152f9464858a49592/insertionsort.c|
 |22.|Write a program to implement Quick sort||
 |23.|Write a program to implement Merge sort||
 
