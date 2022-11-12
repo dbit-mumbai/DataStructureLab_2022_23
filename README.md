@@ -104,7 +104,7 @@
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack ||
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8081ed8b35c1289869e594fd73dcc27df2f2555/InToPost.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack||
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/129996d495ade51fb678072fc3a76ea98353d7a3/postFixevaluation.c|
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the||
 ||following operation||
 ||1. ENQUEUE||
