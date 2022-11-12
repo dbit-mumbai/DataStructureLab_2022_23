@@ -9,7 +9,7 @@ DSA experiment list A : -
 
 
 |PROGRAM_ID |	PROGRAM DETAILS	                                                                                                                                  |
-|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------|------
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 |1.	        | Write a C program to check if a given number is Fibonacci number.	                                                                                | 
 |2.	        | Write a C program to generate Pascal Triangle using array.	                                                                                      | 
 |3.	        | Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.	|
