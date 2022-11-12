@@ -31,7 +31,7 @@ Batch-A
 ## DSA program list B :-
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/stackusinglinkedlist.c|
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/321kastle0007/DSA/blob/main/ExpB1.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -46,7 +46,7 @@ Batch-A
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/circularqueue1.c|
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/321kastle0007/DSA/blob/main/ExpB2.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -62,7 +62,7 @@ Batch-A
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/321kastle0007/DSA/blob/main/ExpB3.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -78,7 +78,7 @@ Batch-A
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
+|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|https://github.com/321kastle0007/DSA/blob/main/ExpB4.c|
 ||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -94,41 +94,41 @@ Batch-A
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dsa%20program1.c|
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/321kastle0007/DSA/blob/main/ExpB5.c|
 ||following operations||
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/stackusinglinkedlist.c|
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/321kastle0007/DSA/blob/main/ExpB6.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/reversestack.c|
-|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/palindrome.c|
-|9.|Write a program to implement PARENTHESES CHECKER using a stack ||
-|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/infixpostfix.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/infix.c|
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/queue.c|
+|7.|Write a program to REVERSE a given string using a Stack|https://github.com/321kastle0007/DSA/blob/main/ExpB7.c|
+|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/321kastle0007/DSA/blob/main/ExpB8.c|
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/321kastle0007/DSA/blob/main/ExpB9.c|
+|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/321kastle0007/DSA/blob/main/ExpB10.c|
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/321kastle0007/DSA/blob/main/ExpB11.c|
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/321kastle0007/DSA/blob/main/ExpB12.c|
 ||following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/queueusinglinkedlist.c|
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/321kastle0007/DSA/blob/main/ExpB13.c|
 ||the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. SEARCH||
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/queueusinglinkedlist.c|
+|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/321kastle0007/DSA/blob/main/ExpB14.c|
 ||perform the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/bst.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/321kastle0007/DSA/blob/main/ExpB15.c|
 ||(BST).||
 ||1. Insertion of node||
 ||2. Deletion of node||
@@ -137,15 +137,15 @@ Batch-A
 ||5. Postorder Traversal||
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/bfs.c|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dfs.c|
-|18.|Write a program to implement Binary Search|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/binarysearch.c|
-|19.|Write a program to implement Bubble sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/bubsort.c|
-|20.|Write a program to implement Selection sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/selectsort.c|
-|21.|Write a program to implement Insertion sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/insertsort.c|
-|22.|Write a program to implement Quick sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/quicksort.c|
-|23.|Write a program to implement Merge sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/mergesort.c|
+|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/321kastle0007/DSA/blob/main/ExpB16.c|
+|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/321kastle0007/DSA/blob/main/ExpB17.c|
+|18.|Write a program to implement Binary Search|https://github.com/321kastle0007/DSA/blob/main/ExpB18.c|
+|19.|Write a program to implement Bubble sort|https://github.com/321kastle0007/DSA/blob/main/ExpB19.c|
+|20.|Write a program to implement Selection sort|https://github.com/321kastle0007/DSA/blob/main/ExpB20.c|
+|21.|Write a program to implement Insertion sort|https://github.com/321kastle0007/DSA/blob/main/ExpB21.c|
+|22.|Write a program to implement Quick sort|https://github.com/321kastle0007/DSA/blob/main/ExpB22.c|
+|23.|Write a program to implement Merge sort|https://github.com/321kastle0007/DSA/blob/main/ExpB23.c|
 
 
 ## Authors
-@adityagothiwarekar
+@321kastle0007
