@@ -1,1 +1,6 @@
 # Data-structure-
+
+NAME:-  AFZAL AHMED SIDDIQUIE
+ROLL_NO:- 3354.
+BATCH:- C.
+EX PART(A),PART(B).
