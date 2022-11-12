@@ -1,7 +1,7 @@
 /*
-Name : Prakhar Sharma
+Name : Omesh Barhate
 Branch : SE IT
-Roll Num : 53
+Roll Num : 06
 Program : Write a C program to find largest element in an array
 */
 
