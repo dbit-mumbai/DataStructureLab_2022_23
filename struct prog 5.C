@@ -1,8 +1,8 @@
 //Author: Aryaan Sawant   Branch: IT  Roll no.: 50
 //Write a C program to find largest element in an array
 #include <stdio.h>
-#define prog_without_main main //to run a program without using main()
-int prog_without_main()
+
+int main()
 {
     int n, i, max=0, a[20];//declaration
     
