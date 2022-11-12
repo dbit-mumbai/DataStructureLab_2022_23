@@ -119,8 +119,8 @@
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.||
-||(BST).||
+|15.
+||(BST).|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/bst.c|
 ||1. Insertion of node||
 ||2. Deletion of node||
 ||3. Counting of nodes||
