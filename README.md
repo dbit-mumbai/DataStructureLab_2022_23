@@ -1,10 +1,10 @@
 # DSA_ASSIGNMENTS
 
-Name- Aditya Gothiwarekar
+Name- Kastle Farro
 
-roll no-21
+Roll no-15
 
-Batch-B
+Batch-A
 ## DSA experiment list A  : - 
 
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
