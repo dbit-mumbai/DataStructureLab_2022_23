@@ -131,11 +131,11 @@
 |16.||
 |17.||
 |18.||
-|19.|Write a program to implement Bubble sort||
-|20.|Write a program to implement Selection sort||
-|21.|Write a program to implement Insertion sort||
-|22.|Write a program to implement Quick sort||
-|23.|Write a program to implement Merge sort||
+|19.|Write a program to implement Bubble sort|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/bublesort.c|
+|20.|Write a program to implement Selection sort|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/selectionsort.c|
+|21.|Write a program to implement Insertion sort|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/insertionsort.c|
+|22.|Write a program to implement Quick sort|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/quicksort.c|
+|23.|Write a program to implement Merge sort|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/mergesort.c|
 
 
 
