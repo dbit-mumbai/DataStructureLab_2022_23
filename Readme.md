@@ -62,7 +62,7 @@ Batch:- B
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|| |https://github.com/yashaskhot/DSA-LAB/blob/main/doublinklist.c|
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST |https://github.com/yashaskhot/DSA-LAB/blob/main/doublinklist.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -78,7 +78,7 @@ Batch:- B
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||https://github.com/yashaskhot/DSA-LAB/blob/main/circdoublinklist.c|
+|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE |https://github.com/yashaskhot/DSA-LAB/blob/main/circdoublinklist.c|
 ||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
