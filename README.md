@@ -16,6 +16,7 @@ DSA Experiment List A :-
 4.Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.
 
 5.Write a C program to find largest element in an array 
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/LargeArr.c
 
 6.Write a menu driven program to perform the following operations in an ARRAY
 1. INSERT
@@ -135,7 +136,7 @@ the following operations
 3. DISPLAY
 4. SEARCH
 
-14] Write a menu driven program to implement CIRCULAR QUEUE ADT using array and| perform the following operation
+14] Write a menu driven program to implement CIRCULAR QUEUE ADT using array and perform the following operation
 1. ENQUEUE
 2. DEQUEUE
 3. DISPLAY
