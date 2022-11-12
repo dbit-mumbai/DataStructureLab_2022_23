@@ -1,190 +1,274 @@
-/*  Author: Dhruuv Naik   Branch: IT  Roll no.: 39
-    Linked List
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node
-{
-	int info;
-	struct node *next;
+struct node {
+    int info;
+    struct node *next;
 };
 
-struct node* getnode(void)
-{
-	return((struct node*)malloc(sizeof(struct node)));
+struct node *getnode() {
+    return ((struct node *)malloc(sizeof(struct node)));
 }
 
-void freenode(struct node *p)
-{
-	free(p);
+void freenode(struct node *p) {
+    free(p);
 }
+struct node *list = NULL;
 
-struct node *list=NULL;
-
-void insertBeg(int n);
-void insertEnd(int n);
-void insertPosition(int n);
+void insert_atBeg();
+void insert_atEnd();
+void insert_atPosition();
+void delete_atBeg();
+void delete_atEnd();
+void delete_atPosition();
 void display();
-void deleteBeg();
-void deleteEnd();
+void search();
+void reverse();
+void copy();
 
-int main()
-{
-	int n, choice;
-	while(1)
-	{
-		printf("\nSelect a function:");
-		printf("\n1.Insert at beginning	 \n2.Insert at end 	\n3.Insert at position	 \n4.Display");
-		printf("\n5.Delete at beginning		\n6.Delete at end		\n7.Exit");
-		printf("\nEnter your choice : ");
-		scanf("%d",&choice);
+int main() {
+    int choice;
+	while(1) {
+        printf("\nStack ADT functions");
+        printf("\n1.Insert at Beginning	\n2.Insert at End	\n3.Insert at Position		\n4.Delete at Beginning		\n5.Delete at End");
+        printf("\n6.Delete at Position      \n7.Display     \n8.Search      \n9.Reverse     \n10.Copy       \n11.Exit");
+        printf("\nEnter your choice : ");
+        scanf("%d", &choice);
+        printf("\n");
+            
+        switch(choice){
+            case 1: insert_atBeg();
+                break;
+                
+            case 2: insert_atEnd();
+                break;
+            
+            case 3: insert_atPosition();
+                break;
+            
+            case 4: delete_atBeg();
+                break;
+            
+            case 5: delete_atEnd();
+                break;
+                
+            case 6: delete_atPosition();
+                break;
+                    
+            case 7: display();
+                break;
 
-		switch(choice)
+            case 8: search();
+                break;
+                    
+            case 9: reverse();
+                break;
+
+            case 10: copy();
+                break;
+
+            case 11: return 0;
+                
+            default: printf("Invalid input\n");	
+                break;	
+
+        }
+    }    	
+}
+
+void insert_atBeg(){
+    int n;
+    printf("\nEnter element to be inserted : ");
+    scanf("%d", &n);
+    struct node *newnode;
+    newnode = getnode();
+    newnode->info = n;
+    newnode->next = list;
+    list=newnode;    
+
+}
+
+void insert_atEnd(){
+    int n;
+    printf("\nEnter element to be inserted : ");
+    scanf("%d", &n);
+    struct node *newnode, *temp;
+    newnode = getnode();
+    newnode->info = n;
+    temp=list;
+    newnode->next = NULL;
+    if (list == NULL)
+    {
+        list = newnode;
+    } else {
+        while (temp->next!=NULL)
+        {
+            temp = temp->next;
+        }
+        temp->next = newnode;        
+    }
+}
+
+void insert_atPosition(){
+    int n, count, i;
+    struct node *newnode, *temp;
+    printf("\nEnter position : ");
+    scanf("%d", &count);
+    temp=list;
+    if(temp==NULL){      
+        insert_atBeg(n);
+        printf("Since the list is empty, so inserted element at the beginning",count);   
+    } else {
+        printf("\nEnter element to be inserted : ");
+        scanf("%d", &n);
+		for(i=1;i<count-1;i++)
 		{
-			case 1: printf("\nEnter element to be added : ");
-				scanf("%d",&n);
-				insertBeg(n);
+		    if(temp-> next==NULL)
+			{
+				printf("There are less than %d elements in the List, so inserted element at the end",count);
 				break;
-
-			case 2: printf("\nEnter element to be added : ");
-				scanf("%d",&n);
-				insertEnd(n);
-				break;
-
-			case 3: printf("\nEnter element to be added : ");
-				scanf("%d",&n);
-				insertPosition(n);
-				break;
-
-			case 4: display();
-				break;
-
-			case 5: deleteBeg();
-				break;
-
-			case 6: deleteEnd();
-				break;
-
-			case 7: return 0;
-
-			default: printf("\nInvalid choice!");
-			
 			}
-		}
-}
-
-void insertBeg(int n)
-{
-	struct node *newnode;
-	newnode=getnode();
-	newnode->info=n;
-	newnode->next=list;
-	list=newnode;
-}
-
-void insertEnd(int n)
-{
-	struct node *newnode, *temp;
-	newnode=getnode();
-	newnode->info=n;
-	newnode->next=NULL;
-	temp=list;
-	if(list==NULL)
-	{
-		list=newnode;
-	}
-	else
-	{
-		while(temp->next!=NULL)
-		{
 			temp=temp->next;
 		}
+		newnode = getnode();
+        newnode->info=n;
+		newnode->next=temp->next;
 		temp->next=newnode;
+		display();
 	}
 }
 
-void insertPosition(int n)
-{
-	int p, count=1;
-	printf("Enter the position :");
-	scanf("%d",&p);
-	struct node *newnode, *temp;
-	newnode=getnode();
-	newnode->info=n;
-	newnode->next=list;
-	temp=list;
-	if(list==NULL)
-	{
-		printf("\nList is empty");
-	}
-	else
-	{
-		while(count>p)
-		{
-			temp=temp->next;
-			count++;
+void delete_atBeg(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        temp= list;
+        list = temp->next;
+        freenode(temp);
+
+    }    
+}
+
+void delete_atEnd(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp, *del;
+        temp = list;
+        while (temp->next!=NULL)
+        {
+            del = temp;
+            temp = temp->next;
+        }
+        del->next = NULL;
+        freenode(temp);  
+
+    }
+}
+
+void delete_atPosition(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {   
+        int i, count;
+        struct node *temp, *ptr;        
+        printf("\nEnter position : ");
+        scanf("%d", &count);
+        temp = list;
+		if(count==1)
+			list=list->next;
+		else{
+            for(i=1;i<count;i++)
+            {
+                if(temp-> next==NULL)
+                {
+                    printf("There are less than %d elements in the Less" ,count);
+                    break;
+                }
+                ptr=temp;                                     
+                temp=temp->next;    
+            }
 		}
-		temp->next=newnode;
-	}
-}
-
-void display()
-{
-	struct node *temp;
-	temp=list;
-	if(list==NULL)
-	{
-		printf("\nList is empty");
-	}
-	else
-	{
-		while(temp!=NULL)
-		{
-			printf("\n%d", temp->info);
-			temp=temp->next;
+	    if(temp->next!=NULL){
+            printf("Element  %d successfully deleted",temp->info);
+            ptr->next=temp->next;
+            freenode(temp);
 		}
-	}
+		display();
+	} 
 }
 
-void deleteBeg()
-{	
-	struct node *newnode;
-	newnode=list;
-	if (list==NULL)
-	{
-		printf("\nList is empty");
-	}
-	else
-	{
-		list=newnode->next;
-		freenode(newnode);
-	}
-	
+void display(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        temp = list;
+        printf("\nThe linked list is : ");
+        while(temp != NULL){
+            printf("%d ", temp->info);
+            temp = temp->next;
+        }
+        printf("\n");
+    }
 }
 
-void deleteEnd()
-{	
-	struct node *newnode, *temp;
-	newnode=list;
-	temp=list;
+void search(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        int count=0, n;
+        temp = list;
+        printf("\nEnter element to be searched : ");
+        scanf("%d", &n);
+        while(temp != NULL){
+            if(n == temp->info){
+                count++;
+                break;
+            }
+            temp = temp->next;
+        }
+        if (count>0)
+        {
+            printf("Element was found\n");
+        } else {
+            printf("Element is not in the linked list\n");
+        }
+         
+    }    
+}
 
-	if (list==NULL)
-	{
-		printf("\nList is empty");
-	}
+void reverse(){
+    struct node *t1, *t2, *temp;
+    t1 = t2 = NULL;  
+    if (list == NULL){
+        printf("List is empty");
+    } else {
+        while (list != NULL) {
+            t2 = list->next;
+            list->next = t1;
+            t1 = list;
+            list = t2;
+        }
+        list = t1;
+        temp = list;
+        printf("Reversed linked list is : ");  
+        while (temp != NULL) {
+            printf("%d ", temp->info);
+            temp = temp->next;
+        }
+        printf("\n");
 
-	else
-	{
-		while (newnode->next!=NULL)
-		{
-			temp=newnode;
-			newnode=newnode->next;
-		}
-		temp->next=NULL;
-		freenode(newnode);
-		
-	}
-	
+    }
+}
+
+void copy(){
+    //working on it
 }
