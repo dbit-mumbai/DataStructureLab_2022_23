@@ -112,7 +112,7 @@ SE IT
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8081ed8b35c1289869e594fd73dcc27df2f2555/InToPost.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/129996d495ade51fb678072fc3a76ea98353d7a3/postFixevaluation.c|
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the||
-||following operation||
+||following operation|https://github.com/nigelsilveira0711/DSA_Assignment/blob/4681a368f144563b2ddeeb1cc8219571c967cdf6/Queue_implementation.c|
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
