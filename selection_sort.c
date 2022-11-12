@@ -1,44 +1,45 @@
-#include<stdio.h>
+#include <stdio.h>
 
-// displays array 
-void displayArray(int *arr) {
-	int i;
-	for(i = 0; i<5; i++) {
-		printf("%d ", arr[i]);
-	}
-	printf("\n");
+int a[25], n;
+
+void selection_sort(){
+    int i, j, temp, count = 0;
+    for ( i = 0; i < n-1; i++) 
+    {
+        for ( j = i+1; j < n; j++)
+        {
+            if (a[i] > a[j])
+            {
+                temp = a[i];
+                a[i] = a[j];
+                a[j] = temp;
+            }
+            
+        }
+        count++;
+        printf("\nAfter %d pass : \n", count);
+        for ( temp = 0; temp < n; temp++)
+        {        
+            printf("%d\t", a[temp]);
+        }   
+    }    
 }
 
-// main function 
-int main() {
-	
-	// array declaration and defination
-	int arr[] = {1,5,2,3,4};
-	// variables
-	int len, i, j;
-	// calculating array lenght
-	len = sizeof(arr)/sizeof(arr[0]);
-	
-	// displaying array before sorting
-	printf("Array before sorting : ");
-	displayArray(arr);
-	
-	// selection sorting
-	for(i = 0; i<len-1; i++) {
-		for(j = i+1; j < len; j++) {
-			// condition for swap
-			if(arr[j] < arr[i]) {
-				// swap without using extra variable
-				arr[j] = arr[i] + arr[j];
-				arr[i] = arr[j] - arr[i];
-				arr[j] = arr[j] - arr[i];
-			}
-		}
-	}
-	
-	// displaying array after sorting
-	printf("Array after sorting : ");
-	displayArray(arr);
-	
-	return 0;
+int main(){
+    int i;
+    printf("\nEnter no of elements to be sorted : ");
+    scanf("%d", &n);
+    for ( i = 0; i < n; i++)
+    {
+        printf("Enter element %d : ", i+1);
+        scanf("%d", &a[i]);
+    }
+
+    selection_sort();
+
+    printf("\nThe sorted list is : \n");
+    for ( i = 0; i < n; i++)
+    {
+        printf("%d\t", a[i]);
+    }
 }
