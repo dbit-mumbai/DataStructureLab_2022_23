@@ -24,8 +24,8 @@
 ## DSA program list B :-
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and||
-||perform the following operations|https://github.com/Chantelbb/DSA/blob/main/linkedlist.c|
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/Chantelbb/DSA/blob/main/linkedlist.c|
+||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
 ||3. INSERT AT END||
@@ -87,7 +87,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dsa%20program1.c|
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/Chantelbb/DSA/blob/main/STACK_array.c|
 ||following operations||
 ||1. PUSH||
 ||2. POP||
@@ -120,7 +120,7 @@
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree (BST).|||https://github.com/Chantelbb/DSA/blob/main/BST.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree (BST).|https://github.com/Chantelbb/DSA/blob/main/BST.c|
 ||1. Insertion of node||
 ||2. Deletion of node||
 ||3. Counting of nodes||
