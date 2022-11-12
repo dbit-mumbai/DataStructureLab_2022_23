@@ -106,7 +106,7 @@ SE IT
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack||
+|7.|Write a program to REVERSE a given string using a Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/38c68f1e4e59f5c4d990283bba0bf7625b155378/reverse_stack.c|
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack ||
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8081ed8b35c1289869e594fd73dcc27df2f2555/InToPost.c|
