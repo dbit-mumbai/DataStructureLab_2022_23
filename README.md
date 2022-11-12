@@ -11,7 +11,7 @@
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/Chantelbb/DSA/blob/main/ARRAY.c|
 |7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the|
 ||following operations:|https://github.com/Chantelbb/DSA/blob/main/ExpA7.|
-|1. Input new time
+||1. Input new time
 ||2. Display the time
 ||3. Update the time such that the function accepts the time_struct and increments the
 ||time by one second.(If the increment results in 60 seconds, the then second member is
@@ -120,8 +120,7 @@
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree||
-||(BST).|https://github.com/Chantelbb/DSA/blob/main/BST.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree (BST).|||https://github.com/Chantelbb/DSA/blob/main/BST.c|
 ||1. Insertion of node||
 ||2. Deletion of node||
 ||3. Counting of nodes||
