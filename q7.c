@@ -28,7 +28,8 @@ struct time timeUpdate (struct time now)
         ++now.minutes;
     }
     else if(now.minutes == 60) 
-    {                             // next hour
+    {                             // next hour
+
         now.minutes = 0;
         ++now.hour;
     }
