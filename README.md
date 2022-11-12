@@ -7,17 +7,17 @@
 
 DSA experiment list A : -
 
-|PROGRAM_ID |	PROGRAM DETAILS	                                                                                                                                  
-|-----------|-------------------------------------------|
-| 1.	      | Write a C program to check                |
+|PROGRAM_ID |	PROGRAM DETAILS	                          | HYPERLINK .c FILES                                                       |
+|-----------|-------------------------------------------|--------------------------------------------------------------------------|     
+| 1.	      | Write a C program to check                | https://github.com/divijms07/DS_LAB/blob/main/struct_prog1.c             |
 |           | if a given number is Fibonacci number.	  |                                                                              
-| 2.	      | Write a C program to generate Pascal      |
-|           | Triangle using array.	                    |                                                                  
-| 3.	      | Write a C program to roll_no, name ,      |
-|           | percentange of 5 students using array     |
-|           | of structure and display the records      |
-|           | in ascending order of roll list.	        |
-| 4.        | Write a C program to roll_no, name ,      |
+| 2.	      | Write a C program to generate Pascal      |                                                                        
+|           | Triangle using array.	                    |                                                                         
+| 3.	      | Write a C program to roll_no, name ,      |                                                                          
+|           | percentange of 5 students using array     |                                                                          
+|           | of structure and display the records      |                                                                          
+|           | in ascending order of roll list.	        |                                                                             
+| 4.        | Write a C program to roll_no, name ,      |                                                                          
 |           | percentange of 5 students using array     |
 |           | of structure and display the records      |
 |           | in descending order of roll list.	        |
