@@ -94,7 +94,7 @@
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/queueusinglinkedlist.c|
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/NarendranathChakraborty/Data-Structure-Analysis-/blob/main/stackusinglinkedlist.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
