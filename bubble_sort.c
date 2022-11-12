@@ -1,55 +1,45 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int swap(int a[], int x, int y)
-{
-    a[x] = a[x] + a[y];
-    a[y] = a[x] - a[y];
-    a[x] = a[x] - a[y];
-}
+int a[25], n;
 
-void bubble(int a[], int n) 
-{
-    int i = n-1;
-    while(i > 0) 
+void bubble_sort(){
+    int i, j, temp, count =0;
+    for ( i = n-2; i >= 0; i--) //since the last array index is n-1 and we sort till the second last element
     {
-        if(a[i] < a[i-1]) 
+        for ( j = 0; j <= i; j++)
         {
-            swap(a, i, i-1);
+            if (a[j] > a[j+1])
+            {
+                temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
+            }
+            
         }
-        i--;
-    }
-
+        count++;
+        printf("\nAfter %d pass : \n", count);
+        for ( temp = 0; temp < n; temp++)
+        {        
+            printf("%d\t", a[temp]);
+        }          
+    }  
 }
 
-void bubbleSort(int a[], int n) 
-{
-    int i = 0; 
-    while(i < n-1) 
+int main(){
+    int i;
+    printf("\nEnter no of elements to be sorted : ");
+    scanf("%d", &n);
+    for ( i = 0; i < n; i++)
     {
-        bubble(a, n);
-        i++;
+        printf("Enter element %d : ", i+1);
+        scanf("%d", &a[i]);
     }
-}
 
-void display(int a[], int size) 
-{
-    int i = 0;
-    while(i < size) 
+    bubble_sort();
+
+    printf("\nThe sorted list is : \n");
+    for ( i = 0; i < n; i++)
     {
-        printf("%d ", a[i]);
-        i++;
+        printf("%d\t", a[i]);
     }
-    printf("\n");
-}
-
-int main()
-{
-    int arr[] = {1,5,2,6,2,1,7};
-    int size = sizeof(arr)/sizeof(int);
-    printf("Before Sort : ");
-    display(arr, size);
-    bubbleSort(arr, size);
-    printf("After Sort : ");
-    display(arr, size);
-    return 0;
 }
