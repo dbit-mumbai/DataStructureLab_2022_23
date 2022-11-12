@@ -55,7 +55,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse, |
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -72,7 +72,7 @@
 ||13. SPLIT||
 ||14. REVERSE||
 |4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
-||LINKEDLIST and perform the following operations||
+||LINKEDLIST and perform the following operations|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse,https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
 ||3. INSERT AT END||
@@ -93,7 +93,7 @@
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/stack2.c|
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform||
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse, https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
