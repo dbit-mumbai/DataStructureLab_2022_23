@@ -45,20 +45,20 @@ DSL EXPERIMENTS PART B
 | 1.	      | Write a menu driven program to implement  | https://github.com/divijms07/DS_LAB/blob/main/B_1.c    |
 |           | list ADT using SINGLE LINKEDLIST and      |                                                        |     
 |           | perform the following operations          |                                                        |
-|           | 1. CREATE                                                                                          |
-|           | 2. INSERT AT BEGINNING                                                                             |
-|           | 3. INSERT AT END                                                                                   |
-|           | 4. INSERT AT LOCATION                                                                              |
-|           | 5. DELETE AT BEGINNING                                                                             |               
-|           | 6. DELETE AT END                                                                                   |
-|           | 7. DELETE AT LOCATION                                                                              |
-|           | 8. DISPLAY                                                                                         |
-|           | 9. SEARCH                                                                                          |
-|           | 10. COUNT                                                                                          |
-|           | 11. COPY                                                                                           |
-|           | 12. CONCATENTE                                                                                     |
-|           | 13. SPLIT                                                                                          |
-|           | 14. REVERSE                                                                                        |
+|           | 1. CREATE                                 |                                                        |
+|           | 2. INSERT AT BEGINNING                    |                                                        |
+|           | 3. INSERT AT END                          |                                                        |
+|           | 4. INSERT AT LOCATION                     |                                                        |
+|           | 5. DELETE AT BEGINNING                    |                                                        |               
+|           | 6. DELETE AT END                          |                                                        |
+|           | 7. DELETE AT LOCATION                     |                                                        |
+|           | 8. DISPLAY                                |                                                        |
+|           | 9. SEARCH                                 |                                                        |
+|           | 10. COUNT                                 |                                                        |
+|           | 11. COPY                                  |                                                        |
+|           | 12. CONCATENTE                            |                                                        |
+|           | 13. SPLIT                                 |                                                        |
+|           | 14. REVERSE                               |                                                        |
 | 2.	      | Write a menu driven program to implement  |                                                        |
 |           | list ADT using CIRCULAR LINKEDLIST        |                                                        |
 |           | and perform the similar operations        |                                                        |                                      
@@ -103,9 +103,15 @@ DSL EXPERIMENTS PART B
 |           | 1.Insertion of node 2.Deletion of node    |                                                        |
 |           | 3.Counting nodes 4.Preorder Traverse      |                                                        |
 |           | 5.Postorder Traverse 6.Inorder Traverse   |                                                        |
-|           | 7. Search node in the tree                |                          |                             |                     
-| 16.       |	          
-|           | 	                                                                            
-
-
-
+|           | 7. Search node in the tree                |                                                        |                     
+| 16.       |	Write a program to implement traversal of | https://github.com/divijms07/DS_LAB/blob/main/B_16.c   |
+|           | a directed graph through BFS              |                                                        |
+| 17.       | Write a program to implement traversal of | https://github.com/divijms07/DS_LAB/blob/main/B_17.c   |  
+|           | a directed graph through DFS              |                                                        |
+| 18.       | Write program to implement Binary Search  |	https://github.com/divijms07/DS_LAB/blob/main/B_18.c   |                                                     
+| 19.       | Write program to implement Bubble Sort    | https://github.com/divijms07/DS_LAB/blob/main/B_19.c   |
+| 20.       | Write program to implement Selection Sort | https://github.com/divijms07/DS_LAB/blob/main/B_20.c   |
+| 21.       | Write program to implement Insertion Sort | https://github.com/divijms07/DS_LAB/blob/main/B_21.c   |
+| 22.       | Write program to implement Quick Sort     | https://github.com/divijms07/DS_LAB/blob/main/B_22.c   |
+| 23.       | Write program to implement Merge Sort     | https://github.com/divijms07/DS_LAB/blob/main/B_23.c   |
+|-----------|-------------------------------------------|--------------------------------------------------------|
