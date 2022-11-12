@@ -137,7 +137,7 @@
 |19.|Write a program to implement Bubble sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/51b98b2cd09db2f417123e98af21203c3a762f55/bubble_sort.c|
 |20.|Write a program to implement Selection sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/27f95ec9f4c5705a3a1649403894a1dbe48021bd/selection_sort.c|
 |21.|Write a program to implement Insertion sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8af00391587588060f6004152f9464858a49592/insertionsort.c|
-|22.|Write a program to implement Quick sort||
+|22.|Write a program to implement Quick sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/205df7c91dfff3931b139772545cdc8c6349fd59/quicksort.c|
 |23.|Write a program to implement Merge sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/c8c0100ea665c4424e1b0835cf93e18efaf37ea2/mergesort.c|
 
 
