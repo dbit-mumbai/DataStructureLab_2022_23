@@ -14,7 +14,7 @@ int main()
     struct student s[5], temp;
     int i, j;//declaration
     //Taking input from user
-    printf("\n*Enter details separated by space*\n");
+    printf("\n*Enter details of students*\n");
     for ( i = 0; i < 5; i++)
     {
         printf("\nEnter details of student %d :", i+1);
