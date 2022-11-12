@@ -17,7 +17,7 @@
 | Q8         | Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [Code](https://github.com/321dhruuv0037/dsa/blob/main/Compare_arrays.c       ) |
 
 
-    <br><br>
+<br/><br/>
 #    Experiment List (Part B)
 
 | Program_Id | Program details                                                                                                                                                                                                                                                                                                                                                                                                                 | File name                                                                                 | 
