@@ -1,81 +1,80 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void merge(int A[], int s, int m, int h) {
-    
-    int i, j, k;
-    int B[100];
-    
-    i = s;
-    j = m+1;
-    k = s;
-    
-    while(i<=m && j<=h)
-    {
-        if(A[i] < A[j])
-        {
-            B[k] = A[i];
-            i++;k++;
-        } else {
-            B[k] = A[j];
-            j++;k++;
+int a[25], n;
+
+void mergesort(int low,int mid,int high)
+{
+    int i,m,k,l,temp[25];
+    l=low;
+    i=low;                       //iterator for merged array
+    m=mid+1;
+
+    while(l<=mid && m<=high)     // this will iterate till all the element from left & right sub-array are compared.
+    {                                          
+        if(a[l]<=a[m])           // a[l] points to first element of left sub-array
+        {                        // a[m] points to first element of right sub-array
+            temp[i]=a[l];        // temp is merged array
+            l++;    i++;
         }
-        
-    }
-    
-    while(i <= m)
+        else
+        {
+            temp[i]=a[m];
+            m++;    i++;
+        }
+    } 
+
+    if(l>mid)                    // this is true when all left sub-arr element are compared
     {
-        B[k] = A[i];
-        k++; i++;
+        for(k=m;k<=high;k++)     //the remaining elements of right array are stored in merged array
+        {
+            temp[i]=a[k];
+            i++;
+        }
+    }
+    else
+    {
+        for(k=l;k<=mid;k++)
+        {
+            temp[i]=a[k];
+            i++;
+        }
     }
 
-    while(j <= h)
+
+    for(k=low;k<=high;k++)
     {
-        B[k] = A[j];
-        k++; j++;
-    }
-
-
-    for(int i = s; i <= h; i++)
-    {
-        A[i] = B[i];
-    }
-    
-    
-}
-
-void mergeSort(int A[], int s, int h)
-{
-    int mid;
-    if(s < h)
-    {
-        mid = (s+h)/2;
-        mergeSort(A, s, mid);
-        mergeSort(A, mid+1, h);
-        merge(A, s, mid, h);
-
+        a[k]=temp[k];
     }
 }
 
-void display(int a[], int n) 
+void partition(int low,int high)
 {
-    int i = 0;
-    while(i < n)
+    int mid=0;
+
+    if(low<high)                 // divides the array into half till it has single element
     {
-        printf("%d ", a[i]);
-        i++;
+      mid=(low+high)/2;
+      partition(low,mid);
+      partition(mid+1,high);
+      mergesort(low,mid,high);
     }
-    printf("\n");
 }
 
-int main()
-{
+int main(){
+    int i;
+    printf("\nEnter no of elements to be sorted : ");
+    scanf("%d", &n);
+    for ( i = 0; i < n; i++)
+    {
+        printf("Enter element %d : ", i+1);
+        scanf("%d", &a[i]);
+    }
 
-    int A[] = {9,3,4,2,1,7,2,8,3};
-    int size = 9;
+    partition(0, n-1);
 
-    display(A, size);
-    mergeSort(A, 0, size-1);
-    display(A, size);
-
-    return 0;
+    printf("\nThe sorted list is : \n");
+    for ( i = 0; i < n; i++)
+    {
+        printf("%d\t", a[i]);
+    }
 }
