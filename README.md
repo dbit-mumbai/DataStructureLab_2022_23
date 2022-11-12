@@ -39,7 +39,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/circularqueue1.c|
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST||
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
