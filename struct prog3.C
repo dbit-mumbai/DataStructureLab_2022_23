@@ -37,7 +37,7 @@ int main()
         
     }
 
-    printf("\n**********************\nStudent details are :\n**********************\n");
+    printf("\n***************\nStudent details are :\n****************\n");
     for ( i = 0; i < 5; i++)
     {
         printf("Roll no: %d\t Name: %s\t Percentage: %.2f\n", s[i].rn, s[i].name, s[i].p );
