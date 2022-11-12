@@ -117,7 +117,8 @@ the following operations
 
 7] Write a program to REVERSE a given string using a Stack
 
-8] Write a program to check if a given number is a PALLINDROME using a stack
+8] Write a program to check if a given number is a PALINDROME using a stack
+-> https://github.com/321prasad0058/DSA_Assignments1/blob/main/Palindrome1.c
 
 9] Write a program to implement PARENTHESES CHECKER using a stack 
 
