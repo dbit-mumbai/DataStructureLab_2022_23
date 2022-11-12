@@ -6,7 +6,7 @@
 
 
 DSL EXPERIMENT LIST A : -
-|-----------|-------------------------------------------|--------------------------------------------------------------------------|
+
 |PROGRAM_ID |	PROGRAM DETAILS	                          | HYPERLINK .c FILES                                                       |
 |-----------|-------------------------------------------|--------------------------------------------------------------------------|     
 | 1.	      | Write a C program to check                | https://github.com/divijms07/DS_LAB/blob/main/struct_prog1.c             |
@@ -37,7 +37,7 @@ DSL EXPERIMENT LIST A : -
 |           |    time by one second.                    |                                                                          |
 |8.         |	Write a function that compares two arrays | https://github.com/divijms07/DS_LAB/blob/main/struct_prog8.c             |
 |           | returns 1 if identical and 0 otherwise.	  |                                                                          | 
-|-----------|-------------------------------------------|--------------------------------------------------------------------------|
+
 
 
 DSL EXPERIMENTS PART B 
@@ -116,4 +116,4 @@ DSL EXPERIMENTS PART B
 | 21.       | Write program to implement Insertion Sort | https://github.com/divijms07/DS_LAB/blob/main/B_21.c   |
 | 22.       | Write program to implement Quick Sort     | https://github.com/divijms07/DS_LAB/blob/main/B_22.c   |
 | 23.       | Write program to implement Merge Sort     | https://github.com/divijms07/DS_LAB/blob/main/B_23.c   |
-|-----------|-------------------------------------------|--------------------------------------------------------|
+
