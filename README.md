@@ -9,8 +9,8 @@
 |4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/Chantelbb/DSA/blob/main/Descendingorder.c|
 |5.|Write a C program to find largest element in an array |https://github.com/Chantelbb/DSA/blob/main/Largestelement_array.c|
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/Chantelbb/DSA/blob/main/ARRAY.c|
-|7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the|
-||following operations:|https://github.com/Chantelbb/DSA/blob/main/ExpA7.|
+|7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the|https://github.com/Chantelbb/DSA/blob/main/ExpA7.c|
+||following operations:||
 ||1. Input new time
 ||2. Display the time
 ||3. Update the time such that the function accepts the time_struct and increments the
