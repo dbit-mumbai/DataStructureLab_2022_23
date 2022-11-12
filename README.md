@@ -1,3 +1,9 @@
+Name : Nigel Silveira
+Roll No. : 56
+Batch : C 
+SE IT
+
+
 # DSA_Assignment
 
 ## DSA experiment list A  : - 
