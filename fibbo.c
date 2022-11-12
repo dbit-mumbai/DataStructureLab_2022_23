@@ -8,7 +8,7 @@ a=0;
 b=1;
 
 if(n==0)
-    printf("Figonnaci number");
+    printf("Fibonnaci number");
 c = a + b;
 while(c<n)
 {
@@ -17,7 +17,7 @@ while(c<n)
     c = a + b;
 }
 if(c==n)
-    printf("figonacci number");
+    printf("fibonacci number");
 else
-    printf("not a figonacci number");
+    printf("not a fibonacci number");
 }
