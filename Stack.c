@@ -1,7 +1,7 @@
 /*  Author: Dhruuv Naik   Branch: IT  Roll no.: 39
     
     Write a menu driven program to perform the following operations in a Stack to 
-    1.Push    2.Pop   3.Stack empty?  4.Stack full    5.Clear stack   6.Show stack 
+    1.Push    2.Pop   3.Stack empty?  4.Stack full    5.Clear stack   6.Show stack  7.Peek
 */
 
 #include <stdio.h>
@@ -14,6 +14,7 @@ void empty();
 void full();
 void clear();
 void show();
+void peek();
 
 int main()
 {
@@ -22,7 +23,7 @@ int main()
     while(1) //to loop the program
     {   //printing a menu
         printf("\n*****Select a function to be performed*****");
-        printf("\n1.Push element \n2.Pop element \n3.Check if stack is empty \n4.Check if stack is full \n5.Clear stack \n6.Show stack \n7.Exit");
+        printf("\n1.Push element \n2.Pop element \n3.Check if stack is empty \n4.Check if stack is full \n5.Clear stack \n6.Show stack \n7.Peek   \n8.Exit");
         printf("\nEnter your choice : ");
         scanf("%d", &choice); //saves the users choice
  
@@ -46,7 +47,10 @@ int main()
             case 6: show();
                     break;
 
-            case 7: return 0; 
+            case 7: peek();
+                    break;
+
+            case 8: return 0;
         
             default:printf("\nInvalid choice!\n");
         }
@@ -131,5 +135,16 @@ void show()
         }
         
     }
-    
+}
+
+void peek()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {
+            printf("Peek element : %d\n",stack[top]);
+    }
 }
