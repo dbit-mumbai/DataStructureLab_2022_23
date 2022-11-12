@@ -94,7 +94,7 @@ SE IT
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the||
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/nigelsilveira0711/DSA_Assignment/blob/caa93f55589b13e0c0dacc6d06922f33bd5a625d/stack_operation.c |
 ||following operations||
 ||1. PUSH||
 ||2. POP||
