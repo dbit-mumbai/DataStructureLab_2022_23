@@ -1,107 +1,140 @@
+//Queue using linked list
 #include<stdio.h>
 #include<stdlib.h>
 
 struct node {
-    int info;
-    struct node *next;
+	int info; //to store value
+	struct node *next; //to store address
+}; 
+
+struct node *getnode()
+{
+	
+	return ((struct node*)malloc(sizeof(struct node))); //returns memory address allocated
 };
 
-struct node *list = NULL;
-
-struct node* getnode()
+void freenode(struct node *p)
 {
-    return (struct node*)malloc(sizeof(struct node));
+	free(p); //deletes node
 }
 
-void enqueue(int x)
-{
-    if(list == NULL)
-    {
-        struct node *nn;
-        nn = getnode();
-        nn->info = x;
-        nn->next = NULL;
-        list = nn;
-    }
-    else
-    {
-        struct node *nn, *temp;
-        nn = getnode();
-        temp = list;
-        nn->info = x;
-        nn->next = NULL;
-        while(temp->next!=NULL)
-        {
-            temp = temp->next;
-        }
-        temp -> next = nn;
-    }
-}
+struct node *list=NULL;
 
-void dequeue()
-{
-    if(list == NULL)
-    {
-        printf("Queue is Empty!\n");
-    }
-    else
-    { 
-        struct node *temp;
-        temp = list;
-        list = temp->next;
-        printf("%d is dequeued!\n", temp->info);
-        free(temp);
-    }
-}
-
-void show()
-{
-    if(list == NULL)
-    {
-        printf("List is Empty!\n");
-    }
-    else
-    {
-    struct node *temp;
-    temp = list;
-    while(temp!=NULL)
-    {
-        printf("%d ", temp->info);
-        temp = temp->next;
-    }
-    printf("\n");
-    }
-}
+void enqueue();
+void dequeue();
+void display();
+void search();
 
 int main()
 {
-    int ch, n;
-    while(1)
+	while(1)
+	{
+		int choice;
+		printf("\nStack ADT functions");
+		printf("\n1.Enqueue	\n2.Dequeue 	\n3.Display		\n4.Search		\n5.Exit");
+		printf("\nEnter your choice : ");
+		scanf("%d", &choice);
+		
+		switch(choice)
+		{
+			case 1: enqueue();
+				break;
+			
+			case 2: dequeue();
+				break;
+		
+			case 3: display();
+				break;
+		
+			case 4: search();
+				break;
+		
+			case 5: return 0;
+			
+			default: printf("Invalid input");	
+				 break;	
+		}
+	}
+		
+}
+
+void enqueue(){
+    int n;
+    printf("\nEnter element to be inserted : ");
+    scanf("%d", &n);
+    struct node *newnode, *temp;
+    newnode = getnode();
+    newnode->info = n;
+    temp=list;
+    newnode->next = NULL;
+    if (list == NULL)
     {
-        printf("1. Enqueue\n");
-        printf("2. Dequeue\n");
-        printf("3. Show\n");
-        printf("4. Exit\n");
-        printf("Enter your choice : ");
-        scanf("%d", &ch);
-        
-        switch(ch)
+        list = newnode;
+    } else {
+        while (temp->next!=NULL)
         {
-            case 1:
-            printf("Enter a value : ");
-            scanf("%d", &n);
-            enqueue(n);break;
-            case 2:
-            dequeue();
-            break;
-            case 3:
-            show();
-            break;
-            case 4:
-            exit(0);
-            break;
-            default:
-            printf("Invalid Choice! Try Again!\n");
+            temp = temp->next;
         }
+        temp->next = newnode;        
     }
+    
+}
+
+void dequeue(){
+    if (list == NULL)
+    {
+        printf("Queue is empty\n");
+    } else {
+        struct node *temp;
+        temp= list;
+        list = temp->next;
+        freenode(temp);
+
+    }    
+}
+
+void display()
+{
+	if(list==NULL) //checks if stack is empty
+	{
+		printf("\nQueue is empty");
+	}		
+	else
+	{
+		struct node *newnode;
+		newnode=getnode();
+		newnode=list;
+		while(newnode!=NULL)
+		{
+			printf("\n%d", newnode->info); //prints info 
+			newnode=newnode->next; //changes the newnode pointer to next node
+		}
+	}
+}
+
+void search(){
+    if (list == NULL)
+    {
+        printf("Queue is empty\n");
+    } else {
+        struct node *temp;
+        int count=0, n;
+        temp = list;
+        printf("\nEnter element to be searched : ");
+        scanf("%d", &n);
+        while(temp != NULL){
+            if(n == temp->info){
+                count++;
+                break;
+            }
+            temp = temp->next;
+        }
+        if (count>0)
+        {
+            printf("Element was found\n");
+        } else {
+            printf("Element is not in the Queue\n");
+        }
+         
+    }    
 }
