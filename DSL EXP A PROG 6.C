@@ -1,13 +1,12 @@
-*/
-DSL EXP 6
-Write a menu driven program to perform the following operations in an ARRAY
 
-1. INSERT
-2. DELETE
-3. TRAVERSE
-4. SEARCH
-/*
-// Linked list operations in C
+#DSL EXP 6
+##Write a menu driven program to perform the following operations in an ARRAY
+
+##1. INSERT
+##2. DELETE
+##3. TRAVERSE
+##4. SEARCH
+
 
 #include <stdio.h>
 #include <stdlib.h>
