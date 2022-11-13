@@ -107,7 +107,7 @@ data structure and anaylsis
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/reversestring.c|
+|7.|Write a program to REVERSE a given string using a Stack|https://github.com/violanoronha/dsasubmissions/blob/main/reversestring.c|
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/PalindromeusingStack.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/BrightonAnthony/DSA_assignment/blob/main/ParenthesesusingStack.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/infixtopostfix1.c|
