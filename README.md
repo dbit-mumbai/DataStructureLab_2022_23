@@ -140,7 +140,7 @@
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/AASPJK/DSA/blob/main/Part_B_Q16_BFS|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/AASPJK/DSA/blob/main/Part_B_Q17_DFS|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/AASPJK/DSA/blob/main/Part_B_Q17_DFS|
 |18.|Write a program to implement Binary Search|https://github.com/AASPJK/DSA/blob/main/Part_B_Q18_Binary|
 |19.|Write a program to implement Bubble sort|https://github.com/AASPJK/DSA/blob/main/Part_B_Q19_Bubble_sort|
 |20.|Write a program to implement Selection sort|https://github.com/AASPJK/DSA/blob/main/Part_B_Q20_Selection_sort|
