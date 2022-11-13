@@ -92,3 +92,31 @@ Program_Id  	       Program details                             	Your File nameH
                arrays and returns
                1 if they are identical 
                and 0 otherwise.               
+
+
+
+
+DSA program list B :-
+
+Program_Id          Program details                         Your File nameHyperlink to the .c file on github
+
+
+   1.            Write a menu driven 
+                 program to implement
+                 list ADT using SINGLE 
+                 LINKEDLIST and 
+                 perform the 
+                 following operations
+                 1. CREATE
+                 2. INSERT AT BEGINNING
+                 3. INSERT AT END
+                 4. INSERT AT LOCATION
+                 5. DELETE AT BEGINNING
+                 6. DELETE AT END
+                 7. DELETE AT LOCATION
+                 8. DISPLAY
+                 9. COUNT
+                 10. COPY
+                 11. CONCATENATE
+                 12.  SPLIT
+                 13.  REVERSE
