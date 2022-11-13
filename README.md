@@ -101,7 +101,7 @@ data structure and anaylsis
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/stackusinglinkedlist.c|
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/BrightonAnthony/DSA_assignment/blob/main/stackusinglinkeldis.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
