@@ -108,7 +108,7 @@ Batch : B
 ||4. PEEK||
 |7.|Write a program to REVERSE a given string using a Stack|https://github.com/rohan0110/DSA/blob/main/ReverseLinkList.c|
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/rohan0110/DSA/blob/main/checking_palindrome_using_stack.c|
-|9.|Write a program to implement PARENTHESES CHECKER using a stack ||
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/rohan0110/DSA/blob/main/ParanthesisChecker.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/rohan0110/DSA/blob/main/infix_to_postfix.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/rohan0110/DSA/blob/main/postfix.c|
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/rohan0110/DSA/blob/main/QueueUsingArray.c|
