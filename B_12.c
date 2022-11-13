@@ -1,4 +1,4 @@
-/ Write a menu driven to demonstrate implementation of queue using array*/
+/ Queue ADT using array*/
 
 
 #include<stdio.h>
