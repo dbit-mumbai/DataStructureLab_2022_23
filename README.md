@@ -105,7 +105,7 @@
 ||4. PEEK||
 |7.|Write a program to REVERSE a given string using a Stack||
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_8.c|
-|9.|Write a program to implement PARENTHESES CHECKER using a stack ||
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/ARYAAN2903/DSA/blob/12d01f1e0ec510e0c025bda98b69a3df2aff3f28/B_9.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_10.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack||
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_12.c|
