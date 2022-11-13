@@ -144,4 +144,5 @@
 |23.|Write a program to implement Merge sort|https://github.com/omesh-barhate/DSA_LAB/blob/main/All%20programs/mergeSort.c|
 
 
-
+## Authors
+### Omesh Barhate
