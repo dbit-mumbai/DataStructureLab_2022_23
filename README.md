@@ -1,8 +1,8 @@
-Name : Rohan Gunge
+Name : Alex Antony
 
-Roll no : 23
+Roll no : 03
 
-Batch : B
+Batch : A
 
 
 ## DSA experiment list A  : - 
