@@ -88,7 +88,7 @@ Program_Id  	       Program details                             	Your File nameH
                becomes 24, it is set to zero.)
                
 8.             Write a function 
-               that compares two
+               that compares two                          https://github.com/violanoronha/dsasubmissions/blob/84255877a5663ce603338d083639e66f94d85fc4/dsa2.c
                arrays and returns
                1 if they are identical 
                and 0 otherwise.               
