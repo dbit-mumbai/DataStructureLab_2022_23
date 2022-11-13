@@ -1,7 +1,7 @@
-*/
-DSL Experiment List (Part A)
-Write a C program to generate Pascal Triangle using array.
-/*
+
+#DSL Experiment List (Part A)
+##Write a C program to generate Pascal Triangle using array.
+
 
 #include <stdio.h>
 
