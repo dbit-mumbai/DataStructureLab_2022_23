@@ -75,7 +75,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
+|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|https://github.com/ARYAAN2903/DSA/blob/281936fd96872bc62de2722b4f39551f6026de75/B_4.c|
 ||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -103,7 +103,7 @@
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack||
+|7.|Write a program to REVERSE a given string using a Stack|https://github.com/ARYAAN2903/DSA/blob/b6c7bf22c59202fda622bdeeaf7d2a903093802f/B_7.c|
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_8.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/ARYAAN2903/DSA/blob/12d01f1e0ec510e0c025bda98b69a3df2aff3f28/B_9.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_10.c|
