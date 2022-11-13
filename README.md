@@ -39,7 +39,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST||
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/Chantelbb/DSA/blob/main/CIRCULARLINKEDLIST.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -55,7 +55,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/Chantelbb/DSA/blob/main/DOUBLELINKEDLIST.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
