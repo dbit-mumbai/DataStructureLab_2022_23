@@ -11,7 +11,7 @@ data structure and anaylsis
 |:---------|:---------------|:------------------------------------------------|
 |1.|Write a C program to check if a given number is Fibonacci number.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/Fibonacci%20Series%20(1).c|
 |2.|Write a C program to generate Pascal Triangle using array.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/PascalTriangle%20(1).c|
-|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/program3.c|
+|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/AscendingOrder%20(1).c|
 |4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/program4.c|
 |5.|Write a C program to find largest element in an array |https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/sem3cp5%20(1).c|
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dsa%20program1.c|
