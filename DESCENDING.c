@@ -1,4 +1,4 @@
-// Name: Shravani Shinde, Roll no: 54, Branch: SE-IT //
+// Name: Arnab Das, Roll no: 13, Branch: SE-IT //
 #include<stdio.h>
 
 struct Student 
