@@ -1,7 +1,7 @@
-*/
-DSL Experiment List (Part A)
-program-Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of percentange.
-/*
+
+#DSL Experiment List (Part A)
+##program-Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of percentange.
+
 #include <stdio.h>
 struct student
 {
