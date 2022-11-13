@@ -56,7 +56,7 @@ Program_Id  	       Program details                             	Your File nameH
             3. TRAVERSE 4. SEARCH
             
 7.          Define a structure data
-            type called time_struct
+            type called time_struct                https://github.com/violanoronha/dsasubmissions/blob/d531efa8264315c841302098fbbcc3ad1bf49dae/dsa3.c
             containing 
             3 members int hour,
             int minute and 
