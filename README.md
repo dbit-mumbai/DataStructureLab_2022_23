@@ -110,7 +110,7 @@ SE IT
 ||4. PEEK||
 |7.|Write a program to REVERSE a given string using a Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/38c68f1e4e59f5c4d990283bba0bf7625b155378/reverse_stack.c |
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c |
-|9.|Write a program to implement PARENTHESES CHECKER using a stack ||
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/nigelsilveira0711/DSA_Assignment/blob/70123f302bc7d3701f8ec6b59e1a23726fc01f27/parenthesis.c |
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8081ed8b35c1289869e594fd73dcc27df2f2555/InToPost.c |
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/129996d495ade51fb678072fc3a76ea98353d7a3/postFixevaluation.c |
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/nigelsilveira0711/DSA_Assignment/blob/4681a368f144563b2ddeeb1cc8219571c967cdf6/Queue_implementation.c |
