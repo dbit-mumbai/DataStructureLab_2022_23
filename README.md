@@ -143,6 +143,6 @@ data structure and anaylsis
 |18.|Write a program to implement Binary Search|https://github.com/BrightonAnthony/DSA_assignment/blob/main/binarysearch.c|
 |19.|Write a program to implement Bubble sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bubble.c|
 |20.|Write a program to implement Selection sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/seletionsort.c|
-|21.|Write a program to implement Insertion sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/insertsort.c|
+|21.|Write a program to implement Insertion sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/insertsort.c|
 |22.|Write a program to implement Quick sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/quicksort.c|
 |23.|Write a program to implement Merge sort|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/mergesort.c|
