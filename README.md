@@ -59,7 +59,7 @@
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/ARYAAN2903/DSA/blob/d889e7bea2f4dee170effc7c95ce1b634fd55cec/B_3.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -107,7 +107,7 @@
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_8.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/ARYAAN2903/DSA/blob/12d01f1e0ec510e0c025bda98b69a3df2aff3f28/B_9.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_10.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack||
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/ARYAAN2903/DSA/blob/cf428f470ad33496be76da72b194c77c28b1eba3/B_11.c|
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_12.c|
 ||following operation||
 ||1. ENQUEUE||
