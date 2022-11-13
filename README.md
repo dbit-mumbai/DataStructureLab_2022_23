@@ -138,7 +138,7 @@ data structure and anaylsis
 ||5. Postorder Traversal||
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bfs.c|
+|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/floria-pinto/DSA/blob/main/bfs.c|
 |17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/BrightonAnthony/DSA_assignment/blob/main/dfs.c|
 |18.|Write a program to implement Binary Search|https://github.com/BrightonAnthony/DSA_assignment/blob/main/binarysearch.c|
 |19.|Write a program to implement Bubble sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bubble.c|
