@@ -117,7 +117,7 @@ data structure and anaylsis
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/BrightonAnthony/DSA_assignment/blob/main/queue_linkedlist.c|
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/violanoronha/dsasubmissions/blob/main/queue_linkedlist.c|
 ||the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
