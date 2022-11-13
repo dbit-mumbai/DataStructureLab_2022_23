@@ -1,152 +1,47 @@
-<br>DSA Repository Sem 3</br>
+# Data Structure Lab
+### 1) Name     :  Yashas Khot
+### 2) Roll No  :  31
+### 3) Batch    :  B
 
-<br>Name:-Yashas Khot</br>
-<br>Roll no:-31</br>
-<br>Batch:- B</br>
+#    Experiment List (Part A)
 
-
-## DSA experiment list A  : - 
-
-|Program_Id| Program details|Your File nameHyperlink to the .c file on github|
-|:---------|:---------------|:------------------------------------------------|
-|1.|Write a C program to check if a given number is Fibonacci number. |https://github.com/yashaskhot/DSA-LAB/blob/main/fibonacci.c|
-|2.|Write a C program to generate Pascal Triangle using array. |https://github.com/yashaskhot/DSA-LAB/blob/main/pasc%20y.c|
-|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list. |https://github.com/yashaskhot/DSA-LAB/blob/main/roll.c|
-|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/yashaskhot/DSA-LAB/blob/main/des%20y.c|
-|5.|Write a C program to find largest element in an array |https://github.com/yashaskhot/DSA-LAB/blob/main/larg%20arr%20y.c|
-|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/yashaskhot/DSA-LAB/blob/main/arr2.c|
-|7.|Define a structure data type called time_struct containing 3 members int hour, int |https://github.com/yashaskhot/DSA-LAB/blob/main/time3.c|
-||minute and int second. Write functions that accept the structure to perform the|
-||following operations:||
-||1. Input new time||
-||2. Display the time||
-||3. Update the time such that the function accepts the time_struct and increments the||
-||time by one second.(If the increment results in 60 seconds, the then second member is||
-||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute||
-||member is set to 0 and the hour member is incremented by 1. Finally when the hour||
-||becomes 24, it is set to zero.)||
-|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise. |https://github.com/yashaskhot/DSA-LAB/blob/main/comp1.c|
+| Program_Id | Program details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | File name                                                                      | 
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Q1         | Write a C program to check if a given number is Fibonacci number.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/fibonacci.c)             |
+| Q2         | Write a C program to generate Pascal Triangle using array.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/pasc%20y.c)       |
+| Q3         | Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/roll.c)      |
+| Q4         | Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of percentange.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/des%20y.c)     |
+| Q5         | Write a C program to find largest element in an array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/larg%20arr%20y.c)    |
+| Q6         | Write a menu driven program to perform the following operations in an ARRAY <br> 1.INSERT <br>2.DELETE <br>3.TRAVERSE <br>4.SEARCH                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/arr2.c)   | 
+| Q7         | Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the following operations: <br> 1. Input new time <br> 2. Display the time <br> 3. Update the time such that the function accepts the time_struct and increments the time by one second.If the increment results in 60 seconds, the then second member is  set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute member is set to 0 and the hour member is incremented by 1. Finally when the hour becomes 24, it is set to zero. | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/time3.c)  |
+| Q8         | Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/comp1.c) |
 
 
-## DSA program list B :-
-|Program_Id| Program details|Your File nameHyperlink to the .c file on github|
-|----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and |https://github.com/yashaskhot/DSA-LAB/blob/main/linklist.c|
-||perform the following operations||
-||1. CREATE||
-||2. INSERT AT BEGINNING||
-||3. INSERT AT END||
-||4. INSERT AT LOCATION||
-||5. DELETE AT BEGINNING||
-||6. DELETE AT END||
-||7. DELETE AT LOCATION||
-||8. DISPLAY||
-||10. COUNT||
-||11. COPY||
-||12. CONCATENTE||
-||13. SPLIT||
-||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/yashaskhot/DSA-LAB/blob/main/circlinklist.c|
-||and perform the following operations||
-||1. CREATE||
-||2. INSERT AT BEGINNING||
-||3. INSERT AT END||
-||4. INSERT AT LOCATION||
-||5. DELETE AT BEGINNING||
-||6. DELETE AT END||
-||7. DELETE AT LOCATION||
-||8. DISPLAY||
-||9. SEARCH||
-||10. COUNT||
-||11. COPY||
-||12. CONCATENTE||
-||13. SPLIT||
-||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST |https://github.com/yashaskhot/DSA-LAB/blob/main/doublinklist.c|
-||and perform the following operations||
-||1. CREATE||
-||2. INSERT AT BEGINNING||
-||3. INSERT AT END||
-||4. INSERT AT LOCATION||
-||5. DELETE AT BEGINNING||
-||6. DELETE AT END||
-||7. DELETE AT LOCATION||
-||8. DISPLAY||
-||9. SEARCH||
-||10. COUNT||
-||11. COPY||
-||12. CONCATENTE||
-||13. SPLIT||
-||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE |https://github.com/yashaskhot/DSA-LAB/blob/main/circdoublinklist.c|
-||LINKEDLIST and perform the following operations||
-||1. CREATE||
-||2. INSERT AT BEGINNING||
-||3. INSERT AT END||
-||4. INSERT AT LOCATION||
-||5. DELETE AT BEGINNING||
-||6. DELETE AT END||
-||7. DELETE AT LOCATION||
-||8. DISPLAY||
-||9. SEARCH||
-||10. COUNT||
-||11. COPY||
-||12. CONCATENTE||
-||13. SPLIT||
-||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/yashaskhot/DSA-LAB/blob/main/stacky.c|
-||following operations||
-||1. PUSH||
-||2. POP||
-||3. DISPLAY||
-||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/yashaskhot/DSA-LAB/blob/main/stacklinklist.c|
-||the following operations||
-||1. PUSH||
-||2. POP||
-||3. DISPLAY||
-||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack|https://github.com/yashaskhot/DSA-LAB/blob/main/reversestack.c|
-|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/yashaskhot/DSA-LAB/blob/main/CheckPalStack.c|
-|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/yashaskhot/DSA-LAB/blob/main/stackparentheses.c|
-|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/yashaskhot/DSA-LAB/blob/main/infix%20to%20postfix.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/yashaskhot/DSA-LAB/blob/main/postfix.c|
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/yashaskhot/DSA-LAB/blob/main/queue.c|
-||following operation||
-||1. ENQUEUE||
-||2. DEQUEUE||
-||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/yashaskhot/DSA-LAB/blob/main/queuelinklist.c|
-||the following operation||
-||1. ENQUEUE||
-||2. DEQUEUE||
-||3. DISPLAY||
-||4. SEARCH||
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/yashaskhot/DSA-LAB/blob/main/circqueque.c|
-||perform the following operation||
-||1. ENQUEUE||
-||2. DEQUEUE||
-||3. DISPLAY||
-||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/yashaskhot/DSA-LAB/blob/main/BinSearchTree.c|
-||(BST).||
-||1. Insertion of node||
-||2. Deletion of node||
-||3. Counting of nodes||
-||4. Preorder Traversal||
-||5. Postorder Traversal||
-||6. Inorder Traversal||
-||7. Search node in the tree||
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/yashaskhot/DSA-LAB/blob/main/bfs.c|
-|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/yashaskhot/DSA-LAB/blob/main/dfs.c|
-|18.|Write a program to implement Binary Search|https://github.com/yashaskhot/DSA-LAB/blob/main/bsearch.c|
-|19.|Write a program to implement Bubble sort|https://github.com/yashaskhot/DSA-LAB/blob/main/bubsort.c|
-|20.|Write a program to implement Selection sort|https://github.com/yashaskhot/DSA-LAB/blob/main/selectsort.c|
-|21.|Write a program to implement Insertion sort|https://github.com/yashaskhot/DSA-LAB/blob/main/insertsort.c|
-|22.|Write a program to implement Quick sort|https://github.com/yashaskhot/DSA-LAB/blob/main/quicksort.c|
-|23.|Write a program to implement Merge sort|https://github.com/yashaskhot/DSA-LAB/blob/main/mergesort.c|
+<br/><br/>
+#    Experiment List (Part B)
 
-
-
-
-
+| Program_Id | Program details                                                                                                                                                                                                                                                                                                                                                                                                                 | File name                                                                                 | 
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Q1         | Write a menu driven program to implement list ADT using SINGLE LINKED LIST and perform the following operations <br> 1. CREATE <br> 2. INSERT AT BEGINNING <br> 3. INSERT AT END <br>   4. INSERT AT LOCATION <br>   5. DELETE AT BEGINNING <br>   6. DELETE AT END <br>    7. DELETE AT LOCATION <br>    8. DISPLAY <br>9. SEARCH     <br>10. COUNT <br>11. COPY  <br>12. CONCATENATE   <br>13. SPLIT <br>14. REVERSE          | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/linklist.c)                      |     
+| Q2         | Write a menu driven program to implement list ADT using CIRCULAR LINKED LIST and perform the following operations   <br> 1. CREATE <br> 2. INSERT AT BEGINNING <br> 3. INSERT AT END <br>   4. INSERT AT LOCATION <br>   5. DELETE AT BEGINNING <br>   6. DELETE AT END <br>    7. DELETE AT LOCATION <br>    8. DISPLAY <br>9. SEARCH     <br>10. COUNT <br>11. COPY  <br>12. CONCATENATE   <br>13. SPLIT <br>14. REVERSE      | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/circlinklist.c)              | 
+| Q3         | Write a menu driven program to implement list ADT using DOUBLE LINKED LIST and perform the following operations <br> 1. CREATE <br> 2. INSERT AT BEGINNING <br> 3. INSERT AT END <br>   4. INSERT AT LOCATION <br>   5. DELETE AT BEGINNING <br>   6. DELETE AT END <br>    7. DELETE AT LOCATION <br>    8. DISPLAY <br>9. SEARCH     <br>10. COUNT <br>11. COPY  <br>12. CONCATENATE   <br>13. SPLIT <br>14. REVERSE          | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/doublinklist.c)          |
+| Q4         | Write a menu driven program to implement list ADT using CIRCULAR DOUBLE LINKED LIST and perform the following operations <br> 1. CREATE <br> 2. INSERT AT BEGINNING <br> 3. INSERT AT END <br>   4. INSERT AT LOCATION <br>   5. DELETE AT BEGINNING <br>   6. DELETE AT END <br>    7. DELETE AT LOCATION <br>    8. DISPLAY <br>9. SEARCH     <br>10. COUNT <br>11. COPY  <br>12. CONCATENATE   <br>13. SPLIT <br>14. REVERSE | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/circdoublinklist.c) | 
+| Q5         | Write a menu driven program to implement STACK ADT using array and perform the following operations<br>1. PUSH<br> 2. POP<br> 3. DISPLAY<br> 4. PEEK                                                                                                                                                                                                                                                                            | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/stacky.c)                            |
+| Q6         | Write a menu driven program to implement STACK ADT using linked list and perform the following operations<br>1. PUSH<br> 2. POP<br> 3. DISPLAY<br> 4. PEEK                                                                                                                                                                                                                                                                      | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/stacklinklist.c)                 |
+| Q7         | Write a program to REVERSE a given string using a Stack                                                                                                                                                                                                                                                                                                                                                                         | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/reversestack.c)                            |
+| Q8         | Write a program to check if a given number is a PALINDROME using a stack                                                                                                                                                                                                                                                                                                                                                        | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/CheckPalStack.c)                            |
+| Q9         | Write a program to implement PARENTHESES CHECKER using a stack                                                                                                                                                                                                                                                                                                                                                                  | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/stackparentheses.c)              |
+| Q10        | Write a program for conversion of INFIX to POSTFIX expression.                                                                                                                                                                                                                                                                                                                                                                  | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/infix%20to%20postfix.c)                     |
+| Q11        | Write a program to evaluate postfix expressions by making use of Stack.                                                                                                                                                                                                                                                                                                                                                         | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/postfix.c)                 |
+| Q12        | Write a menu driven program to implement QUEUE ADT using array and perform the following operation<br>1. ENQUEUE<br>2. DEQUEUE<br>3. DISPLAY                                                                                                                                                                                                                                                                                    | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/queue.c)                            |
+| Q13        | Write a menu driven program to implement QUEUE ADT using linked list and perform the following operation<br>1. ENQUEUE<br>2. DEQUEUE<br>3. DISPLAY<br>4.SEARCH                                                                                                                                                                                                                                                                  | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/queuelinklist.c)                 |
+| Q14        | Write a menu driven program to implement CIRCULAR QUEUE ADT using array and perform the following operation<br>1. ENQUEUE<br>2. DEQUEUE<br>3. DISPLAY<br>4.COUNT                                                                                                                                                                                                                                                                | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/circqueque.c)                   |
+| Q15        | Write a menu driven program to implement following operations in a binary search tree (BST).<br>1. Insertion of node<br>2. Deletion of node<br>3. Counting of nodes<br>4. Preorder Traversal<br>5. Postorder Traversal<br>6. Inorder Traversal<br>7. Search node in the tree                                                                                                                                                    | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/BinSearchTree.c)                              |
+| Q16        | Write a program to implement traversal of a directed graph through BFS                                                                                                                                                                                                                                                                                                                                                          | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/bfs.c)                              |
+| Q17        | Write a program to implement traversal of a directed graph through DFS                                                                                                                                                                                                                                                                                                                                                          | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/dfs.c)                              |
+| Q18        | Write a program to implement Binary Search                                                                                                                                                                                                                                                                                                                                                                                      | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/bsearch.c)                     |
+| Q19        | Write a program to implement Bubble sort                                                                                                                                                                                                                                                                                                                                                                                        | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/bubsort.c)                       |
+| Q20        | Write a program to implement Selection sort                                                                                                                                                                                                                                                                                                                                                                                     | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/selectsort.c)                    |
+| Q21        | Write a program to implement Insertion sort                                                                                                                                                                                                                                                                                                                                                                                     | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/insertsort.c)                    |
+| Q22        | Write a program to implement Quick sort                                                                                                                                                                                                                                                                                                                                                                                         | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/quicksort.c)                        |
+| Q23        | Write a program to implement Merge sort                                                                                                                                                                                                                                                                                                                                                                                         | [Code](https://github.com/yashaskhot/DSA-LAB/blob/main/mergesort.c)                        |
