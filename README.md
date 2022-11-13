@@ -140,9 +140,9 @@
 |17.||Write a program to implement traversal of a directed graph through DFS||https://github.com/MR41055/DSA-REPORT/blob/main/dsa%20experiment%20b%20prog%2017.c|
 |18.|Write a program to implement Binary Search||https://github.com/MR41055/DSA-REPORT/blob/main/BINARY%20SEARCH.C|
 |19.|Write a program to implement Bubble sort||https://github.com/MR41055/DSA-REPORT/blob/main/BUBBLE%20SORT.C|
-|20.|Write a program to implement Selection sort||https://github.com/MR41055/DSA-REPORT/blob/main/SELECTIONORT.C|
-|21.|Write a program to implement Insertion sort||https://github.com/MR41055/DSA-REPORT/blob/main/INSERTION%20SORT.C|
-|22.|Write a program to implement Quick sort||https://github.com/MR41055/DSA-REPORT/blob/main/QUICK%20SORT.C|
-|23.|Write a program to implement Merge sort||https://github.com/MR41055/DSA-REPORT/blob/main/MERGE%20SORT.C|
+|20.|Write a program to implement Selection sort|https://github.com/MR41055/DSA-REPORT/blob/main/SELECTIONORT.C|
+|21.|Write a program to implement Insertion sort|https://github.com/MR41055/DSA-REPORT/blob/main/INSERTION%20SORT.C|
+|22.|Write a program to implement Quick sort|https://github.com/MR41055/DSA-REPORT/blob/main/QUICK%20SORT.C|
+|23.|Write a program to implement Merge sort|https://github.com/MR41055/DSA-REPORT/blob/main/MERGE%20SORT.C|
 
 
