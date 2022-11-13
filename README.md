@@ -141,4 +141,4 @@
 |20.|Write a program to implement Selection sort|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_20.c|
 |21.|Write a program to implement Insertion sort|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_21.c|
 |22.|Write a program to implement Quick sort|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_22.c|
-|23.|Write a program to implement Merge sort||
+|23.|Write a program to implement Merge sort|https://github.com/ARYAAN2903/DSA/blob/afd088040a01d37f3d4ef0b6012a2a6c2233167a/B_23.c|
