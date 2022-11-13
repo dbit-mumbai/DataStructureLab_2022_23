@@ -105,8 +105,8 @@
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack|https://github.com/MR41055/DSA-REPORT/blob/main/DSL%20EXP%20B%20PROG%207.c|
-|8.|Write a program to check if a given number is a PALLINDROME using a stack||https://github.com/MR41055/DSA-REPORT/blob/main/DSL%20EXP%20B%20PROG%208.c
+|7.|Write a program to REVERSE a given string using a Stack||https://github.com/MR41055/DSA-REPORT/blob/main/DSL%20EXP%20B%20PROG%207.c|
+|8.|Write a program to check if a given number is a PALLINDROME using a stack||https://github.com/MR41055/DSA-REPORT/blob/main/DSL%20EXP%20B%20PROG%208.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/MR41055/DSA-REPORT/blob/main/EXPERIMENT%20B%20PROG%209.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/MR41055/DSA-REPORT/blob/main/DSL%20EXP%20B%20PROG%2010.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/MR41055/DSA-REPORT/blob/main/EXPERIMENT%20B%20PROGRAMME%2011.c|
@@ -136,13 +136,13 @@
 ||5. Postorder Traversal||
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/MR41055/DSA-REPORT/blob/main/EXPERIMENT%20B%20PROG%2016.C|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/MR41055/DSA-REPORT/blob/main/dsa%20experiment%20b%20prog%2017.c|
-|18.|Write a program to implement Binary Search|https://github.com/MR41055/DSA-REPORT/blob/main/BINARY%20SEARCH.C|
-|19.|Write a program to implement Bubble sort|https://github.com/MR41055/DSA-REPORT/blob/main/BUBBLE%20SORT.C|
-|20.|Write a program to implement Selection sort|https://github.com/MR41055/DSA-REPORT/blob/main/SELECTIONORT.C|
-|21.|Write a program to implement Insertion sort|https://github.com/MR41055/DSA-REPORT/blob/main/INSERTION%20SORT.C|
-|22.|Write a program to implement Quick sort|https://github.com/MR41055/DSA-REPORT/blob/main/QUICK%20SORT.C|
-|23.|Write a program to implement Merge sort|https://github.com/MR41055/DSA-REPORT/blob/main/MERGE%20SORT.C|
+|16.|Write a program to implement traversal of a directed graph through BFS||https://github.com/MR41055/DSA-REPORT/blob/main/EXPERIMENT%20B%20PROG%2016.C|
+|17.||Write a program to implement traversal of a directed graph through DFS||https://github.com/MR41055/DSA-REPORT/blob/main/dsa%20experiment%20b%20prog%2017.c|
+|18.|Write a program to implement Binary Search||https://github.com/MR41055/DSA-REPORT/blob/main/BINARY%20SEARCH.C|
+|19.|Write a program to implement Bubble sort||https://github.com/MR41055/DSA-REPORT/blob/main/BUBBLE%20SORT.C|
+|20.|Write a program to implement Selection sort||https://github.com/MR41055/DSA-REPORT/blob/main/SELECTIONORT.C|
+|21.|Write a program to implement Insertion sort||https://github.com/MR41055/DSA-REPORT/blob/main/INSERTION%20SORT.C|
+|22.|Write a program to implement Quick sort||https://github.com/MR41055/DSA-REPORT/blob/main/QUICK%20SORT.C|
+|23.|Write a program to implement Merge sort||https://github.com/MR41055/DSA-REPORT/blob/main/MERGE%20SORT.C|
 
 
