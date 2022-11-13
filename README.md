@@ -1,8 +1,8 @@
-# Dsa_assignments Sem 3
+Dsa_assignments Sem 3
 
-Name: Preetesh Chauhan
-Roll no.: 10
-Batch: A
+<br>Name: Preetesh Chauhan</br>
+<br>Roll no.: 10</br>
+<br>Batch: A</br>
 
 
 
@@ -140,7 +140,7 @@ Batch: A
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/bfs.txt|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/dfs.txt|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/dfs.txt|
 |18.|Write a program to implement Binary Search|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/bsearch.txt|
 |19.|Write a program to implement Bubble sort|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/bubsort.txt|
 |20.|Write a program to implement Selection sort|https://github.com/preeteshchauhan/Dsa_assignments/blob/main/selectsort.txt|
