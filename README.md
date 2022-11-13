@@ -112,7 +112,7 @@ data structure and anaylsis
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/violanoronha/dsasubmissions/blob/main/ParenthesesusingStack.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/violanoronha/dsasubmissions/blob/main/infixtopostfix.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/violanoronha/dsasubmissions/blob/main/postfix.c|
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/BrightonAnthony/DSA_assignment/blob/main/queue.c|
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/violanoronha/dsasubmissions/blob/main/queue.c|
 ||following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
