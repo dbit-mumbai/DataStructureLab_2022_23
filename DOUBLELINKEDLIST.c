@@ -1,243 +1,193 @@
-#include<stdio.h>  
-#include<stdlib.h>  
-struct node   
-{  
-    int data;  
-    struct node *next;   
-};  
-struct node *head;  
-  
-void beginsert ();   
-void lastinsert ();  
-void randominsert();  
-void begin_delete();  
-void last_delete();  
-void random_delete();  
-void display();  
-void search();  
-void main ()  
-{  
-    int choice =0;  
-    while(choice != 7)   
-    {  
-        printf("\n*********Main Menu*********\n");  
-        printf("\nChoose one option from the following list ...\n");  
-        printf("\n===============================================\n");  
-        printf("\n1.Insert in begining\n2.Insert at last\n3.Delete from Beginning\n4.Delete from last\n5.Search for an element\n6.Show\n7.Exit\n");  
-        printf("\nEnter your choice?\n");         
-        scanf("\n%d",&choice);  
-        switch(choice)  
-        {  
-            case 1:  
-            beginsert();      
-            break;  
-            case 2:  
-            lastinsert();         
-            break;  
-            case 3:  
-            begin_delete();       
-            break;  
-            case 4:  
-            last_delete();        
-            break;  
-            case 5:  
-            search();         
-            break;  
-            case 6:  
-            display();        
-            break;  
-            case 7:  
-            exit(0);  
-            break;  
-            default:  
-            printf("Please enter valid choice..");  
-        }  
-    }  
-}  
-void beginsert()  
-{  
-    struct node *ptr,*temp;   
-    int item;   
-    ptr = (struct node *)malloc(sizeof(struct node));  
-    if(ptr == NULL)  
-    {  
-        printf("\nOVERFLOW");  
-    }  
-    else   
-    {  
-        printf("\nEnter the node data?");  
-        scanf("%d",&item);  
-        ptr -> data = item;  
-        if(head == NULL)  
-        {  
-            head = ptr;  
-            ptr -> next = head;  
-        }  
-        else   
-        {     
-            temp = head;  
-            while(temp->next != head)  
-                temp = temp->next;  
-            ptr->next = head;   
-            temp -> next = ptr;   
-            head = ptr;  
-        }   
-        printf("\nnode inserted\n");  
-    }  
-              
-}  
-void lastinsert()  
-{  
-    struct node *ptr,*temp;   
-    int item;  
-    ptr = (struct node *)malloc(sizeof(struct node));  
-    if(ptr == NULL)  
-    {  
-        printf("\nOVERFLOW\n");  
-    }  
-    else  
-    {  
-        printf("\nEnter Data?");  
-        scanf("%d",&item);  
-        ptr->data = item;  
-        if(head == NULL)  
-        {  
-            head = ptr;  
-            ptr -> next = head;    
-        }  
-        else  
-        {  
-            temp = head;  
-            while(temp -> next != head)  
-            {  
-                temp = temp -> next;  
-            }  
-            temp -> next = ptr;   
-            ptr -> next = head;  
-        }  
-          
-        printf("\nnode inserted\n");  
-    }  
-  
-}  
-  
-void begin_delete()  
-{  
-    struct node *ptr;   
-    if(head == NULL)  
-    {  
-        printf("\nUNDERFLOW");    
-    }  
-    else if(head->next == head)  
-    {  
-        head = NULL;  
-        free(head);  
-        printf("\nnode deleted\n");  
-    }  
-      
-    else  
-    {   ptr = head;   
-        while(ptr -> next != head)  
-            ptr = ptr -> next;   
-        ptr->next = head->next;  
-        free(head);  
-        head = ptr->next;  
-        printf("\nnode deleted\n");  
-  
-    }  
-}  
-void last_delete()  
-{  
-    struct node *ptr, *preptr;  
-    if(head==NULL)  
-    {  
-        printf("\nUNDERFLOW");  
-    }  
-    else if (head ->next == head)  
-    {  
-        head = NULL;  
-        free(head);  
-        printf("\nnode deleted\n");  
-  
-    }  
-    else   
-    {  
-        ptr = head;  
-        while(ptr ->next != head)  
-        {  
-            preptr=ptr;  
-            ptr = ptr->next;  
-        }  
-        preptr->next = ptr -> next;  
-        free(ptr);  
-        printf("\nnode deleted\n");  
-  
-    }  
-}  
-  
-void search()  
-{  
-    struct node *ptr;  
-    int item,i=0,flag=1;  
-    ptr = head;   
-    if(ptr == NULL)  
-    {  
-        printf("\nEmpty List\n");  
-    }  
-    else  
-    {   
-        printf("\nEnter item which you want to search?\n");   
-        scanf("%d",&item);  
-        if(head ->data == item)  
-        {  
-        printf("item found at location %d",i+1);  
-        flag=0;  
-        }  
-        else   
-        {  
-        while (ptr->next != head)  
-        {  
-            if(ptr->data == item)  
-            {  
-                printf("item found at location %d ",i+1);  
-                flag=0;  
-                break;  
-            }   
-            else  
-            {  
-                flag=1;  
-            }  
-            i++;  
-            ptr = ptr -> next;  
-        }  
-        }  
-        if(flag != 0)  
-        {  
-            printf("Item not found\n");  
-        }  
-    }     
-          
-}  
-  
-void display()  
-{  
-    struct node *ptr;  
-    ptr=head;  
-    if(head == NULL)  
-    {  
-        printf("\nnothing to print");  
-    }     
-    else  
-    {  
-        printf("\n printing values ... \n");  
-          
-        while(ptr -> next != head)  
-        {  
-          
-            printf("%d\n", ptr -> data);  
-            ptr = ptr -> next;  
-        }  
-        printf("%d\n", ptr -> data);  
-    }  
-              
+/*Doubly Ended Queue - Can Insert/Delete at/from both front and rear end*/
+
+#include <stdio.h>
+# include <stdlib.h>
+//# include <conio.h>
+
+struct node
+{
+int info;
+struct node* next;
+};
+
+struct node *front,*rear;
+
+void init()
+{
+front=rear=NULL;
+}
+
+
+struct node* getnode (void)
+{
+return  (( struct node* ) malloc (sizeof(struct node)));
+}
+
+void freenode(struct node *p)
+{
+free(p);
+}
+
+int empty()
+{
+ if(front==NULL && rear==NULL)
+    return 1;
+ else
+    return 0;
+}
+
+void display();
+
+void enqueue_front(int x)
+{
+struct node *newnode;
+newnode=getnode();
+newnode->info=x;
+newnode->next= front;
+
+front=newnode;
+
+if(rear==NULL)                    // THIS IS ADDITIONAL STATEMENT
+	rear=newnode;
+
+display();
+}
+
+void dequeue_front()
+{
+struct node * temp;
+temp=front;
+
+ if(front==NULL && rear==NULL)
+	 printf("Double Ended Queue is already Empty");
+ else
+	{
+	    printf("Element  %d successfully deleted",temp->info);
+	    if(front==rear)
+		{
+		front=rear=NULL;
+		}
+		else
+			 front=temp->next;                          // modified step
+
+		freenode(temp);
+		display();
+	}
+
+}
+
+void enqueue_rear(int x)
+{
+
+struct node *newnode, *temp;
+newnode=getnode();
+newnode->info =x;
+newnode->next=NULL;
+
+if(front==NULL && rear==NULL)                 // Condition to check whether list is empty or not
+	{
+	 front=rear=newnode;
+	}
+else
+	{
+		rear->next=newnode;
+		rear=newnode;
+	}
+	display();
+
+}
+void dequeue_rear()
+{
+
+int x;
+struct node * temp, *ptr;                           // *ptr point to element before the deleted element
+temp=front;
+
+ if(front==NULL && rear==NULL)											//   list is empty
+	 printf("Double Ended Queue is already Empty");
+ else
+     {
+	if(front==rear)						 //   List has only one element
+	 {
+	   x=temp->info;
+	   front=NULL;
+	   rear=NULL;
+	 }
+	else
+	 {
+	   while(temp->next!=NULL)
+	    {
+	      ptr=temp;
+	      temp=temp->next;
+	    }
+
+	   x=temp->info;
+	   ptr->next=NULL;
+	   rear=ptr;
+       }
+       freenode(temp);
+       printf("Element  %d successfully deleted",x);
+	}
+ }
+
+void display()
+{
+struct node *temp;
+
+if(empty())
+  printf("\n Queue is empty");
+else
+  {
+	temp=front;
+	while(temp!=NULL)
+	  {
+	     printf("-> %d ",temp->info);
+	     temp=temp->next;
+	  }
+
+  }
+}
+
+void main()
+{
+int x, i, ch,ans;
+init();
+
+
+do
+{
+// clrscr();
+printf("\n -----Operation on Double Ended Queue----");
+printf("\n1. Insert/Enqueue at front");
+printf("\n2. Insert/Enqueue at Rear");
+printf("\n3. Delete/ Dequeue at front");
+printf("\n4. Delete/ Dequeue at Rear");
+printf("\n5. Display ");
+printf("\n6. Quit");
+printf("\n Enter your choice:");
+scanf("%d",&ch);
+
+switch(ch)
+{
+case 1: printf("\n Enter the value to be inserted at front end:");
+			scanf("%d",&x);
+			enqueue_front(x);
+			break;
+case 2: printf("\n Enter the value to be inserted at rear end:");
+			scanf("%d",&x);
+			enqueue_rear(x);
+			break;
+
+case 3:dequeue_front();break;
+
+case 4: dequeue_rear();break;
+
+case 5:display();break;
+case 6: exit(1);break;
+default: printf("\n Wrong Choice");break;
+}
+
+printf("\nDo you want to continue? (Press 1=yes, 0=no)");
+scanf("%d",&ans);
+}while(ans==1);
 } 
