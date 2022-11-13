@@ -25,7 +25,7 @@ data structure and anaylsis
 ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute||
 ||member is set to 0 and the hour member is incremented by 1. Finally when the hour||
 ||becomes 24, it is set to zero.)||
-|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/dsaprogram3.c|
+|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/dsa2%20(1).c|
 
 
 ## DSA program list B :-
