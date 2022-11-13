@@ -129,7 +129,7 @@ data structure and anaylsis
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/bst.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bst.c|
 ||(BST).||
 ||1. Insertion of node||
 ||2. Deletion of node||
