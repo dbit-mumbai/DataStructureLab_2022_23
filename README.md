@@ -6,13 +6,13 @@
 
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |:---------|:---------------|:------------------------------------------------|
-|1.|Write a C program to check if a given number is Fibonacci number.|https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/struct%20prog1.C|
-|2.|Write a C program to generate Pascal Triangle using array.|https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/struct%20prog2.C|
-|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/struct%20prog3.C|
-|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/struct%20prog%204.C|
-|5.|Write a C program to find largest element in an array |https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/struct%20prog%205.C|
-|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/ARYAAN2903/DSA/blob/86a785a05318fe0322bb73d7cf31da4b2bc72ea5/struct%20prog6.C|
-|7.|Define a structure data type called time_struct containing 3 members int hour, int|https://github.com/ARYAAN2903/DSA/blob/86a785a05318fe0322bb73d7cf31da4b2bc72ea5/struct%20prog7.C|
+|1.|Write a C program to check if a given number is Fibonacci number.|https://github.com/ARYAAN2903/DSA/blob/a983bfbec77a6bffba706d061f2d1083525b4f0c/struct%20prog1.c|
+|2.|Write a C program to generate Pascal Triangle using array.|https://github.com/ARYAAN2903/DSA/blob/96f0aabe9c6caace3a76b204f2312b2044828ded/struct%20prog2.c|
+|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/f5b7e5fe1175a4dc783014341ce2a4f2c69f2fe9/struct%20prog3.c|
+|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/6581fbdf63c26c5078bdcfad13b1bcad6d105f0d/struct%20prog%204.c|
+|5.|Write a C program to find largest element in an array |https://github.com/ARYAAN2903/DSA/blob/2f8d34bdcf50f4c5f965f3f2571c3966d1511c04/struct%20prog%205.c|
+|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |v|
+|7.|Define a structure data type called time_struct containing 3 members int hour, int|https://github.com/ARYAAN2903/DSA/blob/a79fee135c6088dedc2f672a1f8c8c2949825e6c/struct%20prog7.c|
 ||minute and int second. Write functions that accept the structure to perform the|
 ||following operations:||
 ||1. Input new time||
@@ -22,13 +22,13 @@
 ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute||
 ||member is set to 0 and the hour member is incremented by 1. Finally when the hour||
 ||becomes 24, it is set to zero.)||
-|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/ARYAAN2903/DSA/blob/041c323c74f2d858b5f919c8c052b8751dfaaf6c/Struct%20prog8.C|
+|8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/ARYAAN2903/DSA/blob/49c9ca398b6b8489176a9ccfabde68e6a016fc5d/Struct%20prog8.c|
 
 
 ## DSA program list B :-
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/ARYAAN2903/DSA/blob/4938f3236b827c131354ae62316189a925130809/B_1.C|
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/ARYAAN2903/DSA/blob/75648a4b360cd71035f6179368890d1960ac230f/B_1.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
