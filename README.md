@@ -1,3 +1,9 @@
+Data Structure Lab Experiments
+1) Name : Ashish Varghese 
+2) Roll No : 29
+3) Batch : B
+4) Seat No. 3328
+
 
 ## DSA experiment list A  : - 
 
