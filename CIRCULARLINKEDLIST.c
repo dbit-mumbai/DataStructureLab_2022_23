@@ -1,243 +1,299 @@
-#include<stdio.h>  
-#include<stdlib.h>  
-struct node   
-{  
-    int data;  
-    struct node *next;   
-};  
-struct node *head;  
-  
-void beginsert ();   
-void lastinsert ();  
-void randominsert();  
-void begin_delete();  
-void last_delete();  
-void random_delete();  
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    int info;
+    struct node *next;
+};
+
+struct node *getnode() {
+    return ((struct node *)malloc(sizeof(struct node)));
+}
+
+void freenode(struct node *p) {
+    free(p);
+}
+
+struct node *list = NULL;
+
+void insert_atBeginning();  
+void insert_atEnd();  
+void insert_atLocation();  
+void delete_atBeginning();  
+void delete_atEnd();  
+void delete_atLocation();  
 void display();  
-void search();  
-void main ()  
-{  
-    int choice =0;  
-    while(choice != 7)   
-    {  
-        printf("\n*********Main Menu*********\n");  
-        printf("\nChoose one option from the following list ...\n");  
-        printf("\n===============================================\n");  
-        printf("\n1.Insert in begining\n2.Insert at last\n3.Delete from Beginning\n4.Delete from last\n5.Search for an element\n6.Show\n7.Exit\n");  
-        printf("\nEnter your choice?\n");         
-        scanf("\n%d",&choice);  
+void search();
+void concatenate();
+void split();
+void copy();
+void reverse(); 
+
+int main() {
+    int choice;
+	while(1) {
+        printf("\nLinked list functions");
+        printf("\n1.Insert at Beginning	\n2.Insert at End	\n3.Insert at Position		\n4.Delete at Beginning		\n5.Delete at End");
+        printf("\n6.Delete at Position      \n7.Display     \n8.Search      \n9.Reverse     \n10.Copy       \n11.Concatenate");
+        printf("\n12.Split     \n13.Exit");            
+        
+        printf("\nEnter your choice : ");
+        scanf("%d", &choice);
+        printf("\n");
+                
         switch(choice)  
         {  
-            case 1:  
-            beginsert();      
-            break;  
-            case 2:  
-            lastinsert();         
-            break;  
-            case 3:  
-            begin_delete();       
-            break;  
-            case 4:  
-            last_delete();        
-            break;  
-            case 5:  
-            search();         
-            break;  
-            case 6:  
-            display();        
-            break;  
-            case 7:  
-            exit(0);  
-            break;  
-            default:  
-            printf("Please enter valid choice..");  
-        }  
-    }  
-}  
-void beginsert()  
-{  
-    struct node *ptr,*temp;   
-    int item;   
-    ptr = (struct node *)malloc(sizeof(struct node));  
-    if(ptr == NULL)  
-    {  
-        printf("\nOVERFLOW");  
-    }  
-    else   
-    {  
-        printf("\nEnter the node data?");  
-        scanf("%d",&item);  
-        ptr -> data = item;  
-        if(head == NULL)  
-        {  
-            head = ptr;  
-            ptr -> next = head;  
-        }  
-        else   
-        {     
-            temp = head;  
-            while(temp->next != head)  
-                temp = temp->next;  
-            ptr->next = head;   
-            temp -> next = ptr;   
-            head = ptr;  
-        }   
-        printf("\nnode inserted\n");  
-    }  
-              
-}  
-void lastinsert()  
-{  
-    struct node *ptr,*temp;   
-    int item;  
-    ptr = (struct node *)malloc(sizeof(struct node));  
-    if(ptr == NULL)  
-    {  
-        printf("\nOVERFLOW\n");  
-    }  
-    else  
-    {  
-        printf("\nEnter Data?");  
-        scanf("%d",&item);  
-        ptr->data = item;  
-        if(head == NULL)  
-        {  
-            head = ptr;  
-            ptr -> next = head;    
-        }  
-        else  
-        {  
-            temp = head;  
-            while(temp -> next != head)  
-            {  
-                temp = temp -> next;  
-            }  
-            temp -> next = ptr;   
-            ptr -> next = head;  
-        }  
-          
-        printf("\nnode inserted\n");  
-    }  
-  
-}  
-  
-void begin_delete()  
-{  
-    struct node *ptr;   
-    if(head == NULL)  
-    {  
-        printf("\nUNDERFLOW");    
-    }  
-    else if(head->next == head)  
-    {  
-        head = NULL;  
-        free(head);  
-        printf("\nnode deleted\n");  
-    }  
-      
-    else  
-    {   ptr = head;   
-        while(ptr -> next != head)  
-            ptr = ptr -> next;   
-        ptr->next = head->next;  
-        free(head);  
-        head = ptr->next;  
-        printf("\nnode deleted\n");  
-  
-    }  
-}  
-void last_delete()  
-{  
-    struct node *ptr, *preptr;  
-    if(head==NULL)  
-    {  
-        printf("\nUNDERFLOW");  
-    }  
-    else if (head ->next == head)  
-    {  
-        head = NULL;  
-        free(head);  
-        printf("\nnode deleted\n");  
-  
-    }  
-    else   
-    {  
-        ptr = head;  
-        while(ptr ->next != head)  
-        {  
-            preptr=ptr;  
-            ptr = ptr->next;  
-        }  
-        preptr->next = ptr -> next;  
-        free(ptr);  
-        printf("\nnode deleted\n");  
-  
-    }  
-}  
-  
-void search()  
-{  
-    struct node *ptr;  
-    int item,i=0,flag=1;  
-    ptr = head;   
-    if(ptr == NULL)  
-    {  
-        printf("\nEmpty List\n");  
-    }  
-    else  
-    {   
-        printf("\nEnter item which you want to search?\n");   
-        scanf("%d",&item);  
-        if(head ->data == item)  
-        {  
-        printf("item found at location %d",i+1);  
-        flag=0;  
-        }  
-        else   
-        {  
-        while (ptr->next != head)  
-        {  
-            if(ptr->data == item)  
-            {  
-                printf("item found at location %d ",i+1);  
-                flag=0;  
-                break;  
-            }   
-            else  
-            {  
-                flag=1;  
-            }  
-            i++;  
-            ptr = ptr -> next;  
-        }  
-        }  
-        if(flag != 0)  
-        {  
-            printf("Item not found\n");  
-        }  
-    }     
-          
-}  
-  
-void display()  
-{  
-    struct node *ptr;  
-    ptr=head;  
-    if(head == NULL)  
-    {  
-        printf("\nnothing to print");  
-    }     
-    else  
-    {  
-        printf("\n printing values ... \n");  
-          
-        while(ptr -> next != head)  
-        {  
-          
-            printf("%d\n", ptr -> data);  
-            ptr = ptr -> next;  
-        }  
-        printf("%d\n", ptr -> data);  
-    }  
-              
+            case 1: insert_atBeginning();  
+                    break;  
+            
+            case 2: insert_atEnd();  
+                    break;  
+            
+            case 3: insert_atLocation();  
+                    break;  
+                
+            case 4: delete_atBeginning();  
+                    break;  
+            
+            case 5: delete_atEnd();  
+                    break;  
+                
+            case 6: delete_atLocation();  
+                    break;  
+            
+            case 7: display(); 
+                    break;  
+
+            case 8: search();  
+                    break;  
+            
+            case 9: reverse();  
+                    break;  
+            
+            case 10: copy(); 
+                    break;  
+
+            case 11: concatenate();  
+                    break;  
+            
+            case 12: split();  
+                    break;  
+            
+            case 13: return 0; 
+            
+            default: printf("Invalid choice!"); 
+                    break;    
+        }
+    }    	
+}
+
+void insert_atBeg(){
+    int n;
+    printf("\nEnter element to be inserted : ");
+    scanf("%d", &n);
+    struct node *newnode;
+    newnode = getnode();
+    newnode->info = n;
+    newnode->next = list;
+    list=newnode;    
+
+}
+
+void insert_atEnd(){
+    int n;
+    printf("\nEnter element to be inserted : ");
+    scanf("%d", &n);
+    struct node *newnode, *temp;
+    newnode = getnode();
+    newnode->info = n;
+    temp=list;
+    newnode->next = list;
+    if (list == NULL)
+    {
+        list = newnode;
+    } else {
+        while (temp->next!=list)
+        {
+            temp = temp->next;
+        }
+        temp->next = newnode;        
+    }
+
+}
+
+void insert_atPosition(){
+    int n, count, i;
+    struct node *newnode, *temp;
+    printf("\nEnter position : ");
+    scanf("%d", &count);
+    temp=list;
+    if(temp==NULL){      
+        insert_atBeg(n);
+        printf("Since the list is empty, so inserted element at the beginning",count);   
+    } else {
+        printf("\nEnter element to be inserted : ");
+        scanf("%d", &n);
+		for(i=1;i<count-1;i++)
+		{
+		    if(temp-> next==list)
+			{
+				printf("There are less than %d elements in the List, so inserted element at the end",count);
+				break;
+			}
+			temp=temp->next;
+		}
+		newnode = getnode();
+        newnode->info=n;
+		newnode->next=temp->next;
+		temp->next=newnode;
+		display();
+
+	}
+}
+
+void delete_atBeg(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        temp= list;
+        list = temp->next;
+        freenode(temp);
+    }    
+
+}
+
+void delete_atEnd(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp, *del;
+        temp = list;
+        while (temp->next!=list)
+        {
+            del = temp;
+            temp = temp->next;
+        }
+        del->next = list;
+        freenode(temp);  
+
+    }
+}
+
+void delete_atPosition(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {   
+        int i, count;
+        struct node *temp, *ptr;        
+        printf("\nEnter position : ");
+        scanf("%d", &count);
+        temp = list;
+		if(count==1)
+			list=list->next;
+		else{
+            for(i=1;i<count;i++)
+            {
+                if(temp-> next==list)
+                {
+                    printf("There are less than %d elements in the Less" ,count);
+                    break;
+                }
+                ptr=temp;                                     
+                temp=temp->next;    
+            }
+		}
+	    if(temp->next!=list){
+            printf("Element  %d successfully deleted",temp->info);
+            ptr->next=temp->next;
+            freenode(temp);
+		}
+		display();
+	} 
+}
+
+void display(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        temp = list;
+        printf("\nThe linked list is : ");
+        while(temp != list){
+            printf("%d ", temp->info);
+            temp = temp->next;
+        }
+        printf("\n");
+    }
+}
+
+void search(){
+    if (list == NULL)
+    {
+        printf("List is empty\n");
+    } else {
+        struct node *temp;
+        int count=0, n;
+        temp = list;
+        printf("\nEnter element to be searched : ");
+        scanf("%d", &n);
+        while(temp != list){
+            if(n == temp->info){
+                count++;
+                break;
+            }
+            temp = temp->next;
+        }
+        if (count>0)
+        {
+            printf("Element was found\n");
+        } else {
+            printf("Element is not in the linked list\n");
+        } 
+    }    
+
+}
+
+void reverse(){ //working on it
+    struct node *t1, *t2, *temp;
+    t1 = t2 = NULL;  
+    if (list == NULL){
+        printf("List is empty");
+    } else {
+        while (list != NULL) {
+            t2 = list->next;
+            list->next = t1;
+            t1 = list;
+            list = t2;
+        }
+        list = t1;
+        temp = list;
+        printf("Reversed linked list is : ");  
+        while (temp != NULL) {
+            printf("%d ", temp->info);
+            temp = temp->next;
+        }
+        printf("\n");
+
+    }
+}
+
+void copy(){
+    //working on it
+}
+
+void copy(){
+    //working on it
+}
+
+void concatenate(){
+    //working on it
+}
+
+void split(){
+    //working on it
 }
