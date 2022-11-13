@@ -1,151 +1,195 @@
-/* header files */
-#include<stdio.h>
-#include<stdlib.h>
+/*  Author: Vanessa jency   Branch: IT  Roll no.: 37
+    Circular queue
+*/
 
-/* defining 5 as size */
+#include<stdio.h>
 #define size 5
 
-/* Declaration and Initialization of Queue*/
-int queue[size];
-/* Initialization condition */
-int f = -1;
-int r = -1;
+int queue[size], front = -1, rear = -1;
 
-/* function prototypes */
-void enqueue(int);
+void enqueue();
 void dequeue();
-void show();
 void isEmpty();
+void show();
 
-/* main functions */
 int main()
 {
-	/* Declaration of variables */
-	int ch, n;
-
-    /* while loop */
-    while(1)
+    int choice;
+    
+    while (1)
     {
-        printf("\n----Queue_Menu-----");
-        printf("\n1.Enqueue");
-        printf("\n2.Dequeue");
-        printf("\n3.isEmpty");
-        printf("\n4.Show");
-        printf("\n5.Exit");
+        printf("\n*****Select a function to be performed*****");
+        printf("\n1.Enqueue       \n2.Dequeue       \n3.Is Empty       \n4.Display        \n5.Count        \n6.Exit");
         printf("\nEnter your choice : ");
-        scanf("%d", &ch);
+        scanf("%d", &choice); //saves the user's choice
 
-        /* switch case starts here */
-        switch(ch)
+        switch (choice)
         {
-            case 1:
-            	printf("Enter a integer : ");
-            	scanf("%d", &n);
-                enqueue(n);
-                break;
-            case 2:
-                dequeue();
-                break;
-            case 3:
-                isEmpty();
-                break;
-            case 4:
-                show();
-                break;
-            case 5:
-                exit(0);
-                break;
-            default:
-                printf("\nInvalid Choice!");
-        }   /* switch case ends here */
-    }   /* while loop ends here */
-} /* main function ends here */
+            case 1: enqueue();
+                    break;
+        
+            case 2: dequeue();
+                    break;
+    
+            case 3: isEmpty();
+                    break;
+    
+            case 4: show();
+                    break;
 
-/* enqueue(int) -> adds element into queue */
-void enqueue(int x)
-{
-	// Adding First Element of Queue //
-    if(f == -1 && r == -1)
-    {
-        f++;
-        queue[++r] = x;
-    } else {
-    	// Other Element //
-        if(f == (r++)%size)
-        {
-            printf("\nqueue overflow!");
-        } else {
-        	r = (r++)%size;
-            queue[r] = x;
+            case 5: count();
+                    break;
+
+            case 6: return 0; 
+        
+            default:printf("\nInvalid choice!\n");
+
         }
-    }
-}
-/* enqueue() ends here */
 
-/* dequeue() -> removes an element from front */
-void dequeue()
-{
-	// Empty Queue Condition //
-	if(r == -1 && f == -1)
-    {
-    	printf("\nQueue is Empty!");
-	} 
-	// One Element Condition //
-    else if(r == f)
-    {
-        f = -1;
-        r = -1;
-    } 
-    // Other Element //
-	else {
-        f = (f++)%size;
     }
     
-} 
-/* dequeue() ends here */
+}
 
-/* isEmpty() -> checks if the queue is empty or not */
+void enqueue()
+{
+    int n;
+    
+    if (front==-1 && rear==-1) //checks if queue is empty
+        {
+            printf("\nEnter element to be added to the queue : ");
+            scanf("%d", &n);
+            front++;
+            queue[++rear]=n;
+        }
+
+    else 
+    {
+        
+        
+        if (front == (rear++) % size) //checks if queue is full
+        {
+            printf("\nQueue overflow!");
+        }
+
+        else
+        {
+            printf("\nEnter element to be added to the queue : ");
+            scanf("%d", &n);
+            rear = (rear++)%size;
+            queue[rear]=n;
+        }
+        
+    }
+    
+}
+
+void dequeue()
+{
+    if (front==-1 && rear==-1) //checks if queue is empty
+    {
+        printf("\nQueue underflow!");
+    }
+
+    else
+    {
+        if (front==rear) //checks if only one element is present in queue
+        {
+            front=-1;
+            rear=-1;
+        }
+
+        else
+        {
+            front=(front++)%size; 
+        }
+        
+    }
+
+}
+
 void isEmpty()
 {
-    if(f == -1 && r == -1)
+    if (front==-1 && rear==-1) //checks if queue is empty
     {
-        printf("\nQueue is Empty!");
-    } else {
-        printf("\nQueue is Not Empty!");
+        printf("\nQueue is empty!");
     }
-}
-/* isEmpty() ends here */
 
-/* show() -> displays queue */
+    else
+    {
+        printf("\nQueue is not empty!");
+    }
+
+}
+
 void show()
 {
     int i, j;
-    /* empty condition */
-    if(f == -1 && r == -1)
+
+    if (front==-1 && rear==-1) //checks if queue is empty
     {
-        printf("\nQueue is Empty!");
-    } else {
-        for(i = f; i <= size; i++)
+        printf("\nQueue is empty!");
+    }
+
+    else
+    {
+        for(i = front; i < size; i++)
         {
         	j = i%size;
-        	/* display front and rear pointers */
-        	if(r == f)
+        	
+        	if(rear == front)
         	{
-        		printf("\n%d <- front & rear", queue[j]);
+        		printf("\n%d", queue[j]);
 			}
-        	else if(i == f)
+
+        	else if(i == front)
         	{
-        		printf("\n%d <- front",queue[j]);
+        		printf("\n%d",queue[j]);
 			}
-			else if(i == r)
+
+			else if(i == rear)
 			{
-				printf("\n%d <- rear ",queue[j]);
+				printf("\n%d",queue[j]);
 			} 
+
 			else
 			{
             	printf("\n%d", queue[j]);
         	}
+
         }
+
     }
+    
 }
-/* show() ends here */
+
+void count()
+{
+    int i, j, count;
+
+    if (front==-1 && rear==-1) //checks if queue is empty
+    {
+        printf("\nQueue is empty!");
+    }
+    else{
+        for(i = front; i < size; i++){      	
+        	if(rear == front)
+        	{
+        		count++;
+			}
+        	else if(i == front)
+        	{
+        		count++;
+			}
+			else if(i == rear)
+			{
+				count++;
+			} 
+			else
+			{
+            	count++;
+        	}
+        }
+        printf("There are %d elements in queue.",count);
+    }
+    
+}
