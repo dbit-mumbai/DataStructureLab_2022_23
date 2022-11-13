@@ -111,7 +111,7 @@ Batch : B
 |9.|Write a program to implement PARENTHESES CHECKER using a stack ||
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/rohan0110/DSA/blob/main/infix_to_postfix.c|
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/rohan0110/DSA/blob/main/postfix.c|
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/rohan0110/DSA/blob/main/DEQ.c|
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/rohan0110/DSA/blob/main/QueueUsingArray.c|
 ||following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
@@ -138,7 +138,7 @@ Batch : B
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/rohan0110/DSA/blob/main/bfs.c|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/rohan0110/DSA/blob/main/dfs.c|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/rohan0110/DSA/blob/main/dfs.c|
 |18.|Write a program to implement Binary Search|https://github.com/rohan0110/DSA/blob/main/binarySearch.c|
 |19.|Write a program to implement Bubble sort|https://github.com/rohan0110/DSA/blob/main/bubble_sort.c|
 |20.|Write a program to implement Selection sort|https://github.com/rohan0110/DSA/blob/main/selection_sort.c|
