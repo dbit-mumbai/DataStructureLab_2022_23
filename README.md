@@ -145,4 +145,4 @@ data structure and anaylsis
 |20.|Write a program to implement Selection sort|https://github.com/violanoronha/dsasubmissions/blob/main/selectionsort.c|
 |21.|Write a program to implement Insertion sort|https://github.com/violanoronha/dsasubmissions/blob/main/insertsort.c|
 |22.|Write a program to implement Quick sort|https://github.com/violanoronha/dsasubmissions/blob/main/quicksort.c|
-|23.|Write a program to implement Merge sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/mergesort.c|
+|23.|Write a program to implement Merge sort|https://github.com/violanoronha/dsasubmissions/blob/main/mergesort.c|
