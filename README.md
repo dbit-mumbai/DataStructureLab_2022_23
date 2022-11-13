@@ -14,4 +14,10 @@ Program_Id  	       Program details                             	Your File nameH
                   to check                          
                  if a given number
                  is Fibonacci number.
+   
+   2.           Write a C program 
+                to generate
+                Pascal Triangle
+                using array.
                 
+   3.                        
