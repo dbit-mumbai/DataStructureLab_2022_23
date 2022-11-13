@@ -1,8 +1,8 @@
-DSA Repository Sem 3
+<br>DSA Repository Sem 3</br>
 
-Name:-Yashas Khot
-Roll no:-31
-Batch:- B
+<br>Name:-Yashas Khot</br>
+<br>Roll no:-31</br>
+<br>Batch:- B</br>
 
 
 ## DSA experiment list A  : - 
@@ -116,7 +116,7 @@ Batch:- B
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/adityagothiwarekar/DSA_ASSIGNMENTS/blob/main/queueusinglinkedlist.c|
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/yashaskhot/DSA-LAB/blob/main/queuelinklist.c|
 ||the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
