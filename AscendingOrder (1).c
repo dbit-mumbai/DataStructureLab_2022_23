@@ -6,7 +6,7 @@ struct student {
 } s[5];
 
 int main() {
-    int i;
+    int i,j;
     printf("Enter information of students:\n");
 
     // storing information
@@ -18,6 +18,20 @@ int main() {
         printf("Enter marks: ");
         scanf("%f", &s[i].marks);
     }
+    
+    for(i=0;i<4;i++)
+ {
+    for(j=i+1;j<5;j++)
+  {
+        if(s[i].roll > s[j].roll)
+        {
+            temp = s[i];
+            s[i] = s[j];
+            s[j] = temp;
+        }
+  }
+}
+    
     printf("Displaying Information:\n\n");
 
     // displaying information
