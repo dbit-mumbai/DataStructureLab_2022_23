@@ -116,6 +116,94 @@ LINKEDLIST and perform the following operations
 12. CONCATENTE
 13. SPLIT
 14. REVERSE
+https://github.com/Creselfernandes/Data-structure-analysis/blob/f7706b7d97719addfdc25420c00357be087fbda9/circular%20doubly%20linked%20list
+
+5)Write a menu driven program to implement STACK ADT using array and perform the 
+following operations
+1. PUSH
+2. POP
+3. DISPLAY
+4. PEEK
+https://github.com/Creselfernandes/Data-structure-analysis/blob/34bf957935f7a24c5dc820a50feefe3c859c0b46/stack%20adt%20using%20array
+
+6)Write a menu driven program to implement STACK ADT using linkedlist and perform 
+the following operations
+1. PUSH
+2. POP
+3. DISPLAY
+4. PEEK
+https://github.com/Creselfernandes/Data-structure-analysis/blob/b47c899ec51be1ca031a14f9fc941b1adcf303ec/stack%20adt%20using%20linked%20list
+
+7)Write a program to REVERSE a given string using a Stack
+https://github.com/Creselfernandes/Data-structure-analysis/blob/c57b0ab1e8eaa00cd9d89730ac9a292fcb43413d/reverse%20a%20string%20using%20stack
+
+8)Write a program to check if a given number is pallindrome in a stack
+https://github.com/Creselfernandes/Data-structure-analysis/blob/092d97116c6ca223b1e4fd8fd330025abaaa1809/pallindrome%20of%20number%20using%20stack
+
+9)Write a program to implement PARENTHESES CHECKER using a stack 
+https://github.com/Creselfernandes/Data-structure-analysis/blob/22afad7c5f7e50f4103d29aa41b611b4f606fda0/parenthesis%20checker
+
+10)Write a program for conversion of INFIX to POSTFIX expression.
+https://github.com/Creselfernandes/Data-structure-analysis/blob/22afad7c5f7e50f4103d29aa41b611b4f606fda0/11)%20Infix%20Postfix%20stack
+
+11)Write a program to evaluate postfix expressions by making use of Stack.
+https://github.com/Creselfernandes/Data-structure-analysis/blob/22afad7c5f7e50f4103d29aa41b611b4f606fda0/10)%20postfix%20evaluation
+
+12)Write a menu driven program to implement QUEUE ADT using array and perform the 
+following operation
+1. ENQUEUE
+2. DEQUEUE
+3. DISPLAY
+https://github.com/Creselfernandes/Data-structure-analysis/blob/b18f6f2bf6a176c34565af856b5ce368c2e1691a/queue%20adt
+
+13)Write a menu driven program to implement QUEUE ADT using linked list and perform the following operation
+1.ENQUEUE
+2.DEQUEUE
+3.DISPLAY
+https://github.com/Creselfernandes/Data-structure-analysis/blob/2d116371dbf880b9f39de333bab0108a8f424d96/queue%20adt%20using%20linked%20list
+
+14)Write a menu driven program to implement CIRCULAR QUEUE ADT using array and 
+perform the following operation
+1. ENQUEUE
+2. DEQUEUE
+3. DISPLAY
+4. COUNT
+https://github.com/Creselfernandes/Data-structure-analysis/blob/4cad180ee63f7066d10f5727178fb54e3bf4fe4a/CIRCULAR%20QUEUE%20ADT%20USING%20ARRAY
+
+15)Write a menu driven program to implement following operations in a binary search tree 
+(BST).
+1. Insertion of node
+2. Deletion of node
+3. Counting of nodes
+4. Preorder Traversal
+5. Postorder Traversal
+6. Inorder Traversal
+7. Search node in the tree
+https://github.com/Creselfernandes/Data-structure-analysis/blob/d2ff4c59ccd8ca981d1fb19aac9bb125f7b01f1a/binary%20search%20tree
+
+16)Write a program to implement traversal of a directed graph through BFS
+https://github.com/Creselfernandes/Data-structure-analysis/blob/ff505b01a31332dd2bb6ab652515fb40f768f5c9/bfs
+
+17)Write a program to implement traversal of a directed graph through DFS
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/DFS
+
+18)Write a program to implement Binary Search
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/binary%20search
+
+19)Write a program to implement Bubble sort
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/19)%20Bubble%20sort
+
+20)Write a program to implement Selection sort
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/16)%20Selection%20sort
+
+21)Write a program to implement Insertion sort
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/15)%20Insertion%20sort
+
+22)Write a program to implement Quick sort
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/22)%20QUICK%20SORT
+
+23)Write a program to implement Merge sort
+https://github.com/Creselfernandes/Data-structure-analysis/blob/a86074dce9802d6f64f419f0e050e02cd3c31d8f/17)%20Merge%20sort
 
 
 
