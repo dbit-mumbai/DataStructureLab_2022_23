@@ -123,7 +123,7 @@ data structure and anaylsis
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. SEARCH||
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/BrightonAnthony/DSA_assignment/blob/main/circularqueue.c|
+|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/floria-pinto/DSA/blob/main/circularqueue.c|
 ||perform the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
