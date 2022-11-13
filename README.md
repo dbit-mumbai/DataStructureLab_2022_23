@@ -97,7 +97,7 @@
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform||
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/ARYAAN2903/DSA/blob/ba8cd7e970933208b122836186feac36ded660b5/B_6.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
@@ -113,7 +113,7 @@
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform||
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/ARYAAN2903/DSA/blob/2f4d18d9b9a1f4a4a71345a9cdf7ffbccfde1a25/B_13.c|
 ||the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
