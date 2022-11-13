@@ -10,7 +10,7 @@ DSA experiment list A : -
 
 Program_Id  	       Program details                             	Your File nameHyperlink to the .c file on github
 
-   1.          	Write a C program                     
+   1.          	Write a C program                     https://github.com/violanoronha/dsasubmissions/blob/main/AscendingOrder.c
                   to check                              
                   to check                              
                  if a given number
