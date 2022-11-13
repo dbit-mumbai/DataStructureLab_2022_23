@@ -1,13 +1,10 @@
 # DSA
 
-Name : Shravani Ramesh Shinde
+Name : Shravani Shinde
 
 Roll no : 54 (SE IT)
 
-Seat no : 3353
-
 Batch : C
-
 
 ## DSA experiment list A  : - 
 
