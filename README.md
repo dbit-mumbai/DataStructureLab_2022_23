@@ -24,7 +24,7 @@
 ## DSA program list B :-
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and||
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse, https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -72,7 +72,7 @@
 ||13. SPLIT||
 ||14. REVERSE||
 |4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE||
-||LINKEDLIST and perform the following operations|https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linklistreverse, https://github.com/dhaneshwaritendle/DSA_assignments/blob/main/linkedlist.c|
+||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
 ||3. INSERT AT END||
