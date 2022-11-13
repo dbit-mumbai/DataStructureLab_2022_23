@@ -100,7 +100,7 @@ void insertAtPosition()
 	printf("\nEnter position and data :");
 	scanf("%d %d", &pos, &data);
 
-	// Change Links
+	
 	temp = start;
 	newnode->info = data;
 	newnode->link = 0;
