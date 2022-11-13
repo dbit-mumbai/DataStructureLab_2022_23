@@ -141,7 +141,7 @@ data structure and anaylsis
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/floria-pinto/DSA/blob/main/bfs.c|
 |17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/floria-pinto/DSA/blob/main/dfs.c|
 |18.|Write a program to implement Binary Search|https://github.com/floria-pinto/DSA/blob/main/binarysearch.c|
-|19.|Write a program to implement Bubble sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bubble.c|
+|19.|Write a program to implement Bubble sort|https://github.com/floria-pinto/DSA/blob/main/bubble.c|
 |20.|Write a program to implement Selection sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/seletionsort.c|
 |21.|Write a program to implement Insertion sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/insertsort.c|
 |22.|Write a program to implement Quick sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/quicksort.c|
