@@ -1,7 +1,7 @@
-*/
-DSL Experiment List (Part A)
-program-Write a C program to check if a given number is Fibonacci number
-/*
+
+#DSL Experiment List (Part A)
+##program-Write a C program to check if a given number is Fibonacci number
+
 #include <stdio.h>
 int main() {
 
