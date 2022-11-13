@@ -132,7 +132,7 @@
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/321prasad0058/DSA_Assignments1/blob/main/BFS.c|
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/321prasad0058/DSA_Assignments1/blob/main/DFS.c|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/321prasad0058/DSA_Assignments1/blob/main/DFS.c|
 |18.|Write a program to implement Binary Search|https://github.com/321prasad0058/DSA_Assignments1/blob/main/Binary.c|
 |19.|Write a program to implement Bubble sort|https://github.com/321prasad0058/DSA_Assignments1/blob/main/Bubble.c|
 |20.|Write a program to implement Selection sort| https://github.com/321prasad0058/DSA_Assignments1/blob/main/Selection.c|
