@@ -1,109 +1,44 @@
 #include<stdio.h>
-#include<stdlib.h>
-#define size 20
-
-int stack[size];
-int j = -1;
-
-void push(int);
-int pop();
-void show();
-void isEmpty();
-int eval(char exp[]);
-
-int main()
+int top = -1, stack [100];
+int main ()
 {
-    char exp[] = "231*+9-";
-    int result;
-    result = eval(exp);
-    printf("result : %d\n", result);
-    return 0;
+   char a[50], ch;
+   int i,op1,op2,res,x;
+   void push (int);
+   int pop( );
+   int eval (char, int, int);
+   printf("enter a postfix expression:");
+   scanf("%s",&a[i]);
+   for(i=0; a[i]!='\0'; i++){
+      ch = a[i];
+      if (ch>='0' && ch<='9')
+         push('0');
+      else{
+         op2 = pop ();
+         op1 = pop ();
+         res = eval (ch, op1, op2);
+         push (res);
+      }
+   }
+   x = pop ();
+   printf("evaluated value = %d", x);
+   return 0;
 }
-
-int eval(char *exp)
-{
-    int len, i;
-
-    len = 0;
-
-    for(i = 0; exp[i] != '\0'; i++)
-    {
-        len+=1;
-    }
-
-    for(i = 0; i < len; i++)
-    {
-        if(exp[i] >='0' && exp[i] <= '9')
-        {
-            int value;
-            value = exp[i] - '0';
-            // printf("value : %d\n", value);
-            push(value);
-        } else {
-            int val1, val2;
-            val1 = pop();
-            val2 = pop();
-
-            switch(exp[i])
-            {
-                case '+':
-                    push(val2 + val1);break;
-                case '-':
-                    push(val2 - val1);break;
-                case '*':
-                    push(val2 * val1);break;
-                case '/':
-                    push(val2 / val1);break;
-                case '%':
-                    push(val2 / val1);break;
-            }
-        }
-    }
-
-    return pop();
-
+void push (int n){
+   top++;
+   stack [top] = n;
 }
-
-void push(int n)
-{
-    if (j == size-1)
-    {
-        printf("\nstack is full!");
-    } else {
-        j++;
-        stack[j] = n;
-    }
-    return;
+int pop (){
+   int res ;
+   res = stack [top];
+   top--;
+   return res;
 }
-
-int pop()
-{
-    if(j == -1)
-    {
-        printf("\nStack is Empty!");
-    }
-    else
-    {
-        return stack[j--];
-    }
-}
-
-void show()
-{
-	int i;
-    for(i = size-1; i >= 0 ; i--)
-    {
-        printf("\n%d", stack[i]);
-    }
-    return;
-}
-
-void isEmpty()
-{
-    if (j == -1)
-    {
-        printf("\nStack is Empty!");
-    } else {
-        printf("\nStack is not Empty!");
-    }
+int eval (char ch, int op1, int op2){
+   switch (ch){
+      case '+' : return (op1+op2);
+      case '-' : return (op1-op2);
+      case '*' : return (op1*op2);
+      case '/' : return (op1/op2);
+   }
 }
