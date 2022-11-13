@@ -111,7 +111,7 @@ data structure and anaylsis
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/floria-pinto/DSA/blob/main/palindromeusingstack.c|
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/floria-pinto/DSA/blob/main/parenthesesusingstack.c|
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/floria-pinto/DSA/blob/main/infixtopostfix.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/postfix.c|
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/floria-pinto/DSA/blob/main/postfix.c|
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/BrightonAnthony/DSA_assignment/blob/main/queue.c|
 ||following operation||
 ||1. ENQUEUE||
