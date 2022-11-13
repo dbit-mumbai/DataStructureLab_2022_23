@@ -11,7 +11,7 @@ DSA experiment list A : -
 Program_Id  	       Program details                             	Your File nameHyperlink to the .c file on github
 
    1.          	Write a C program                     
-                  to check                          
+                  to check                                                   FibonacciSeries.c
                  if a given number
                  is Fibonacci number.
    
