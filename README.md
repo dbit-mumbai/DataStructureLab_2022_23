@@ -95,7 +95,7 @@ data structure and anaylsis
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/BrightonAnthony/DSA_assignment/blob/main/stack.c|
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/floria-pinto/DSA/blob/main/stack.c|
 ||following operations||
 ||1. PUSH||
 ||2. POP||
