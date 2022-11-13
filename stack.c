@@ -1,92 +1,230 @@
-#include<stdio.h>
-#include<stdlib.h>
-#define size 5
+#include <stdio.h>
+#define size 5 //setting stack size
 
-int stack[size];
-int j = -1;
-
-void push(int);
+int stack[size], temp[size], top=-1; //declaring array, top and functions
+void push();
 void pop();
+void empty();
+void full();
+void clear();
 void show();
-void isEmpty();
+void search();
+void reverse();
+void palindrome();
+void peek();
 
-int main()
-{
-    int ch, n;
-    do {
-        printf("\n------stack_menu-------");
-        printf("\n1. push");
-        printf("\n2. pop");
-        printf("\n3. show");
-        printf("\n4. check empty");
-        printf("\n5. Exit");
+int main(){
+    int choice;
+    while(1) //to loop the program
+    {   //printing a menu
+        printf("\n*****Select a function to be performed*****");
+        printf("\n1.Push element \n2.Pop element \n3.Check if stack is empty \n4.Check if stack is full \n5.Clear stack \n6.Show stack");
+        printf("\n7.Search  \n8.Reverse    \n9.Check if palindrome     \n10.Peek    \n11.Exit");
+        printf("\nEnter your choice : ");
+        scanf("%d", &choice); //saves the users choice
+ 
+        switch (choice)
+        {
+            case 1: push();
+                    break;
+        
+            case 2: pop();
+                    break;        
+            
+            case 3: empty();
+                    break;        
+            
+            case 4: full();
+                    break;        
+            
+            case 5: clear();
+                    break;
+    
+            case 6: show();
+                    break;
 
-        printf("\nEnter Your Choice : ");
-        scanf("%d", &ch);
-        switch(ch){
-            case 1:
-                printf("Enter a Number to push : ");
-                scanf("%d", &n);
-                push(n);break;
-            case 2:
-                pop();
-                break;
-            case 3:
-                show();
-                break;
-            case 4:
-                isEmpty();
-                break;
-            case 5:
-                exit(0);
-                break;
-            default:
-                printf("\nInvalid Choice! Try Again!");
+            case 7: search();
+                    break;
+
+            case 8: reverse();
+                    break;
+
+            case 9: palindrome();
+                    break;
+
+            case 10: peek();
+                    break;
+
+            case 11 : return 0; 
+        
+            default:printf("\nInvalid choice!\n");
         }
-    } while(1);
-    return 0;
+    }
+
 }
 
-void push(int n)
+void push()
 {
-    if (j == size-1)
+    int choice;
+    if (top==size-1) //checks if the stack is full
     {
-        printf("\nstack is full!");
-    } else {
-        j++;
-        stack[j] = n;
+        printf("Overflow!\n");
     }
-    return;
+    else
+    {
+        printf("\nEnter the element to be pushed into the stack : ");
+        scanf("%d", &choice);
+        top++; //increments top
+        stack[top]=choice; //adds element in the stack
+    }    
+
 }
 
 void pop()
 {
-    if(j == -1)
+    if (top==-1) //checks if stack is empty
     {
-        printf("\nStack is Empty!");
+        printf("Underflow!\n");
     }
     else
     {
-        printf("\npopped value : %d", stack[j--]);
+        printf("\nPopped %d from the stack.\n", stack[top]);
+        top--; //decrements top
     }
-    return;
+    
+}
+
+void empty()
+{
+    if (top==-1) //checks if stack is empty
+    {
+        printf("\nStack is empty!\n");
+    }
+    else{
+        printf("\nStack is not empty.\n");
+    }
+        
+}
+
+void full()
+{
+    if (top==size-1) //checks if stack is full
+    {
+        printf("\nStack is full!\n");
+    }
+    else{
+        printf("\nStack is not full.\n");
+    }
+        
+}
+
+void clear()
+{
+    top=-1; //resets top back to -1
+    printf("\nCleared the stack!\n");
+
 }
 
 void show()
 {
-    for(int i = size-1; i >= 0 ; i--)
+    if (top==-1)
     {
-        printf("\n%d", stack[i]);
+        printf("\nStack is empty!\n");
     }
-    return;
+    else
+    {
+        for (int i = top; i >= 0; i--) //prints the stack
+        {
+            printf("%d\n",stack[i]);            
+        }
+    }
+    
 }
 
-void isEmpty()
+void search()
 {
-    if (j == -1)
+    if (top==-1)
     {
-        printf("\nStack is Empty!");
-    } else {
-        printf("\nStack is not Empty!");
+        printf("\nStack is empty!\n");
+    }
+    else
+    {
+        int n, count=0;
+        printf("\nEnter the element to be searched : ");
+        scanf("%d", &n);
+        for (int i = top; i >= 0; i--) //prints the stack
+        {
+            if (n==stack[i])
+            {
+                count++;
+                break;
+            }              
+        }
+        if (count>0)
+            printf("Element is present in stack!\n");
+        else{
+            printf("Element is not present in stack!\n");
+        }       
+    }
+    
+}
+
+void reverse()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {   
+        int j = 0;
+        for (int i = top; i >= 0; i--) 
+        {
+            temp[j] = stack[i];
+            j++;           
+        }
+        printf("Reversed stack : \n");
+        for (int i = top; i >= 0; i--)
+        {
+            stack[i] = temp[i]; 
+            printf("%d\n",stack[i]);
+        }
+    }
+    
+}
+
+void palindrome()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {   
+        int i, count = 0;
+        for ( i = 0 ; i <= top; i++)
+        {
+            if(stack[i] != stack[top-i]){
+                count++;
+            }
+        }
+        if (count>0)
+            printf("\nStack is not palindrome!\n");
+        else{
+            printf("\nStack is palindrome!\n");
+        }
+        
+    }
+    
+}
+void peek()
+{
+    if (top==-1)
+    {
+        printf("\nStack is empty!\n");
+    }
+    else
+    {
+            printf("Peek element : %d\n",stack[top]);
     }
 }
