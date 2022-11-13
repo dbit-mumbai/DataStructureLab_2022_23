@@ -1,3 +1,4 @@
+//Linked list
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,65 +14,76 @@ struct node *getnode() {
 void freenode(struct node *p) {
     free(p);
 }
+
 struct node *list = NULL;
 
-void insert_atBeg();
-void insert_atEnd();
-void insert_atPosition();
-void delete_atBeg();
-void delete_atEnd();
-void delete_atPosition();
-void display();
+void insert_atBeginning();  
+void insert_atEnd();  
+void insert_atLocation();  
+void delete_atBeginning();  
+void delete_atEnd();  
+void delete_atLocation();  
+void display();  
 void search();
-void reverse();
+void concatenate();
+void split();
 void copy();
+void reverse(); 
 
 int main() {
     int choice;
 	while(1) {
-        printf("\nStack ADT functions");
+        printf("\nLinked list functions");
         printf("\n1.Insert at Beginning	\n2.Insert at End	\n3.Insert at Position		\n4.Delete at Beginning		\n5.Delete at End");
-        printf("\n6.Delete at Position      \n7.Display     \n8.Search      \n9.Reverse     \n10.Copy       \n11.Exit");
+        printf("\n6.Delete at Position      \n7.Display     \n8.Search      \n9.Reverse     \n10.Copy       \n11.Concatenate");
+        printf("\n12.Split     \n13.Exit");            
+        
         printf("\nEnter your choice : ");
         scanf("%d", &choice);
         printf("\n");
-            
-        switch(choice){
-            case 1: insert_atBeg();
-                break;
                 
-            case 2: insert_atEnd();
-                break;
+        switch(choice)  
+        {  
+            case 1: insert_atBeginning();  
+                    break;  
             
-            case 3: insert_atPosition();
-                break;
+            case 2: insert_atEnd();  
+                    break;  
             
-            case 4: delete_atBeg();
-                break;
-            
-            case 5: delete_atEnd();
-                break;
+            case 3: insert_atLocation();  
+                    break;  
                 
-            case 6: delete_atPosition();
-                break;
-                    
-            case 7: display();
-                break;
-
-            case 8: search();
-                break;
-                    
-            case 9: reverse();
-                break;
-
-            case 10: copy();
-                break;
-
-            case 11: return 0;
+            case 4: delete_atBeginning();  
+                    break;  
+            
+            case 5: delete_atEnd();  
+                    break;  
                 
-            default: printf("Invalid input\n");	
-                break;	
+            case 6: delete_atLocation();  
+                    break;  
+            
+            case 7: display(); 
+                    break;  
 
+            case 8: search();  
+                    break;  
+            
+            case 9: reverse();  
+                    break;  
+            
+            case 10: copy(); 
+                    break;  
+
+            case 11: concatenate();  
+                    break;  
+            
+            case 12: split();  
+                    break;  
+            
+            case 13: return 0; 
+            
+            default: printf("Invalid choice!"); 
+                    break;    
         }
     }    	
 }
@@ -107,6 +119,7 @@ void insert_atEnd(){
         }
         temp->next = newnode;        
     }
+
 }
 
 void insert_atPosition(){
@@ -135,6 +148,7 @@ void insert_atPosition(){
 		newnode->next=temp->next;
 		temp->next=newnode;
 		display();
+
 	}
 }
 
@@ -147,8 +161,8 @@ void delete_atBeg(){
         temp= list;
         list = temp->next;
         freenode(temp);
-
     }    
+
 }
 
 void delete_atEnd(){
@@ -240,9 +254,9 @@ void search(){
             printf("Element was found\n");
         } else {
             printf("Element is not in the linked list\n");
-        }
-         
+        } 
     }    
+
 }
 
 void reverse(){
@@ -270,5 +284,17 @@ void reverse(){
 }
 
 void copy(){
+    //working on it
+}
+
+void copy(){
+    //working on it
+}
+
+void concatenate(){
+    //working on it
+}
+
+void split(){
     //working on it
 }
