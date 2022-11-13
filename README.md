@@ -11,7 +11,7 @@
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/f5b7e5fe1175a4dc783014341ce2a4f2c69f2fe9/struct%20prog3.c|
 |4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/ARYAAN2903/DSA/blob/6581fbdf63c26c5078bdcfad13b1bcad6d105f0d/struct%20prog%204.c|
 |5.|Write a C program to find largest element in an array |https://github.com/ARYAAN2903/DSA/blob/2f8d34bdcf50f4c5f965f3f2571c3966d1511c04/struct%20prog%205.c|
-|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |v|
+|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/ARYAAN2903/DSA/blob/f9b70a7068679dbc7624c6e255a5cd6aac0915c5/struct%20prog6.c|
 |7.|Define a structure data type called time_struct containing 3 members int hour, int|https://github.com/ARYAAN2903/DSA/blob/a79fee135c6088dedc2f672a1f8c8c2949825e6c/struct%20prog7.c|
 ||minute and int second. Write functions that accept the structure to perform the|
 ||following operations:||
