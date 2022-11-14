@@ -12,7 +12,7 @@ DSA experiment list A : -
 
 |1.|Write a C program to check if a given number is Fibonacci number.| https://github.com/sumitsawant1029/DataStructure/blob/749aed463d8348b740122af85a5fcab5a6b83b8d/Fibonacci.c |
 
-|2.|Write a C program to generate Pascal Triangle using array.||
+|2.|Write a C program to generate Pascal Triangle using array.|https://github.com/sumitsawant1029/DataStructure/blob/1ceed1fa47a7c9c8a4dc50f4c6eac4a304092669/Pascal%20Triangle.c|
 
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.||
 
