@@ -39,7 +39,9 @@ DSA program list B :-
 
 
 
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/nigelsilveira0711/DSA_Assignment/blob/be1cb832762190a84097020d1505b6f96d2900d4/linklists.c | ||perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and| ||perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
+
+
 
 |2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|| ||and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
 
