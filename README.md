@@ -4,6 +4,8 @@ Name : Nigel Silveira
 
 Roll No. : 56
 
+Seat No. : 3355
+
 Batch : C 
 
 SE IT
