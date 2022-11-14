@@ -88,5 +88,6 @@ https://github.com/AFAZL/Data-structure-/blob/dccb254c13e47ad1b9945cb5b22a79f34c
 
 |22.|Write a program to implement Quick sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/205df7c91dfff3931b139772545cdc8c6349fd59/quicksort.c |
 
-|23.|Write a program to implement Merge sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/c8c0100ea665c4424e1b0835cf93e18efaf37ea2/mergesort.c |
+|23.|Write a program to implement Merge sort
+https://github.com/AFAZL/Data-structure-/blob/f3f487260ec1ff2f8daf445999190ac0f100c78d/merge_sort.c
 
