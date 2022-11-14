@@ -67,6 +67,7 @@ https://github.com/AFAZL/Data-structure-/blob/770c2a8cd34160729aae2fa500ccb1bf8a
 
 
 |7.|Write a program to REVERSE a given string using a Stack.
+https://github.com/AFAZL/Data-structure-/blob/0047bcc7570ea38228466c99a16accf9c2d92edb/reversingstring.c
 
 
 |8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c |
