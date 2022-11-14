@@ -83,7 +83,9 @@ https://github.com/AFAZL/Data-structure-/blob/efc0b0988fdc114ad35f90f19b536778d2
 https://github.com/AFAZL/Data-structure-/blob/822503b75368b3580af901095939e8947b072660/Infixtopostfix.c
 
 
-|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/129996d495ade51fb678072fc3a76ea98353d7a3/postFixevaluation.c |
+|11.|Write a program to evaluate postfix expressions by making use of Stack
+
+
 
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/nigelsilveira0711/DSA_Assignment/blob/4681a368f144563b2ddeeb1cc8219571c967cdf6/Queue_implementation.c | ||following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY||
 
