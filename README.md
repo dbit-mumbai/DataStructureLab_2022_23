@@ -80,13 +80,16 @@ https://github.com/AFAZL/Data-structure-/blob/dccb254c13e47ad1b9945cb5b22a79f34c
 
 |18.|Write a program to implement Binary Search|https://github.com/AFAZL/Data-structure-/blob/715978702f97345966e0a9ae7e841375d1b05311/BST.c
 
-|19.|Write a program to implement Bubble sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/51b98b2cd09db2f417123e98af21203c3a762f55/bubble_sort.c |
+|19.|Write a program to implement Bubble sort
+https://github.com/AFAZL/Data-structure-/blob/7f3e0e80d112527dc0055a383ca04718ca0c8360/bubble_sort.c
+
 
 |20.|Write a program to implement Selection sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/27f95ec9f4c5705a3a1649403894a1dbe48021bd/selection_sort.c |
 
 |21.|Write a program to implement Insertion sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8af00391587588060f6004152f9464858a49592/insertionsort.c |
 
-|22.|Write a program to implement Quick sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/205df7c91dfff3931b139772545cdc8c6349fd59/quicksort.c |
+|22.|Write a program to implement Quick sort
+
 
 |23.|Write a program to implement Merge sort
 https://github.com/AFAZL/Data-structure-/blob/f3f487260ec1ff2f8daf445999190ac0f100c78d/merge_sort.c
