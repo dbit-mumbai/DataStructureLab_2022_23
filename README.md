@@ -73,7 +73,8 @@ https://github.com/AFAZL/Data-structure-/blob/08dc9b7d9c3885f12c5a47e654262c74b2
 
 |15.|Write a menu driven program to implement following operations in a binary search tree|| ||(BST).|https://github.com/nigelsilveira0711/DSA_Assignment/blob/8609f0e4a4382660a7f91b8d992119ad6a725d31/bst.c | ||1. Insertion of node|| ||2. Deletion of node|| ||3. Counting of nodes|| ||4. Preorder Traversal|| ||5. Postorder Traversal|| ||6. Inorder Traversal|| ||7. Search node in the tree||
 
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/nigelsilveira0711/DSA_Assignment/blob/da6cadcaf4b4607ca5012eb8cd023e4e6c27d254/BFS.c |
+|16.|Write a program to implement traversal of a directed graph through BFS
+https://github.com/AFAZL/Data-structure-/blob/dccb254c13e47ad1b9945cb5b22a79f34c5f1807/BFS.c
 
 |17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/nigelsilveira0711/DSA_Assignment/blob/fac701b3a7379e4a20cd6baaaad76ee10ac4c72c/dfs.c |
 
