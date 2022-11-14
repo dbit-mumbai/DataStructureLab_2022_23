@@ -20,7 +20,7 @@ DSA experiment list A : -
 
 |5.|Write a C program to find largest element in an array |https://github.com/sumitsawant1029/DataStructure/blob/main/Largest.c|
 
-|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH | |
+|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH | https://github.com/sumitsawant1029/DataStructure/blob/5c9e2e6246065dd899378f37ff19be9d1e9d41fb/List.c|
 
 |7.|Define a structure data type called time_struct containing 3 members int hour, int| https://github.com/sumitsawant1029/DataStructure/blob/main/Hour.c| ||minute and int second. Write functions that accept the structure to perform the| ||following operations:|| ||1. Input new time|| ||2. Display the time|| ||3. Update the time such that the function accepts the time_struct and increments the|| ||time by one second.(If the increment results in 60 seconds, the then second member is|| ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute|| ||member is set to 0 and the hour member is incremented by 1. Finally when the hour|| ||becomes 24, it is set to zero.)||
 
