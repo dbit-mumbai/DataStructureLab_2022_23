@@ -57,7 +57,10 @@ https://github.com/AFAZL/Data-structure-/blob/e03a76c333b6da3a4d0e3585996505fea0
 https://github.com/AFAZL/Data-structure-/blob/4f5d5f89aed26181b86453d52ba8f853536f459d/stack.c
 
 
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|| ||the following operations|https://github.com/nigelsilveira0711/DSA_Assignment/blob/667c9d4776f638e5d8fe6642bbecad0c59062ac0/stack_usinglinklist.c | ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|| ||the following operations | ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
+https://github.com/AFAZL/Data-structure-/blob/770c2a8cd34160729aae2fa500ccb1bf8a17231f/stack_using_linklist.c
+
+
 
 |7.|Write a program to REVERSE a given string using a Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/38c68f1e4e59f5c4d990283bba0bf7625b155378/reverse_stack.c |
 
