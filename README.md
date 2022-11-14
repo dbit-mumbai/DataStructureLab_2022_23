@@ -67,9 +67,12 @@ https://github.com/AFAZL/Data-structure-/blob/08dc9b7d9c3885f12c5a47e654262c74b2
 
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/nigelsilveira0711/DSA_Assignment/blob/4681a368f144563b2ddeeb1cc8219571c967cdf6/Queue_implementation.c | ||following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY||
 
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/nigelsilveira0711/DSA_Assignment/blob/c3554358c10e47dc28449a2ed177d9eac2f386d1/queue_usinglinklist.c | ||the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. SEARCH||
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform||the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. SEARCH||
+
+
 
 |14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and ||perform the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. COUNT||
+https://github.com/AFAZL/Data-structure-/blob/543e755d17ad6b1b1079c2a98b2a531a2f3536d7/circularQUEUE.c
 
 
 |15.|Write a menu driven program to implement following operations in a binary search tree|1. Insertion of node|| ||2. Deletion of node|| ||3. Counting of nodes|| ||4. Preorder Traversal|| ||5. Postorder Traversal|| ||6. Inorder Traversal|| ||7. Search node in the tree||
