@@ -20,7 +20,9 @@ https://github.com/AFAZL/Data-structure-/blob/c72b4fda08aac215ebc490846e156de541
 https://github.com/AFAZL/Data-structure-/blob/787c5ecfdb42e1cd9d89dc9d22cc7613516ed15e/DecendingOrder.c
 
 
-|5.|Write a C program to find largest element in an array |https://github.com/nigelsilveira0711/DSA_Assignment/blob/5bfd39d638bab191597c7cf31d1cc853320cb93c/assignment_Q5.c |
+|5.|Write a C program to find largest element in an array .
+https://github.com/AFAZL/Data-structure-/blob/1a54cba912e6f6561f7e1195640ffd9bb9873fe4/Largest.c
+
 
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/nigelsilveira0711/DSA_Assignment/blob/3c7f859c4dda92daf17cf325f46f8ee7981dcf0a/stack_array.c |
 
