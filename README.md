@@ -41,9 +41,9 @@ DSA_Assignment
 
 |6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|| https://github.com/sumitsawant1029/DataStructure/blob/main/stackULL.c||the following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
 
-|7.|Write a program to REVERSE a given string using a Stack| https://github.com/sumitsawant1029/DataStructure/blob/main/reverse.c|
+|7.|Write a program to REVERSE a given string using a Stack|[ https://github.com/sumitsawant1029/DataStructure/blob/main/reverse.c](https://github.com/sumitsawant1029/DataStructure/blob/2603a79ca27df110dfc4b6c8d337ef93de1dde2c/reverse.c)|
 
-|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/sumitsawant1029/DataStructure/blob/main/pali.c|
+|8.|Write a program to check if a given number is a PALLINDROME using a stack|[https://github.com/sumitsawant1029/DataStructure/blob/main/pali.c](https://github.com/sumitsawant1029/DataStructure/blob/2603a79ca27df110dfc4b6c8d337ef93de1dde2c/pali.c)|
 
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/sumitsawant1029/DataStructure/blob/ff01fc9bd2d593b2f9f11d22690bacef0cbb0e21/parent.c|
 
