@@ -1,4 +1,8 @@
 # DSA
+Name :- Cyril Angel Sequeira
+Roll no. :- 52
+Batch :- C
+Branch :- IT
 
 ## DSA experiment list A  : - 
 
