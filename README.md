@@ -31,7 +31,7 @@ https://github.com/AFAZL/Data-structure-/blob/d88b921bfbcef89c1a31c67b9156b2f3d4
 
 
 |8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.
-
+https://github.com/AFAZL/Data-structure-/blob/078e8f7a9e753fbcc742207e33e07d6e0c3a671c/Prog4.c
 
 
 
