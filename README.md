@@ -24,7 +24,9 @@ https://github.com/AFAZL/Data-structure-/blob/787c5ecfdb42e1cd9d89dc9d22cc761351
 https://github.com/AFAZL/Data-structure-/blob/1a54cba912e6f6561f7e1195640ffd9bb9873fe4/Largest.c
 
 
-|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/nigelsilveira0711/DSA_Assignment/blob/3c7f859c4dda92daf17cf325f46f8ee7981dcf0a/stack_array.c |
+|6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH
+https://github.com/AFAZL/Data-structure-/blob/ede0538d84aa0a4bf83a778535571720485a5e91/array.c
+
 
 |7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the| ||following operations:1. Input new time  2. Display the time  3. Update the time such that the function accepts the time_struct and increments the|| ||time by one second.(If the increment results in 60 seconds, the then second member is|| ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute member is set to 0 and the hour member is incremented by 1. Finally when the hour becomes 24, it is set to zero.)
 https://github.com/AFAZL/Data-structure-/blob/d88b921bfbcef89c1a31c67b9156b2f3d4c54fa9/Prog3.c
@@ -52,6 +54,8 @@ https://github.com/AFAZL/Data-structure-/blob/e03a76c333b6da3a4d0e3585996505fea0
 
 
 |4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|| ||LINKEDLIST and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
+
+
 
 |5.|Write a menu driven program to implement STACK ADT using array and perform the ||following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
 https://github.com/AFAZL/Data-structure-/blob/4f5d5f89aed26181b86453d52ba8f853536f459d/stack.c
