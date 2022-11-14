@@ -16,7 +16,9 @@ https://github.com/AFAZL/Data-structure-/blob/0ce754d3fd7a85f778f6c6cf5ef9098096
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll .
 https://github.com/AFAZL/Data-structure-/blob/c72b4fda08aac215ebc490846e156de541b57cb1/AscendingOrder.c
 
-|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/05abc1cbc955984f8cd649b8e44f105d83702e9b/assignment_Q4.c |
+|4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll .
+https://github.com/AFAZL/Data-structure-/blob/787c5ecfdb42e1cd9d89dc9d22cc7613516ed15e/DecendingOrder.c
+
 
 |5.|Write a C program to find largest element in an array |https://github.com/nigelsilveira0711/DSA_Assignment/blob/5bfd39d638bab191597c7cf31d1cc853320cb93c/assignment_Q5.c |
 
