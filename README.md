@@ -26,7 +26,9 @@ https://github.com/AFAZL/Data-structure-/blob/1a54cba912e6f6561f7e1195640ffd9bb9
 
 |6.|Write a menu driven program to perform the following operations in an ARRAY 1. INSERT2. DELETE 3. TRAVERSE 4. SEARCH |https://github.com/nigelsilveira0711/DSA_Assignment/blob/3c7f859c4dda92daf17cf325f46f8ee7981dcf0a/stack_array.c |
 
-|7.|Define a structure data type called time_struct containing 3 members int hour, int| https://github.com/nigelsilveira0711/DSA_Assignment/blob/4978a6e7a8b62ec7ddea0d285b82a7b4f79c2aa2/Second%20Program.c | ||minute and int second. Write functions that accept the structure to perform the| ||following operations:|| ||1. Input new time|| ||2. Display the time|| ||3. Update the time such that the function accepts the time_struct and increments the|| ||time by one second.(If the increment results in 60 seconds, the then second member is|| ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute|| ||member is set to 0 and the hour member is incremented by 1. Finally when the hour|| ||becomes 24, it is set to zero.)||
+|7.|Define a structure data type called time_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the| ||following operations:1. Input new time  2. Display the time  3. Update the time such that the function accepts the time_struct and increments the|| ||time by one second.(If the increment results in 60 seconds, the then second member is|| ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute member is set to 0 and the hour member is incremented by 1. Finally when the hour becomes 24, it is set to zero.)
+
+
 
 |8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/ae7f180154b06add64451992465d24fdeec1424a/Third%20Program.c |
 
