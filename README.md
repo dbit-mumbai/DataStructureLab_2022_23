@@ -3,7 +3,7 @@
 NAME:-  AFZAL AHMED SIDDIQUIE
 ROLL_NO:- 3354.
 BATCH:- C.
-EX PART(A),PART(B).
+
 
 DSA experiment list A : -
 
@@ -38,6 +38,7 @@ https://github.com/AFAZL/Data-structure-/blob/078e8f7a9e753fbcc742207e33e07d6e0c
 
 
 DSA program list B :-
+
 
 
 
