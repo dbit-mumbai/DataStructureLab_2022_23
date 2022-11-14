@@ -11,7 +11,6 @@ DSA_Assignment
 DSA experiment list A : -
 
 |1.|Write a C program to check if a given number is Fibonacci number.| https://github.com/sumitsawant1029/DataStructure/blob/749aed463d8348b740122af85a5fcab5a6b83b8d/Fibonacci.c |
-
 |2.|Write a C program to generate Pascal Triangle using array.|https://github.com/sumitsawant1029/DataStructure/blob/1ceed1fa47a7c9c8a4dc50f4c6eac4a304092669/Pascal%20Triangle.c|
 
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/sumitsawant1029/DataStructure/blob/main/Asending%20Order%20Structure.c|
@@ -45,17 +44,17 @@ DSA program list B :-
 
 |9.|Write a program to implement PARENTHESES CHECKER using a stack | |
 
-|10.|Write a program for conversion of INFIX to POSTFIX expression.||
+|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/sumitsawant1029/DataStructure/blob/main/Infixtopostfix.c|
 
 |11.|Write a program to evaluate postfix expressions by making use of Stack||
 
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|| ||following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY||
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|| https://github.com/sumitsawant1029/DataStructure/blob/main/QueueUsingArray.c||following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY||
 
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|| ||the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. SEARCH||
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform||https://github.com/sumitsawant1029/DataStructure/blob/main/QusingLL.c ||the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. SEARCH||
 
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|| ||perform the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. COUNT||
+|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and||https://github.com/sumitsawant1029/DataStructure/blob/fe900f3e5b20ac105929569d81b3d39980594b1b/CircularQ.c ||perform the following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY|| ||4. COUNT||
 
-|15.|Write a menu driven program to implement following operations in a binary search tree|| ||(BST).|| ||1. Insertion of node|| ||2. Deletion of node|| ||3. Counting of nodes|| ||4. Preorder Traversal|| ||5. Postorder Traversal|| ||6. Inorder Traversal|| ||7. Search node in the tree||
+|15.|Write a menu driven program to implement following operations in a binary search tree|| https://github.com/sumitsawant1029/DataStructure/blob/main/BSTimplementation.c||(BST).|| ||1. Insertion of node|| ||2. Deletion of node|| ||3. Counting of nodes|| ||4. Preorder Traversal|| ||5. Postorder Traversal|| ||6. Inorder Traversal|| ||7. Search node in the tree||
 
 |16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/sumitsawant1029/DataStructure/blob/main/BFS.c|
 
