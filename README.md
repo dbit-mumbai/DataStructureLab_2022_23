@@ -87,7 +87,9 @@ https://github.com/AFAZL/Data-structure-/blob/7f3e0e80d112527dc0055a383ca04718ca
 |20.|Write a program to implement Selection sort
 https://github.com/AFAZL/Data-structure-/blob/e6f3a8c4867eb47e72fbeeb7833b210b636e1d94/selection_sort.c
 
-|21.|Write a program to implement Insertion sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8af00391587588060f6004152f9464858a49592/insertionsort.c |
+|21.|Write a program to implement Insertion sort
+https://github.com/AFAZL/Data-structure-/blob/cc99f81c0d21cf8767221402a0026b8658326f0d/insertion_sort.c
+
 
 |22.|Write a program to implement Quick sort
 
