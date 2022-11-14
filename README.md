@@ -11,8 +11,10 @@ DSA experiment list A : -
 https://github.com/AFAZL/Data-structure-/blob/0b8a2d5845e0c4a7ea5cda871594c696c86d190b/Fibonacci.c
 
 |2.|Write a C program to generate Pascal Triangle using array.
+https://github.com/AFAZL/Data-structure-/blob/0ce754d3fd7a85f778f6c6cf5ef9098096f53c0c/Pascal.c
 
-|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/f1c0345f0562d22049da62dbbeaeebab1d20fdd6/assignment_Q3.c |
+|3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll .
+
 
 |4.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in descending order of roll list.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/05abc1cbc955984f8cd649b8e44f105d83702e9b/assignment_Q4.c |
 
