@@ -128,7 +128,7 @@ Batch : A
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/rohan0110/DSA/blob/main/BSTree.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/alexantonnyy/DSA/blob/1591d38a9dac96e6b3910e13a9c389ea0530f35e/BSTree.c|
 ||(BST).||
 ||1. Insertion of node||
 ||2. Deletion of node||
