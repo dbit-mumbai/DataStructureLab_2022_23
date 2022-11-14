@@ -78,7 +78,7 @@ https://github.com/AFAZL/Data-structure-/blob/dccb254c13e47ad1b9945cb5b22a79f34c
 
 |17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/nigelsilveira0711/DSA_Assignment/blob/fac701b3a7379e4a20cd6baaaad76ee10ac4c72c/dfs.c |
 
-|18.|Write a program to implement Binary Search|https://github.com/nigelsilveira0711/DSA_Assignment/blob/8609f0e4a4382660a7f91b8d992119ad6a725d31/bst.c |
+|18.|Write a program to implement Binary Search|https://github.com/AFAZL/Data-structure-/blob/715978702f97345966e0a9ae7e841375d1b05311/BST.c
 
 |19.|Write a program to implement Bubble sort|https://github.com/nigelsilveira0711/DSA_Assignment/blob/51b98b2cd09db2f417123e98af21203c3a762f55/bubble_sort.c |
 
