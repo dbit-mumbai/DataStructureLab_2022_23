@@ -108,7 +108,8 @@ https://github.com/AFAZL/Data-structure-/blob/715978702f97345966e0a9ae7e841375d1
 |16.|Write a program to implement traversal of a directed graph through BFS
 https://github.com/AFAZL/Data-structure-/blob/dccb254c13e47ad1b9945cb5b22a79f34c5f1807/BFS.c
 
-|17.||Write a program to implement traversal of a directed graph through DFS|https://github.com/nigelsilveira0711/DSA_Assignment/blob/fac701b3a7379e4a20cd6baaaad76ee10ac4c72c/dfs.c |
+|17.||Write a program to implement traversal of a directed graph through DFS
+https://github.com/AFAZL/Data-structure-/blob/8478ca86abf23d35c0f543004c0720772bbd7cce/q17.c
 
 |18.|Write a program to implement Binary Search|https://github.com/AFAZL/Data-structure-/blob/715978702f97345966e0a9ae7e841375d1b05311/BST.c
 
