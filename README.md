@@ -46,6 +46,7 @@ https://github.com/AFAZL/Data-structure-/blob/08dc9b7d9c3885f12c5a47e654262c74b2
 
 
 |2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|| ||and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
+https://github.com/AFAZL/Data-structure-/blob/2692911a1feb8c477c4f9f9271c3e969c3105b53/Q2.C
 
 
 
