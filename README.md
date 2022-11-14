@@ -68,7 +68,9 @@ https://github.com/AFAZL/Data-structure-/blob/770c2a8cd34160729aae2fa500ccb1bf8a
 
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/nigelsilveira0711/DSA_Assignment/blob/70123f302bc7d3701f8ec6b59e1a23726fc01f27/parenthesis.c |
 
-|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/nigelsilveira0711/DSA_Assignment/blob/e8081ed8b35c1289869e594fd73dcc27df2f2555/InToPost.c |
+|10.|Write a program for conversion of INFIX to POSTFIX expression.
+https://github.com/AFAZL/Data-structure-/blob/822503b75368b3580af901095939e8947b072660/Infixtopostfix.c
+
 
 |11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/129996d495ade51fb678072fc3a76ea98353d7a3/postFixevaluation.c |
 
