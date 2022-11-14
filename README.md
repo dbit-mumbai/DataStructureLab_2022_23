@@ -10,7 +10,7 @@ SE IT
 DSA_Assignment
 DSA experiment list A : -
 
-|1.|Write a C program to check if a given number is Fibonacci number.| |
+|1.|Write a C program to check if a given number is Fibonacci number.| https://github.com/sumitsawant1029/DataStructure/blob/749aed463d8348b740122af85a5fcab5a6b83b8d/Fibonacci.c |
 
 |2.|Write a C program to generate Pascal Triangle using array.||
 
