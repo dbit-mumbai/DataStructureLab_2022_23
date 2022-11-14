@@ -74,7 +74,9 @@ https://github.com/AFAZL/Data-structure-/blob/0047bcc7570ea38228466c99a16accf9c2
 https://github.com/AFAZL/Data-structure-/blob/96b88ae525967123c58e064d836d364dc1f74dd1/palindrom.c
 
 
-|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/nigelsilveira0711/DSA_Assignment/blob/70123f302bc7d3701f8ec6b59e1a23726fc01f27/parenthesis.c |
+|9.|Write a program to implement PARENTHESES CHECKER using a stack 
+https://github.com/AFAZL/Data-structure-/blob/efc0b0988fdc114ad35f90f19b536778d288c4e3/parantheses.c
+
 
 
 |10.|Write a program for conversion of INFIX to POSTFIX expression.
