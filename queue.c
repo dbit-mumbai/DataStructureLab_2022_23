@@ -1,4 +1,6 @@
-
+Afzal
+55
+batch C
 
 
 #include<stdio.h>
