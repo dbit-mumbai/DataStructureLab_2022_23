@@ -92,7 +92,7 @@ https://github.com/AFAZL/Data-structure-/blob/cc99f81c0d21cf8767221402a0026b8658
 
 
 |22.|Write a program to implement Quick sort
-
+https://github.com/AFAZL/Data-structure-/blob/c95decd43fcaebf4a7ce72da33031df1893f4c41/quick_sort.c
 
 
 |23.|Write a program to implement Merge sort
