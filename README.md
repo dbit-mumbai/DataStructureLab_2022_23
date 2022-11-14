@@ -8,7 +8,7 @@ Batch : C
 
 SE IT
 DSA_Assignment
-DSA experiment list A : -
+#DSA experiment list A : -
 
 |1.|Write a C program to check if a given number is Fibonacci number.| https://github.com/sumitsawant1029/DataStructure/blob/749aed463d8348b740122af85a5fcab5a6b83b8d/Fibonacci.c |
 
@@ -25,7 +25,9 @@ DSA experiment list A : -
 |7.|Define a structure data type called time_struct containing 3 members int hour, int| https://github.com/sumitsawant1029/DataStructure/blob/main/Hour.c| ||minute and int second. Write functions that accept the structure to perform the| ||following operations:|| ||1. Input new time|| ||2. Display the time|| ||3. Update the time such that the function accepts the time_struct and increments the|| ||time by one second.(If the increment results in 60 seconds, the then second member is|| ||set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute|| ||member is set to 0 and the hour member is incremented by 1. Finally when the hour|| ||becomes 24, it is set to zero.)||
 
 |8.|Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.|https://github.com/sumitsawant1029/DataStructure/blob/main/Compare.c |
-DSA program list B :-
+
+
+#DSA program list B :-
 
 |1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and| https://github.com/sumitsawant1029/DataStructure/blob/main/completLL.c| ||perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
 
