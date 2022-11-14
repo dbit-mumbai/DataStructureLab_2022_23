@@ -2,6 +2,7 @@
 
 NAME:-  AFZAL AHMED SIDDIQUIE
 ROLL_NO:- 55.
+Seat_no:- 3354
 BATCH:- C.
 
 
