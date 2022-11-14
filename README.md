@@ -11,6 +11,7 @@ DSA_Assignment
 DSA experiment list A : -
 
 |1.|Write a C program to check if a given number is Fibonacci number.| https://github.com/sumitsawant1029/DataStructure/blob/749aed463d8348b740122af85a5fcab5a6b83b8d/Fibonacci.c |
+
 |2.|Write a C program to generate Pascal Triangle using array.|https://github.com/sumitsawant1029/DataStructure/blob/1ceed1fa47a7c9c8a4dc50f4c6eac4a304092669/Pascal%20Triangle.c|
 
 |3.|Write a C program to roll_no, name , percentange of 5 students using array of structure and display the records in ascending order of roll list.|https://github.com/sumitsawant1029/DataStructure/blob/main/Asending%20Order%20Structure.c|
@@ -30,23 +31,23 @@ DSA program list B :-
 
 |2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|| ||and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
 
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|| ||and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|| https://github.com/sumitsawant1029/DataStructure/blob/main/Q4.c||and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
 
 |4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|| ||LINKEDLIST and perform the following operations|| ||1. CREATE|| ||2. INSERT AT BEGINNING|| ||3. INSERT AT END|| ||4. INSERT AT LOCATION|| ||5. DELETE AT BEGINNING|| ||6. DELETE AT END|| ||7. DELETE AT LOCATION|| ||8. DISPLAY|| ||9. SEARCH|| ||10. COUNT|| ||11. COPY|| ||12. CONCATENTE|| ||13. SPLIT|| ||14. REVERSE||
 
-|5.|Write a menu driven program to implement STACK ADT using array and perform the| | ||following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
+|5.|Write a menu driven program to implement STACK ADT using array and perform the| |https://github.com/sumitsawant1029/DataStructure/blob/main/Q5.c ||following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
 
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|| ||the following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|| https://github.com/sumitsawant1029/DataStructure/blob/main/stackULL.c||the following operations|| ||1. PUSH|| ||2. POP|| ||3. DISPLAY|| ||4. PEEK||
 
-|7.|Write a program to REVERSE a given string using a Stack| |
+|7.|Write a program to REVERSE a given string using a Stack| https://github.com/sumitsawant1029/DataStructure/blob/main/reverse.c|
 
-|8.|Write a program to check if a given number is a PALLINDROME using a stack||
+|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/sumitsawant1029/DataStructure/blob/main/pali.c|
 
-|9.|Write a program to implement PARENTHESES CHECKER using a stack | |
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/sumitsawant1029/DataStructure/blob/main/parent.c |
 
 |10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/sumitsawant1029/DataStructure/blob/main/Infixtopostfix.c|
 
-|11.|Write a program to evaluate postfix expressions by making use of Stack||
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/sumitsawant1029/DataStructure/blob/main/postfixE.c|
 
 |12.|Write a menu driven program to implement QUEUE ADT using array and perform the|| https://github.com/sumitsawant1029/DataStructure/blob/main/QueueUsingArray.c||following operation|| ||1. ENQUEUE|| ||2. DEQUEUE|| ||3. DISPLAY||
 
