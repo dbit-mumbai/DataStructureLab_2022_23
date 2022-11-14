@@ -70,9 +70,12 @@ https://github.com/AFAZL/Data-structure-/blob/770c2a8cd34160729aae2fa500ccb1bf8a
 https://github.com/AFAZL/Data-structure-/blob/0047bcc7570ea38228466c99a16accf9c2d92edb/reversingstring.c
 
 
-|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/nigelsilveira0711/DSA_Assignment/blob/296c81f7e77df054059e08abf7cd6c4fad406f79/pallindrome.c |
+|8.|Write a program to check if a given number is a PALLINDROME using a stack
+https://github.com/AFAZL/Data-structure-/blob/96b88ae525967123c58e064d836d364dc1f74dd1/palindrom.c
+
 
 |9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/nigelsilveira0711/DSA_Assignment/blob/70123f302bc7d3701f8ec6b59e1a23726fc01f27/parenthesis.c |
+
 
 |10.|Write a program for conversion of INFIX to POSTFIX expression.
 https://github.com/AFAZL/Data-structure-/blob/822503b75368b3580af901095939e8947b072660/Infixtopostfix.c
