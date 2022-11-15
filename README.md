@@ -33,7 +33,7 @@ data structure and anaylsis
 
 |Program_Id| Program details|Your File nameHyperlink to the .c file on github|
 |----------|----------------|-------------------------------------------------|
-|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/BrightonAnthony/DSA_assignment/blob/main/linkedlist.c|
+|1.|Write a menu driven program to implement list ADT using SINGLE LINKEDLIST and|https://github.com/26wilfred/Dsa_assignment/blob/main/linkedlist.c|
 ||perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -48,7 +48,7 @@ data structure and anaylsis
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/BrightonAnthony/DSA_assignment/blob/main/circularlinkedlist.c|
+|2.|Write a menu driven program to implement list ADT using CIRCULAR LINKEDLIST|https://github.com/26wilfred/Dsa_assignment/blob/main/circularlinkedlist.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -64,7 +64,7 @@ data structure and anaylsis
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/BrightonAnthony/DSA_assignment/blob/main/doublelinkedlist.c|
+|3.|Write a menu driven program to implement list ADT using DOUBLE LINKEDLIST|https://github.com/26wilfred/Dsa_assignment/blob/main/doublelinkedlist.c|
 ||and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -80,7 +80,7 @@ data structure and anaylsis
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|https://github.com/BrightonAnthony/DSA_assignment/blob/main/circulardoube.c|
+|4.|Write a menu driven program to implement list ADT using CIRCULAR DOUBLE|https://github.com/26wilfred/Dsa_assignment/blob/main/circulardoube.c|
 ||LINKEDLIST and perform the following operations||
 ||1. CREATE||
 ||2. INSERT AT BEGINNING||
@@ -96,41 +96,41 @@ data structure and anaylsis
 ||12. CONCATENTE||
 ||13. SPLIT||
 ||14. REVERSE||
-|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/BrightonAnthony/DSA_assignment/blob/main/stack.c|
+|5.|Write a menu driven program to implement STACK ADT using array and perform the|https://github.com/26wilfred/Dsa_assignment/blob/main/stack.c|
 ||following operations||
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/BrightonAnthony/DSA_assignment/blob/main/stackusinglinkeldis.c|
+|6.|Write a menu driven program to implement STACK ADT using linkedlist and perform|https://github.com/26wilfred/Dsa_assignment/blob/main/stackusinglinkeldis.c|
 ||the following operations||
 ||1. PUSH||
 ||2. POP||
 ||3. DISPLAY||
 ||4. PEEK||
-|7.|Write a program to REVERSE a given string using a Stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/reversestring.c|
-|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/PalindromeusingStack.c|
-|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/BrightonAnthony/DSA_assignment/blob/main/ParenthesesusingStack.c|
-|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/BrightonAnthony/DSA_assignment/blob/main/infixtopostfix1.c|
-|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/BrightonAnthony/DSA_assignment/blob/main/postfix.c|
-|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/BrightonAnthony/DSA_assignment/blob/main/queue.c|
+|7.|Write a program to REVERSE a given string using a Stack|https://github.com/26wilfred/Dsa_assignment/blob/main/reversestring.c|
+|8.|Write a program to check if a given number is a PALLINDROME using a stack|https://github.com/26wilfred/Dsa_assignment/blob/main/PalindromeusingStack.c|
+|9.|Write a program to implement PARENTHESES CHECKER using a stack |https://github.com/26wilfred/Dsa_assignment/blob/main/ParenthesesusingStack.c|
+|10.|Write a program for conversion of INFIX to POSTFIX expression.|https://github.com/26wilfred/Dsa_assignment/blob/main/infixtopostfix1.c|
+|11.|Write a program to evaluate postfix expressions by making use of Stack|https://github.com/26wilfred/Dsa_assignment/blob/main/postfix.c|
+|12.|Write a menu driven program to implement QUEUE ADT using array and perform the|https://github.com/26wilfred/Dsa_assignment/blob/main/queue.c|
 ||following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
-|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/BrightonAnthony/DSA_assignment/blob/main/queue_linkedlist.c|
+|13.|Write a menu driven program to implement QUEUE ADT using linkedlist and perform|https://github.com/26wilfred/Dsa_assignment/blob/main/queue_linkedlist.c|
 ||the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. SEARCH||
-|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/BrightonAnthony/DSA_assignment/blob/main/circularqueue.c|
+|14.|Write a menu driven program to implement CIRCULAR QUEUE ADT using array and|https://github.com/26wilfred/Dsa_assignment/blob/main/circularqueue.c|
 ||perform the following operation||
 ||1. ENQUEUE||
 ||2. DEQUEUE||
 ||3. DISPLAY||
 ||4. COUNT||
-|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bst.c|
+|15.|Write a menu driven program to implement following operations in a binary search tree|https://github.com/26wilfred/Dsa_assignment/blob/main/bst.c|
 ||(BST).||
 ||1. Insertion of node||
 ||2. Deletion of node||
@@ -139,11 +139,11 @@ data structure and anaylsis
 ||5. Postorder Traversal||
 ||6. Inorder Traversal||
 ||7. Search node in the tree||
-|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bfs.c|
-|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/BrightonAnthony/DSA_assignment/blob/main/dfs.c|
-|18.|Write a program to implement Binary Search|https://github.com/BrightonAnthony/DSA_assignment/blob/main/binarysearch.c|
-|19.|Write a program to implement Bubble sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/bubble.c|
-|20.|Write a program to implement Selection sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/seletionsort.c|
-|21.|Write a program to implement Insertion sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/insertsort.c|
-|22.|Write a program to implement Quick sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/quicksort.c|
-|23.|Write a program to implement Merge sort|https://github.com/BrightonAnthony/DSA_assignment/blob/main/mergesort.c|
+|16.|Write a program to implement traversal of a directed graph through BFS|https://github.com/26wilfred/Dsa_assignment/blob/main/bfs.c|
+|17.|Write a program to implement traversal of a directed graph through DFS|https://github.com/26wilfred/Dsa_assignment/blob/main/dfs.c|
+|18.|Write a program to implement Binary Search|https://github.com/26wilfred/Dsa_assignment/blob/main/dfs.c|
+|19.|Write a program to implement Bubble sort|https://github.com/26wilfred/Dsa_assignment/blob/main/bubble.c|
+|20.|Write a program to implement Selection sort|https://github.com/26wilfred/Dsa_assignment/blob/main/seletionsort.c|
+|21.|Write a program to implement Insertion sort|https://github.com/26wilfred/Dsa_assignment/blob/main/insertsort.c|
+|22.|Write a program to implement Quick sort|https://github.com/26wilfred/Dsa_assignment/blob/main/quicksort.c|
+|23.|Write a program to implement Merge sort|https://github.com/26wilfred/Dsa_assignment/blob/main/mergesort.c|
