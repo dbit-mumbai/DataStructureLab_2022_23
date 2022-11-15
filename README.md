@@ -1,10 +1,10 @@
 # DSA
 
-Name : Shravani Shinde
+Name : Marc Fernandez
 
-Roll no : 54 (SE IT)
+Roll no : 17 (SE IT)
 
-Batch : C
+Batch : A
 
 ## DSA experiment list A  : - 
 
