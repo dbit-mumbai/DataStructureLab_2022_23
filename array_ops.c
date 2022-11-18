@@ -1,31 +1,82 @@
-/* including rewuired header files */
-
 #include<stdio.h>
+
 #include<stdlib.h>
-
-/* compare() : compares two array and return 1 if they are same otherwise 0 */
-int compare(int *arr1, int *arr2)
-{
-    // for loop starts //
-    for(int i = 0; i < 5; i++)
-    {
-        if(arr1[i] != arr2[i])
-        {
-            return 0;
-        }
-    } // for loop ends //
-    return 1;
-}
-
-/* main */
+ 
+#define Size 4 
+ 
+int Top=-1, inp_array[Size];
+void Push();
+void Pop();
+void show();
+ 
 int main()
 {
-    // Declaration and Init. of Array //
-    int arr1[5] = {1,2,3,7,5}; 
-    int arr2[5] = {1,2,3,7,5};
-
-    // Displaying Output //
-    printf("%d", compare(arr1, arr2))
-    
-    return 0;
-} // main function ends //
+	int choice;
+	
+	while(1)	
+	{
+		printf("\nOperations performed by Stack");
+		printf("\n1.Push the element\n2.Pop the element\n3.Show\n4.End");
+		printf("\n\nEnter the choice:");
+		scanf("%d",&choice);
+		
+		switch(choice)
+		{
+			case 1: Push();
+					break;
+			case 2: Pop();
+					break;
+			case 3: show();
+					break;
+			case 4: exit(0);
+			
+			default: printf("\nInvalid choice!!");
+		}
+	}
+}
+ 
+void Push()
+{
+	int x;
+	
+	if(Top==Size-1)
+	{
+		printf("\nOverflow!!");
+	}
+	else
+	{
+		printf("\nEnter element to be inserted to the stack:");
+		scanf("%d",&x);
+		Top=Top+1;
+		inp_array[Top]=x;
+	}
+}
+ 
+void Pop()
+{
+	if(Top==-1)
+	{
+		printf("\nUnderflow!!");
+	}
+	else
+	{
+		printf("\nPopped element:  %d",inp_array[Top]);
+		Top=Top-1;
+	}
+}
+ 
+void show()
+{
+	
+	
+	if(Top==-1)
+	{
+		printf("\nUnderflow!!");
+	}
+	else
+	{
+		printf("\nElements present in the stack: \n");
+		for(int i=Top;i>=0;--i)
+			printf("%d\n",inp_array[i]);
+	}
+}
