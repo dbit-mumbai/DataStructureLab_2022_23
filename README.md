@@ -10,7 +10,9 @@
 | 7        | Define a structure data type called time\_struct containing 3 members int hour, int minute and int second. Write functions that accept the structure to perform the following operations: <br />1\. Input new time <br />2\. Display the time <br /> 3\. Update the time such that the function accepts the time\_struct and increments the time by one second.(If the increment results in 60 seconds, the then second member is set to 0 and the minute is incremented by 1. Then, if the result is 60 minutes, the minute member is set to 0 and the hour member is incremented by 1. Finally when the hour becomes 24, it is set to zero.) |
 | 8        | Write a function that compares two arrays and returns 1 if they are identical and 0 otherwise.         |
 
+------------------------
 
- git subtree add --prefix=99_prasad https://github.com/321prasad0058/DSA_Assignments1  main
- git commit -m "test repo added"
- git push -u origin main
+git subtree add --prefix=<sub-directory> <GithubURL> main
+git add .
+git commit -m "repo added"
+git push -u origin main
