@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int P(int *A ,int low,int high){
+    int i=low+1,j=high,k=A[low],tem;
+  do{  while(A[i]<=k){
+            i++;
+        }
+    while(A[j]>k){
+        j--;
+    }
+    if(i<j){
+        tem=A[i];
+        A[i]=A[j];
+        A[j]=tem;
+       }
+  }
+       while(i<j);
+
+    tem=A[low];
+    A[low]=A[j];
+    A[j]=tem;
+    return j;
+}
+void QS(int A[], int low, int high){
+    int PT;
+    if(low<high){
+        PT = P(A,low,high);
+        QS(A,low,PT-1);
+        QS(A,PT+1,high);
+    }
+}
+int main(){
+    int A[]={10,20,15,14,9,8,7,20,11,16,222};
+   // int n=8;
+    QS(A,0,10);
+    for(int i=0;i<11;i++){
+        printf("%d\n",A[i]);
+    }
+}
