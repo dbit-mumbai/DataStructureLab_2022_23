@@ -12,7 +12,7 @@
 
 ------------------------
 
-</br>git subtree add --prefix=<sub-directory> <GithubURL> main 
+</br>git subtree add --prefix=sub-directory  GithubURL main 
 </br>git add .
 </br>git commit -m "repo added"
 </br>git push -u origin main
